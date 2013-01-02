@@ -1,4 +1,8 @@
 MacleansParser::Application.routes.draw do
+  get "parsers/html"
+  get "parsers/html_parse"
+  get "parsers/wordpress"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

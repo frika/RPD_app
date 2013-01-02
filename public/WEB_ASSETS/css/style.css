@@ -1,0 +1,1681 @@
+@charset "UTF-8";
+/* line 34, ../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
+  display: block;
+}
+
+/* line 35, ../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+audio, canvas, video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+
+/* line 36, ../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+audio:not([controls]) {
+  display: none;
+}
+
+/* line 37, ../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+[hidden] {
+  display: none;
+}
+
+/* line 48, ../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/* line 50, ../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+html, button, input, select, textarea {
+  font-family: sans-serif;
+  color: #222222;
+}
+
+/* line 52, ../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+body {
+  margin: 0;
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+/* line 62, ../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+::-moz-selection {
+  background: #ff5e99;
+  color: white;
+  text-shadow: none;
+}
+
+/* line 63, ../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+::selection {
+  background: #ff5e99;
+  color: white;
+  text-shadow: none;
+}
+
+/* line 71, ../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+a {
+  color: #0000ee;
+}
+
+/* line 72, ../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+a:visited {
+  color: #551a8b;
+}
+
+/* line 73, ../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+a:hover {
+  color: #0066ee;
+}
+
+/* line 74, ../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+a:focus {
+  outline: thin dotted;
+}
+
+/* line 77, ../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+a:hover, a:active {
+  outline: 0;
+}
+
+/* line 85, ../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/* line 87, ../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+b, strong {
+  font-weight: bold;
+}
+
+/* line 89, ../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+blockquote {
+  margin: 1em 40px;
+}
+
+/* line 91, ../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+dfn {
+  font-style: italic;
+}
+
+/* line 93, ../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/* line 95, ../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+ins {
+  background: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* line 97, ../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+mark {
+  background: #ff0;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+/* line 100, ../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+pre, code, kbd, samp {
+  font-family: monospace, serif;
+  _font-family: 'courier new', monospace;
+  font-size: 1em;
+}
+
+/* line 103, ../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+/* line 105, ../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+q {
+  quotes: none;
+}
+
+/* line 106, ../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+/* line 108, ../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+small {
+  font-size: 85%;
+}
+
+/* line 111, ../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 112, ../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+sup {
+  top: -0.5em;
+}
+
+/* line 113, ../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 121, ../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+ul, ol {
+  margin: 1em 0;
+  padding: 0 0 0 40px;
+}
+
+/* line 122, ../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+dd {
+  margin: 0 0 0 40px;
+}
+
+/* line 123, ../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+nav ul, nav ol {
+  list-style: none;
+  list-style-image: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 134, ../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+img {
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+  vertical-align: middle;
+}
+
+/* line 138, ../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* line 146, ../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+figure {
+  margin: 0;
+}
+
+/* line 154, ../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+form {
+  margin: 0;
+}
+
+/* line 155, ../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 158, ../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+label {
+  cursor: pointer;
+}
+
+/* line 163, ../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+legend {
+  border: 0;
+  *margin-left: -7px;
+  padding: 0;
+  white-space: normal;
+}
+
+/* line 169, ../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+button, input, select, textarea {
+  font-size: 100%;
+  margin: 0;
+  vertical-align: baseline;
+  *vertical-align: middle;
+}
+
+/* line 173, ../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+button, input {
+  line-height: normal;
+}
+
+/* line 179, ../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+  cursor: pointer;
+  -webkit-appearance: button;
+  *overflow: visible;
+}
+
+/* line 183, ../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+button[disabled], input[disabled] {
+  cursor: default;
+}
+
+/* line 187, ../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+input[type="checkbox"], input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+  *width: 13px;
+  *height: 13px;
+}
+
+/* line 188, ../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+/* line 189, ../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+input[type="search"]::-webkit-search-decoration, input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}
+
+/* line 193, ../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/* line 198, ../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+textarea {
+  overflow: auto;
+  vertical-align: top;
+  resize: vertical;
+}
+
+/* line 202, ../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+input:invalid, textarea:invalid {
+  background-color: #f0dddd;
+}
+
+/* line 210, ../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 211, ../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+td {
+  vertical-align: top;
+}
+
+/* Generated by Font Squirrel (http://www.fontsquirrel.com) on November 12, 2012 */
+@font-face {
+  font-family: 'macleans_reg';
+  src: url("fonts/macleansbody-regular-webfont.eot");
+  src: url("fonts/macleansbody-regular-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/macleansbody-regular-webfont.woff") format("woff"), url("fonts/macleansbody-regular-webfont.ttf") format("truetype"), url("fonts/macleansbody-regular-webfont.svg#macleans_bodyregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'bentonxcomp';
+  src: url("fonts/BentonSansExtraComp-Reg.eot");
+  src: local("☺"), url("fonts/BentonSansExtraComp-Reg.woff") format("woff"), url("fonts/BentonSansExtraComp-Reg.ttf") format("truetype"), url("fonts/BentonSansExtraComp-Reg.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'new_macleans_italic';
+  src: url("fonts/newmacleansdisplay-italic-webfont.eot");
+  src: url("fonts/newmacleansdisplay-italic-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/newmacleansdisplay-italic-webfont.woff") format("woff"), url("fonts/newmacleansdisplay-italic-webfont.ttf") format("truetype"), url("fonts/newmacleansdisplay-italic-webfont.svg#new_macleans_displayitalic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'new_macleans_reg';
+  src: url("fonts/newmacleansdisplay-regular-webfont.eot");
+  src: url("fonts/newmacleansdisplay-regular-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/newmacleansdisplay-regular-webfont.woff") format("woff"), url("fonts/newmacleansdisplay-regular-webfont.ttf") format("truetype"), url("fonts/newmacleansdisplay-regular-webfont.svg#new_macleans_displayregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'bentonsans';
+  src: url("fonts/BentonSans-Regular.eot");
+  src: url("fonts/BentonSans-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/BentonSans-Regular.ttf") format("truetype"), url("fonts/BentonSans-Regular.svg#BentonSans-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'bentonsansbold';
+  src: url("fonts/BentonSans-Bold.eot");
+  src: url("fonts/BentonSans-Bold.eot?#iefix") format("embedded-opentype"), url("fonts/BentonSans-Bold.ttf") format("truetype"), url("fonts/BentonSans-Bold.svg#BentonSans-Bold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'bentoncomp';
+  src: url("fonts/BentonSansComp.eot");
+  src: url("fonts/BentonSansComp.eot?#iefix") format("embedded-opentype"), url("fonts/BentonSansComp.ttf") format("truetype"), url("fonts/BentonSansComp.svg#BentonSansComp") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'bentonblack';
+  src: url("fonts/bentonsansblack.eot");
+  src: url("fonts/bentonsansblack.eot?#iefix") format("embedded-opentype"), url("fonts/bentonsansblack.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'bentonlight';
+  src: url("fonts/bentonsanslight.eot");
+  src: url("fonts/bentonsanslight.eot?#iefix") format("embedded-opentype"), url("fonts/bentonsanslight.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'bentoncompbold';
+  src: url("fonts/bentonsanscompbold.eot");
+  src: url("fonts/bentonsanscompbold.eot?#iefix") format("embedded-opentype"), url("fonts/bentonsanscompbold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'bentonextracompbold';
+  src: url("fonts/bentonsansextracompbold.eot");
+  src: url("fonts/bentonsansextracompbold.eot?#iefix") format("embedded-opentype"), url("fonts/bentonsansextracompbold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'poynterbold';
+  src: url("fonts/poyntergothictextbold.eot");
+  src: url("fonts/poyntergothictextbold.eot?#iefix") format("embedded-opentype"), url("fonts/poyntergothictextbold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'poyntersans';
+  src: url("fonts/PoynterGothicText-Regular.eot");
+  src: url("fonts/PoynterGothicText-Regular?#iefix") format("embedded-opentype"), url("fonts/PoynterGothicText-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* headers */
+/* font colors */
+/* line 7, ../sass/partials/_page.scss */
+body, select, input, textarea {
+  color: #222222;
+}
+
+/* line 17, ../sass/partials/_page.scss */
+body {
+  margin: 12px;
+  margin-bottom: 55px;
+}
+
+/* line 21, ../sass/partials/_page.scss */
+a {
+  color: #d71920;
+  text-decoration: none;
+}
+
+/* line 25, ../sass/partials/_page.scss */
+a:hover {
+  color: #d71920;
+  text-decoration: none;
+}
+
+/* line 29, ../sass/partials/_page.scss */
+p {
+  text-indent: 1.5em;
+  margin: 0 0 0;
+}
+
+/* line 34, ../sass/partials/_page.scss */
+em {
+  font-family: 'new_macleans_italic';
+  font-style: normal;
+}
+
+/* line 35, ../sass/partials/_page.scss */
+p:first-child {
+  text-indent: 0;
+  margin-top: 1.0em;
+}
+
+/* line 40, ../sass/partials/_page.scss */
+#container {
+  width: 99.8%;
+}
+
+/* line 45, ../sass/partials/_page.scss */
+header.article-nav-header {
+  position: absolute;
+  width: 100%;
+  height: 22px;
+  top: 0px;
+  left: 0px;
+  color: white;
+  background: black;
+}
+/* line 53, ../sass/partials/_page.scss */
+header.article-nav-header.front {
+  background: #0078ae;
+}
+/* line 56, ../sass/partials/_page.scss */
+header.article-nav-header.national {
+  background: #d71920;
+}
+/* line 59, ../sass/partials/_page.scss */
+header.article-nav-header.international {
+  background: #057235;
+}
+/* line 62, ../sass/partials/_page.scss */
+header.article-nav-header.society {
+  background: #bca445;
+}
+/* line 65, ../sass/partials/_page.scss */
+header.article-nav-header.business {
+  background: black;
+}
+/* line 68, ../sass/partials/_page.scss */
+header.article-nav-header button.navbar-collapsed {
+  float: left;
+  background: none;
+  border: none;
+  line-height: 22px;
+  vertical-align: middle;
+  padding-top: 4px;
+}
+/* line 75, ../sass/partials/_page.scss */
+header.article-nav-header button.navbar-collapsed .icon-bar {
+  display: block;
+  width: 16px;
+  height: 2px;
+  background-color: whiteSmoke;
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  border-radius: 1px;
+  -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+  margin-bottom: 3px;
+}
+/* line 89, ../sass/partials/_page.scss */
+header.article-nav-header h1 {
+  display: inline;
+  text-align: center;
+  font-size: 1.0em;
+  font-weight: bold;
+}
+/* line 98, ../sass/partials/_page.scss */
+header.article-nav-header .cat-title {
+  width: 140px;
+  margin: 0 auto;
+}
+
+/* line 104, ../sass/partials/_page.scss */
+header.home-header {
+  text-align: center;
+  margin-top: -5px;
+}
+/* line 107, ../sass/partials/_page.scss */
+header.home-header h1 {
+  text-indent: -9999px;
+  width: 300px;
+  margin: 0px auto 0;
+  height: 75px;
+  background: url("images/mac_logo.png") no-repeat;
+  background-size: 295px 72px;
+  background-color: white;
+}
+/* line 116, ../sass/partials/_page.scss */
+header.home-header hr {
+  position: absolute;
+}
+/* line 119, ../sass/partials/_page.scss */
+header.home-header .date {
+  margin-top: 5px;
+  text-transform: uppercase;
+  font-family: 'new_macleans_reg';
+  font-weight: 900;
+  font-size: 19px;
+  letter-spacing: 4px;
+}
+
+/* line 128, ../sass/partials/_page.scss */
+section.category {
+  width: 100%;
+  color: white;
+}
+/* line 131, ../sass/partials/_page.scss */
+section.category article {
+  color: #1c1b1c;
+  margin: 0 0px;
+  padding: 0 0px;
+  border-bottom: 1px solid rgba(28, 27, 28, 0.2);
+}
+/* line 137, ../sass/partials/_page.scss */
+section.category h1 {
+  font-family: 'bentonsansbold';
+  font-weight: 300;
+  height: 16px;
+  color: white;
+  font-size: 1.0em;
+  padding: 7px 0px 7px 6px;
+  margin: 0 0px;
+  line-height: 16px;
+  vertical-align: middle;
+}
+/* line 149, ../sass/partials/_page.scss */
+section.category h2 {
+  font-family: 'bentonsansbold';
+  font-weight: 300;
+  font-size: 18px;
+  padding-left: 0;
+  line-height: 1.1em;
+}
+/* line 155, ../sass/partials/_page.scss */
+section.category h2 a {
+  color: #1c1b1c;
+  text-decoration: none;
+  display: block;
+  padding: 11px 13px;
+  margin: -13px;
+}
+/* line 161, ../sass/partials/_page.scss */
+section.category h2 a strong {
+  font-family: 'bentonsans';
+  font-size: 16px;
+  font-weight: normal;
+}
+/* line 166, ../sass/partials/_page.scss */
+section.category h2 a b {
+  font-weight: normal;
+}
+/* line 173, ../sass/partials/_page.scss */
+section.category.thisweek h1 {
+  background: #0078ae;
+}
+/* line 177, ../sass/partials/_page.scss */
+section.category.special h1 {
+  background: #00aeee;
+}
+/* line 180, ../sass/partials/_page.scss */
+section.category.national h1 {
+  background: #d71920;
+}
+/* line 183, ../sass/partials/_page.scss */
+section.category.international h1 {
+  background: #057235;
+}
+/* line 187, ../sass/partials/_page.scss */
+section.category.society h1 {
+  background: #bca445;
+}
+/* line 191, ../sass/partials/_page.scss */
+section.category.business h1 {
+  background: black;
+}
+/* line 195, ../sass/partials/_page.scss */
+section.category.bak h1 {
+  background: #8a8c8f;
+}
+/* line 199, ../sass/partials/_page.scss */
+section.category.theend h1 {
+  background: black;
+}
+/* line 201, ../sass/partials/_page.scss */
+section.category article:last-child {
+  border-bottom: none;
+}
+
+/* line 207, ../sass/partials/_page.scss */
+#main.masthead p {
+  margin: 0px;
+  text-align: center;
+  font-family: 'bentoncomp';
+  font-weight: 350;
+  font-size: 1.0em;
+}
+/* line 213, ../sass/partials/_page.scss */
+#main.masthead p em {
+  text-transform: uppercase;
+  font-family: 'bentonsans';
+  font-style: normal;
+  font-size: 0.75em;
+}
+/* line 219, ../sass/partials/_page.scss */
+#main.masthead p b {
+  font-family: 'bentonblack';
+  text-transform: uppercase;
+  font-size: 0.8em;
+  font-weight: normal;
+}
+/* line 228, ../sass/partials/_page.scss */
+#main.home {
+  margin-top: 10px;
+}
+/* line 231, ../sass/partials/_page.scss */
+#main img {
+  max-width: 100%;
+}
+/* line 234, ../sass/partials/_page.scss */
+#main .image-featured {
+  position: relative;
+  width: 297px;
+  margin: 0 auto;
+  text-align: center;
+}
+/* line 239, ../sass/partials/_page.scss */
+#main .image-featured a {
+  height: 100%;
+}
+/* line 241, ../sass/partials/_page.scss */
+#main .image-featured a img {
+  max-width: 100%;
+  max-height: 250px;
+}
+/* line 245, ../sass/partials/_page.scss */
+#main .image-featured a a {
+  -webkit-tap-highlight-color: pink;
+}
+/* line 248, ../sass/partials/_page.scss */
+#main .image-featured a .caption-opener {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: 48px;
+  height: 48px;
+  color: transparent;
+  text-indent: -9999px;
+  background: url("images/image_caption@2x.png") no-repeat 1px;
+  background-size: 48px 48px;
+}
+/* line 261, ../sass/partials/_page.scss */
+#main .editor-image-wrapper {
+  position: relative;
+  height: 200px;
+  width: 200px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+/* line 267, ../sass/partials/_page.scss */
+#main .editor-image-wrapper img {
+  max-height: 250px;
+  max-width: none;
+  margin-left: -50%;
+}
+/* line 273, ../sass/partials/_page.scss */
+#main .wide-image-wrapper {
+  position: relative;
+  width: auto;
+  height: 134px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+/* line 279, ../sass/partials/_page.scss */
+#main .wide-image-wrapper img {
+  max-height: 250px;
+  max-width: none;
+  position: relative;
+  top: -50%;
+}
+/* line 286, ../sass/partials/_page.scss */
+#main .image-caption {
+  text-align: left;
+  margin: 5px auto 0;
+  clear: both;
+  float: none;
+  text-transform: uppercase;
+  font-size: 0.6em;
+  color: #666;
+}
+/* line 295, ../sass/partials/_page.scss */
+#main .slug {
+  font-family: 'new_macleans_reg';
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 3px;
+  font-size: 13px;
+  margin-top: 1.8em;
+}
+/* line 304, ../sass/partials/_page.scss */
+#main blockquote {
+  margin: 0.7em 20px 1em;
+  font-family: 'new_macleans_reg';
+  font-size: 22px;
+  line-height: 1.15em;
+  text-align: center;
+}
+/* line 310, ../sass/partials/_page.scss */
+#main blockquote small {
+  margin-top: 3px;
+  font-size: 0.91em;
+  font-family: 'new_macleans_italic';
+  display: block;
+}
+/* line 318, ../sass/partials/_page.scss */
+#main .hedline h1 {
+  font-family: 'bentoncompbold';
+  font-weight: 100;
+  margin-top: 0.2em;
+  margin-bottom: 0.2em;
+  text-align: center;
+  line-height: 0.95em;
+  font-size: 38px;
+}
+/* line 327, ../sass/partials/_page.scss */
+#main .abstract {
+  font-family: 'bentonsans';
+  font-weight: 300;
+  text-align: center;
+  font-size: 1.13em;
+  line-height: 1.30em;
+}
+/* line 334, ../sass/partials/_page.scss */
+#main .byline {
+  font-family: 'bentonblack';
+  margin: 1.4em 0 0.9em;
+  font-size: 12px;
+  text-align: center;
+  text-transform: uppercase;
+}
+/* line 341, ../sass/partials/_page.scss */
+#main .content {
+  font-family: 'macleans_reg';
+  font-size: 20px;
+  line-height: 1.22em;
+  text-align: left;
+  /*  MACLEANS LEAF
+  p:last-child:after {
+  	width:20px;
+  	height:20px;
+  	content:'xx';
+  	color:transparent;
+  	text-indent:-9999px;
+  	background:url('images/endnote@2x.png') no-repeat 1px;
+  	background-size:14px 18px;
+  }
+  */
+}
+/* line 342, ../sass/partials/_page.scss */
+#main .content .head-furniture {
+  float: left;
+  position: relative;
+  top: -14px;
+  width: 82px;
+  height: 105px;
+  margin-bottom: -15px;
+  margin-right: 6px;
+}
+/* line 355, ../sass/partials/_page.scss */
+#main .content p {
+  text-indent: 1.5em;
+  margin: 0 0 0;
+}
+/* line 360, ../sass/partials/_page.scss */
+#main .content em {
+  font-family: 'new_macleans_italic';
+  font-style: normal;
+}
+/* line 361, ../sass/partials/_page.scss */
+#main .content p:first-child {
+  text-indent: 0;
+  margin-top: 1.0em;
+}
+/* line 377, ../sass/partials/_page.scss */
+#main .content.letters p {
+  text-indent: 0;
+  margin: 0 auto;
+}
+/* line 378, ../sass/partials/_page.scss */
+#main .content.letters b {
+  display: block;
+  margin: 0.8em 0 0;
+  font-family: 'bentoncompbold';
+  font-weight: normal;
+  font-size: 1.09em;
+}
+/* line 380, ../sass/partials/_page.scss */
+#main .content.letters em {
+  display: block;
+  margin: 0.2em 0 0.8em;
+}
+/* line 383, ../sass/partials/_page.scss */
+#main .content.interview p {
+  text-indent: 0;
+  margin: 0.8em auto;
+}
+/* line 384, ../sass/partials/_page.scss */
+#main .content.interview p:first-child {
+  margin-top: 1.0em;
+}
+/* line 387, ../sass/partials/_page.scss */
+#main .content.capital-diary p {
+  text-indent: 1.0em;
+  margin: 0 0 0;
+}
+/* line 396, ../sass/partials/_page.scss */
+#main article.special .slug {
+  font-family: 'bentonsans';
+  font-weight: 400;
+  background: #d71920;
+  color: white;
+  width: 225px;
+  margin: 1.5em auto 15px;
+}
+/* line 404, ../sass/partials/_page.scss */
+#main article.special .hedline h1 {
+  font-family: 'bentonxcomp';
+  font-size: 50px;
+  text-transform: uppercase;
+}
+/* line 409, ../sass/partials/_page.scss */
+#main article.special .abstract {
+  margin-bottom: 1.0em;
+}
+/* line 413, ../sass/partials/_page.scss */
+#main article.special .content p:first-child {
+  text-indent: 0;
+}
+/* line 414, ../sass/partials/_page.scss */
+#main article.special .content b {
+  text-transform: uppercase;
+  font-family: 'bentoncompbold';
+}
+/* line 418, ../sass/partials/_page.scss */
+#main article.goodnews .hedline h1 {
+  text-align: center;
+}
+/* line 422, ../sass/partials/_page.scss */
+#main article.goodnews dl dt a {
+  font-family: 'bentoncompbold';
+  font-size: 22px;
+  color: black;
+  font-weight: normal;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(28, 27, 28, 0.2);
+  display: block;
+  padding: 0.5em 16px 0em 0;
+  margin: 0 auto;
+  background: url("images/show-bttn@2x.png") no-repeat right 65%;
+  background-size: 12px 12px;
+}
+/* line 434, ../sass/partials/_page.scss */
+#main article.goodnews dl dt a em {
+  font-family: 'new_macleans_italic';
+  font-style: normal;
+}
+/* line 438, ../sass/partials/_page.scss */
+#main article.goodnews dl dt a.open {
+  border-bottom: none;
+  background: url("images/hide-bttn@2x.png") no-repeat right 65%;
+  background-size: 12px 12px;
+}
+/* line 445, ../sass/partials/_page.scss */
+#main article.goodnews dl dd {
+  margin: 0 0 0;
+  padding: 0 0 1.0em;
+  font-family: 'new_macleans_reg';
+  font-size: 1.228em;
+  line-height: 1.3em;
+  text-align: left;
+  border-bottom: 1px solid rgba(28, 27, 28, 0.2);
+}
+/* line 458, ../sass/partials/_page.scss */
+#main article.backpages .slug {
+  font-family: 'bentonsansbold';
+  font-size: 0.8em;
+  letter-spacing: 0px;
+  font-weight: bold;
+}
+/* line 465, ../sass/partials/_page.scss */
+#main article.backpages dl dt a {
+  display: block;
+  padding-bottom: 0.8em;
+  padding-top: 0;
+  background-position: right 10%;
+}
+/* line 470, ../sass/partials/_page.scss */
+#main article.backpages dl dt a.open {
+  border-bottom: none !important;
+  background: url("images/hide-bttn@2x.png") no-repeat right 10%;
+  background-size: 12px 12px;
+}
+/* line 477, ../sass/partials/_page.scss */
+#main article.backpages dl dt a .book-image {
+  float: left;
+  width: 33.33%;
+  padding: 20px 0 0px;
+}
+/* line 481, ../sass/partials/_page.scss */
+#main article.backpages dl dt a .book-image img {
+  width: 85%;
+}
+/* line 485, ../sass/partials/_page.scss */
+#main article.backpages dl dt a .title-author {
+  float: right;
+  width: 66.66%;
+}
+/* line 488, ../sass/partials/_page.scss */
+#main article.backpages dl dt a .title-author h3 {
+  margin-top: 18px;
+  margin-bottom: 0;
+  font-size: 1.0em;
+  line-height: 1.10em;
+  font-weight: normal;
+}
+/* line 495, ../sass/partials/_page.scss */
+#main article.backpages dl dt a .title-author span {
+  font-family: 'bentoncomp';
+  font-weight: 100;
+}
+/* line 500, ../sass/partials/_page.scss */
+#main article.backpages dl dt a:after {
+  content: '';
+}
+/* line 503, ../sass/partials/_page.scss */
+#main article.backpages dl dt a.open:after {
+  content: '';
+}
+/* line 507, ../sass/partials/_page.scss */
+#main article.backpages dl dd {
+  margin: 0 0 0;
+  padding: 10px 0px 10px;
+  font-family: 'new_macleans_reg';
+  font-size: 1.228em;
+  line-height: 1.3em;
+  text-align: left;
+  border-bottom: 1px solid rgba(28, 27, 28, 0.2);
+}
+/* line 521, ../sass/partials/_page.scss */
+#main div.weblinks {
+  font-family: 'poyntersans';
+  font-size: 16px;
+  line-height: 18px;
+}
+/* line 525, ../sass/partials/_page.scss */
+#main div.weblinks hr {
+  margin: 12px auto 7px;
+}
+/* line 528, ../sass/partials/_page.scss */
+#main div.weblinks a.url {
+  font-style: italic;
+}
+/* line 531, ../sass/partials/_page.scss */
+#main div.weblinks a.twitter {
+  color: #2caae2;
+}
+
+/* line 536, ../sass/partials/_page.scss */
+.twitter-link {
+  display: block;
+  margin: 2px 0 0;
+  font-family: 'bentoncompbold';
+  color: #14aae8;
+  text-decoration: none;
+}
+
+/* TOC FEATURED IMAGES */
+/* line 540, ../sass/partials/_page.scss */
+.featured-nav span {
+  position: relative;
+  top: -7px;
+  margin-left: 3px;
+}
+
+/* line 545, ../sass/partials/_page.scss */
+.featured-nav span.selected {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+/* line 549, ../sass/partials/_page.scss */
+.featured-nav {
+  z-index: 9999;
+  left: 50%;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.2);
+  text-align: right;
+  margin-bottom: -10px;
+}
+
+/* line 557, ../sass/partials/_page.scss */
+#wrapper, #wrapper1, #wrapper2, #wrapper3 {
+  overflow: hidden;
+  position: relative;
+}
+
+/* line 561, ../sass/partials/_page.scss */
+#first, #second, #third {
+  position: absolute;
+  top: 0px;
+}
+
+/* END TOC FEATURED IMAGES */
+/* line 567, ../sass/partials/_page.scss */
+.film {
+  color: #ed1c24;
+}
+
+/* line 570, ../sass/partials/_page.scss */
+.arts {
+  color: #028b98;
+}
+
+/* line 573, ../sass/partials/_page.scss */
+.architecture {
+  color: #028b98;
+}
+
+/* line 576, ../sass/partials/_page.scss */
+.bazaar {
+  color: #e85aa1;
+}
+
+/* line 579, ../sass/partials/_page.scss */
+.books {
+  color: #004f8b;
+}
+
+/* line 582, ../sass/partials/_page.scss */
+.help {
+  color: -type;
+}
+
+/* line 585, ../sass/partials/_page.scss */
+.humor {
+  color: #0ca650;
+}
+
+/* line 588, ../sass/partials/_page.scss */
+.media {
+  color: #948100;
+}
+
+/* line 591, ../sass/partials/_page.scss */
+.music {
+  color: #6b217f;
+}
+
+/* line 594, ../sass/partials/_page.scss */
+.stage {
+  color: #80b63a;
+}
+
+/* line 597, ../sass/partials/_page.scss */
+.radio {
+  color: #bfd630;
+}
+
+/* line 600, ../sass/partials/_page.scss */
+.tv {
+  color: #00aeee;
+}
+
+/* line 603, ../sass/partials/_page.scss */
+.taste {
+  color: #a70e16;
+}
+
+/* line 606, ../sass/partials/_page.scss */
+.exhibit {
+  color: #7c77ae;
+}
+
+/* line 609, ../sass/partials/_page.scss */
+.web {
+  color: #5d7ea9;
+}
+
+/* Swipeview vertical */
+/* line 618, ../sass/partials/_page.scss */
+#outerwrapper {
+  position: absolute;
+  top: 0;
+  visibility: hidden;
+  padding: 0;
+}
+
+/* line 624, ../sass/partials/_page.scss */
+#outerwrapper h1 {
+  background: black;
+  color: white;
+  font-family: 'bentoncompbold';
+  margin: 0;
+  font-size: 1.5em;
+  padding: 5px 0;
+  text-align: center;
+}
+
+/* line 634, ../sass/partials/_page.scss */
+#vert-wrapper {
+  margin: 0 auto;
+  width: 320px;
+  height: 380px;
+}
+
+/* line 640, ../sass/partials/_page.scss */
+#vert-wrapper .section {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 645, ../sass/partials/_page.scss */
+#vert-wrapper .section .page {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+/* line 651, ../sass/partials/_page.scss */
+#vert-wrapper .section .page img {
+  max-width: 100%;
+  height: auto;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+/* line 661, ../sass/partials/_page.scss */
+#vert-wrapper .section .page .pagename {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 5px 10px;
+  left: 5px;
+  bottom: 5px;
+}
+
+/* line 669, ../sass/partials/_page.scss */
+.feature-caption {
+  text-align: left;
+  position: relative;
+  top: -25px;
+  text-shadow: 2px 2px 5px #000;
+  color: white;
+  width: 280px;
+  margin: 0 auto;
+  font-family: 'bentonsansbold';
+  font-size: 16px;
+  font-weight: normal;
+}
+
+/* line 681, ../sass/partials/_page.scss */
+span a {
+  text-decoration: none;
+}
+
+/* line 684, ../sass/partials/_page.scss */
+#cover-image {
+  height: 427px;
+  position: relative;
+  margin: 0 auto;
+  display: block;
+}
+
+/* fancyBox v2.1.3 fancyapps.com | fancyapps.com/fancybox/#license */
+/* line 12, ../sass/partials/_fancybox.scss */
+.fancybox-wrap,
+.fancybox-skin,
+.fancybox-outer,
+.fancybox-inner,
+.fancybox-image,
+.fancybox-wrap iframe,
+.fancybox-wrap object,
+.fancybox-nav,
+.fancybox-nav span,
+.fancybox-tmp {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  width: 320px !important;
+  height: auto !important;
+  outline: none;
+  vertical-align: top;
+}
+
+/* line 22, ../sass/partials/_fancybox.scss */
+.fancybox-wrap {
+  position: absolute;
+  color: #444;
+  top: 0;
+  left: 0 !important;
+  z-index: 8020;
+}
+
+/* line 30, ../sass/partials/_fancybox.scss */
+.fancybox-skin {
+  position: relative;
+  background: transparent;
+  color: #444;
+  text-shadow: none;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+/* line 40, ../sass/partials/_fancybox.scss */
+.fancybox-opened {
+  z-index: 8030;
+}
+
+/* line 44, ../sass/partials/_fancybox.scss */
+.fancybox-opened .fancybox-skin {
+  -webkit-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+}
+
+/* line 50, ../sass/partials/_fancybox.scss */
+.fancybox-outer, .fancybox-inner {
+  position: relative;
+}
+
+/* line 54, ../sass/partials/_fancybox.scss */
+.fancybox-inner {
+  overflow: hidden;
+}
+
+/* line 58, ../sass/partials/_fancybox.scss */
+.fancybox-inner img {
+  max-height: 250px !important;
+  margin: 0 auto;
+  width: auto !important;
+}
+
+/* line 64, ../sass/partials/_fancybox.scss */
+.fancybox-type-iframe .fancybox-inner {
+  -webkit-overflow-scrolling: touch;
+}
+
+/* line 68, ../sass/partials/_fancybox.scss */
+.fancybox-error {
+  color: #444;
+  font: 14px/20px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 15px;
+  white-space: nowrap;
+}
+
+/* line 76, ../sass/partials/_fancybox.scss */
+.fancybox-image, .fancybox-iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 82, ../sass/partials/_fancybox.scss */
+.fancybox-image {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* line 87, ../sass/partials/_fancybox.scss */
+#fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {
+  background-image: url("fancybox_sprite.png");
+}
+
+/* line 91, ../sass/partials/_fancybox.scss */
+#fancybox-loading {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -22px;
+  margin-left: -22px;
+  background-position: 0 -108px;
+  opacity: 0.8;
+  cursor: pointer;
+  z-index: 8060;
+}
+
+/* line 103, ../sass/partials/_fancybox.scss */
+#fancybox-loading div {
+  width: 44px;
+  height: 44px;
+  background: url("fancybox_loading.gif") center center no-repeat;
+}
+
+/* line 109, ../sass/partials/_fancybox.scss */
+.fancybox-close {
+  position: absolute;
+  background: url("images/close_button@2x.png") no-repeat 10px 10px;
+  background-size: 12px 12px;
+  color: white;
+  top: -37px;
+  right: 1px;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  z-index: 9999;
+}
+
+/* line 122, ../sass/partials/_fancybox.scss */
+.fancybox-nav {
+  position: absolute;
+  top: 0;
+  width: 40%;
+  height: 100%;
+  cursor: pointer;
+  text-decoration: none;
+  background: transparent url("blank.gif");
+  /* helps IE */
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  z-index: 8040;
+}
+
+/* line 134, ../sass/partials/_fancybox.scss */
+.fancybox-prev {
+  left: 0;
+}
+
+/* line 138, ../sass/partials/_fancybox.scss */
+.fancybox-next {
+  right: 0;
+}
+
+/* line 142, ../sass/partials/_fancybox.scss */
+.fancybox-nav span {
+  position: absolute;
+  top: 50%;
+  width: 36px;
+  height: 34px;
+  margin-top: -18px;
+  cursor: pointer;
+  z-index: 8040;
+  visibility: hidden;
+}
+
+/* line 153, ../sass/partials/_fancybox.scss */
+.fancybox-prev span {
+  left: 10px;
+  background-position: 0 -36px;
+}
+
+/* line 158, ../sass/partials/_fancybox.scss */
+.fancybox-next span {
+  right: 10px;
+  background-position: 0 -72px;
+}
+
+/* line 163, ../sass/partials/_fancybox.scss */
+.fancybox-nav:hover span {
+  visibility: visible;
+}
+
+/* line 167, ../sass/partials/_fancybox.scss */
+.fancybox-tmp {
+  position: absolute;
+  top: -99999px;
+  left: -99999px;
+  visibility: hidden;
+  max-width: 99999px;
+  max-height: 99999px;
+  overflow: visible !important;
+}
+
+/* Overlay helper */
+/* line 179, ../sass/partials/_fancybox.scss */
+.fancybox-lock {
+  overflow: hidden;
+}
+
+/* line 183, ../sass/partials/_fancybox.scss */
+.fancybox-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  display: none;
+  z-index: 8010;
+  background-color: black;
+}
+
+/* line 194, ../sass/partials/_fancybox.scss */
+.fancybox-overlay-fixed {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+/* line 200, ../sass/partials/_fancybox.scss */
+.fancybox-lock .fancybox-overlay {
+  overflow: auto;
+  overflow-y: scroll;
+}
+
+/* Title helper */
+/* line 207, ../sass/partials/_fancybox.scss */
+.fancybox-title {
+  padding: 10px 12px 0;
+  visibility: hidden;
+  font-family: 'bentonlight';
+  font-size: 1.0em;
+  line-height: 1.2em;
+  position: relative;
+  text-shadow: none;
+  font-weight: normal;
+  z-index: 8050;
+}
+
+/* line 218, ../sass/partials/_fancybox.scss */
+.fancybox-title small {
+  margin-top: 10px;
+  text-transform: uppercase;
+  font-family: 'bentonsans';
+  font-size: 0.55em;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+/* line 226, ../sass/partials/_fancybox.scss */
+.fancybox-opened .fancybox-title {
+  visibility: visible;
+}
+
+/* line 230, ../sass/partials/_fancybox.scss */
+.fancybox-title-float-wrap {
+  position: absolute;
+  bottom: 0;
+  right: 50%;
+  margin-bottom: -35px;
+  z-index: 8050;
+  text-align: center;
+}
+
+/* line 239, ../sass/partials/_fancybox.scss */
+.fancybox-title-float-wrap .child {
+  display: inline-block;
+  margin-right: -100%;
+  padding: 2px 20px;
+  background: transparent;
+  /* Fallback for web browsers that doesn't support RGBa */
+  background: rgba(0, 0, 0, 0.8);
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  text-shadow: 0 1px 2px #222;
+  color: #FFF;
+  font-weight: bold;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+/* line 255, ../sass/partials/_fancybox.scss */
+.fancybox-title-outside-wrap {
+  position: relative;
+  margin-top: 12px;
+  padding-top: 0;
+  color: #fff;
+}
+
+/* line 262, ../sass/partials/_fancybox.scss */
+.fancybox-title-inside-wrap {
+  padding-top: 10px;
+}
+
+/* line 266, ../sass/partials/_fancybox.scss */
+.fancybox-title-over-wrap {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: #fff;
+  padding: 10px;
+  background: #000;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+/* line 7, ../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_helpers.scss */
+.ir {
+  display: block;
+  border: 0;
+  text-indent: -999em;
+  overflow: hidden;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  text-align: left;
+  direction: ltr;
+  *line-height: 0;
+}
+/* line 26, ../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_helpers.scss */
+.ir br {
+  display: none;
+}
+
+/* line 9, ../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_helpers.scss */
+.hidden {
+  display: none !important;
+  visibility: hidden;
+}
+
+/* line 11, ../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_helpers.scss */
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+/* line 45, ../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_helpers.scss */
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+/* line 13, ../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_helpers.scss */
+.invisible {
+  visibility: hidden;
+}
+
+/* line 55, ../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_helpers.scss */
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+/* line 56, ../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_helpers.scss */
+.clearfix:after {
+  clear: both;
+}
+/* line 57, ../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_helpers.scss */
+.clearfix {
+  *zoom: 1;
+}
+
+@media only screen and (min-width: 480px) {
+  /* Style adjustments for viewports 480px and over go here */
+}
+@media only screen and (min-width: 768px) {
+  /* Style adjustments for viewports 768px and over go here */
+}
+@media print {
+  /* line 11, ../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_media.scss */
+  * {
+    background: transparent !important;
+    color: black !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+    filter: none !important;
+    -ms-filter: none !important;
+  }
+
+  /* line 12, ../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_media.scss */
+  a, a:visited {
+    text-decoration: underline;
+  }
+
+  /* line 13, ../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_media.scss */
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+
+  /* line 14, ../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_media.scss */
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+
+  /* line 15, ../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_media.scss */
+  .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after {
+    content: "";
+  }
+
+  /* line 16, ../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_media.scss */
+  pre, blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+
+  /* line 17, ../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_media.scss */
+  thead {
+    display: table-header-group;
+  }
+
+  /* line 18, ../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_media.scss */
+  tr, img {
+    page-break-inside: avoid;
+  }
+
+  /* line 19, ../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_media.scss */
+  img {
+    max-width: 100% !important;
+  }
+
+  @page {
+    margin: 0.5cm;
+}
+
+  /* line 21, ../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_media.scss */
+  p, h2, h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  /* line 22, ../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_media.scss */
+  h2, h3 {
+    page-break-after: avoid;
+  }
+
+  /* Style adjustments for print go here */
+}
