@@ -62,8 +62,34 @@
 						 </xsl:for-each>
           	</dl>
 						<div class="hedline" style="margin-top:25px;"><h1>Bad news</h1></div>
+
+<div class="image-featured">
+										<xsl:if test="photo">
+				            	<a class="fancybox">
+												<xsl:attribute name="href">	        
+
+			              			<xsl:value-of select="concat('../WEB_ASSETS/', substring-after(body.content/photo/@href, 'file://'))" />
+			            			</xsl:attribute>
+												<xsl:attribute name="title">	        
+			              			<xsl:value-of select="concat(photo.caption, '&lt;br/&gt;&lt;small&gt;', photo.byline, '&lt;/small&gt;')" />
+			            			</xsl:attribute>
+
+				            			<img>
+				            				<xsl:attribute name="src">	        
+
+				              				<xsl:value-of select="concat('../WEB_ASSETS/', substring-after(body.content/photo/@href, 'file://'))" />
+
+				            				</xsl:attribute>
+													</>
+<div class="caption-opener">&nbsp;</div>
+				            	</a>
+										</xsl:if>
+
+				          </div>
+
+
 						<dl class="accordion">
-						<xsl:for-each select="body.content/p[position() &gt; 8]">
+						<xsl:for-each select="body.content/p[position() &gt; 7]">
 							<xsl:choose>
 							<xsl:when test="position() mod 2 = 0">
 								<dt><a href=""><xsl:value-of select="."/></a></dt>

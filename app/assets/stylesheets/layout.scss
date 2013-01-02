@@ -1,0 +1,16 @@
+// Place all the styles related to the Parsers controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body { margin:0; font-family:Helvetica, Arial, sans-serf;}
+.container { width:960px;margin:0 auto; }
+
+header {
+	h1 {
+		font-size:20px;
+		font-weight:normal;
+		line-height:40px;
+		margin:0;
+	}
+}
+
+#main { padding-top:50px; }
