@@ -1,4 +1,7 @@
 MacleansParser::Application.routes.draw do
+  resources :issues
+
+
   get "parsers/html"
   get "parsers/html_parse"
   get "parsers/html_index"
@@ -53,7 +56,7 @@ MacleansParser::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
-  root :to => 'parsers#index'
+  root :to => 'issues#index'
 
   # See how all your routes lay out with "rake routes"
 
