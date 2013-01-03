@@ -13,3 +13,8 @@
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
+
+# Ignore issue files
+/public/issue_html/
+/public/issue/
+/public/WEB_ASSETS/images/

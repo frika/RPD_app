@@ -17,6 +17,7 @@ end
 
 gem 'jquery-rails', '2.0.2'
 gem 'nokogiri', :require => 'nokogiri'
+gem 'rubyzip'
 
 group :test do
   gem 'capybara', '1.1.2'

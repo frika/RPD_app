@@ -56,14 +56,7 @@
 	          <div class="slug">Books</div>
 	          <div class="hedline"><h1> <xsl:value-of select="body.head/hedline"/> </h1></div>
 	          <div class="abstract"><xsl:value-of select="body.head/abstract"/></div>
-	          <div class="byline">
-							<xsl:choose>
-							  <xsl:when test="body.head/byline">
-									By
-							    <xsl:value-of select="body.head/byline"/>
-							  </xsl:when>
-							</xsl:choose>
-						</div>
+	          
 	          <dl class="accordion">
 	           <xsl:for-each select="body.content/*">
 	           	 <xsl:choose>
