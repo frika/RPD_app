@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE nitf
+ SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf version="-//IPTC//DTD NITF 3.3//EN" change.date="June 10, 2005" change.time="19:30" id="art-158632005"> <head><title></title>
+ <meta name="Author" content=""/>
+ <meta name="Editor" content=""/>
+<meta name="PublisherName" content="Maclean's"/>
+ <meta name="Subject1" content="Now Available:  Feschuk on the holidays"/>
+ <meta name="Subject2" content=""/>
+ <meta name="Subject3" content=""/>
+ <meta name="Subject4" content=""/>
+ <meta name="Subject5" content=""/>
+ <meta name="Industry" content=""/>
+ <meta name="Industry" content=""/>
+ <tobject/>
+ <docdata>
+ <correction/>
+ <doc-id/>
+ <date.issue norm="20121212" />
+ <date.release norm= "20121231" />
+ <date.expire/>
+ <doc-scope/>
+ <series/>
+ <key-list/>
+</docdata>
+	 
+ <pubdata date.publication="20121231" name="Maclean's" number="52" volume="125" edition.area="" position.section="Web" position.sequence="5" />
+ <revision-history/>
+</head>
+<body>
+ 
+  <body.head>
+  
+  <hedline>Now Available:  Feschuk on the holidays</hedline>
+  
+  </body.head>
+  
+  <body.content>
+  
+    <p>How exactly does Santa  	know when you’re sleeping? Who was that clattering on  	the roof in ’Twas the Night  	Before Thursday? And what’s  	with the brightness of these  	stars? (A bit garish, really.)  </p>
+  
+    <p>Our inimitable columnist on the songs, the rituals, the secrets and scandals of  	the Retail Festival Formerly Known as Christmas</p>
+    
+   <em>Get it wherever ebooks  	are sold </em> 
+   
+   </body.content>
+  
+</body></nitf>

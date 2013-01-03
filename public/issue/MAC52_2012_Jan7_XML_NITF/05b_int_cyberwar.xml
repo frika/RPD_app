@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE nitf
+ SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf version="-//IPTC//DTD NITF 3.3//EN" change.date="June 10, 2005" change.time="19:30" id="art-158632005"> <head><title></title>
+ <meta name="Author" content="Luiza Ch. Savage"/>
+ <meta name="Editor" content=""/>
+<meta name="PublisherName" content="Maclean's"/>
+ <meta name="Subject1" content="Fighting cybercrime"/>
+ <meta name="Subject2" content="As the U.S. attempts to bolster its cybersecurity legislation, will Canada be called on to take part?"/>
+ <meta name="Subject3" content=""/>
+ <meta name="Subject4" content=""/>
+ <meta name="Subject5" content=""/>
+ <meta name="Industry" content=""/>
+ <meta name="Industry" content=""/>
+ <tobject/>
+ <docdata>
+ <correction/>
+ <doc-id/>
+ <date.issue norm="20121212" />
+ <date.release norm= "20121231" />
+ <date.expire/>
+ <doc-scope/>
+ <series/>
+ <key-list/>
+</docdata>
+	 
+ <pubdata date.publication="20121231" name="Maclean's" number="52" volume="125" edition.area="" position.section="International" position.sequence="32" />
+ <revision-history/>
+</head>
+<body>
+ 
+  <sections>International</sections>
+  
+  <body.head>
+  
+  <slug>Canada-U.S. Relations</slug>
+  
+   <hedline>Fighting cybercrime </hedline>
+  
+    <abstract>As the U.S. attempts to bolster its cybersecurity legislation, will Canada be called on to take part? </abstract>
+  
+  <byline>Luiza Ch. Savage</byline>
+  
+  </body.head>
+  
+  <photo href="file://images/MAC52_CYBERWAR01.jpg"/>
+  
+  <photo.caption>Prevention: Is a ‘cyberNORAD’ needed to protect North America’s intertwined infrastructure? </photo.caption>
+  
+  <photo.byline>Carolyn Kaster/AP</photo.byline>
+  
+  <body.content>
+  
+    <p>The revelation that Iranian nuclear centrifuges were sabotaged by the computer worm Stuxnet—reportedly a covert U.S.-Israeli intelligence operation—is unnerving Western security policy-makers who say it is only a matter of time before cyberwar is turned against North America. Will hackers shut down the electrical grid, sending millions into darkness? Could a foreign agent remotely sabotage a pipeline carrying natural gas or crude oil, causing an environmental disaster?  </p>
+  
+    <p>American lawmakers want to encourage U.S. government agencies to share intelligence about potential threats with private sector companies (who own and operate most of America’s critical infrastructure), and to compel these firms to be more forthcoming about their own vulnerabilities. The issues are complicated: government regulations could prove onerous and costly, and could become quickly obsolete. Companies worry that identifying vulnerabilities could lead to legal liability and higher insurance costs. Civil libertarians also worry that allowing government greater leeway to monitor Internet traffic in search of malicious software could lead to privacy violations. Earlier this year Republicans blocked proposed legislation in the Senate that would have created merely voluntary standards (House Republicans are now talking about drafting their own bill next year, but plans remain vague). Meanwhile, there is speculation that President Barack Obama will weigh in with an executive order this month, in an attempt to fill the void left by congressional paralysis.  </p>
+  
+    <p>But as Americans struggle to work out a plan for their cyberdefence, a former Homeland Security official is urging that the effort include Canada, arguing that the critical infrastructure of both countries is so intertwined that a “cyberNORAD” (the North American Aerospace Defense Command) is needed to protect it. “There is no border in cyberland,” says Paul Rosenzweig, a deputy secretary for policy in the Department of Homeland security in the administration of George W. Bush. “It makes almost no sense for U.S. government efforts not to include Canada.” Rosenzweig, who heads a security consulting firm, Red Branch Law and Consulting, recently presented his ideas at the Woodrow Wilson International Center for Scholars, a think tank in Washington, and plans to publish them in a forthcoming issue of the <em>Canada-United States Law Journal</em>.  </p>
+  
+    <p>“Whatever form U.S. cybersecurity efforts take, they won’t be effective without Canadian co-operation,” Rosenzweig told the Washington audience. “There is no value in developing intrusive cybersecurity standards and putting industry to the expense if the same is not true for Canada. The reality is, Canada and the U.S. have to go down the same road.” </p>
+  
+    <p>Consider the electrical grid. The great Northeast blackout of 2003 demonstrated its interconnectedness: blackouts began in Ohio, rolled into Pennsylvania, then into Ontario, and back across the border into Michigan. Other examples of intertwined infrastructure include water, oil and gas pipelines, the rail network, linked stock exchanges, and the Internet itself.  </p>
+  
+    <p>Prime Minister Stephen Harper and President Obama devoted a section of their 2011 “Beyond the Border” bilateral agreement on border management to cybersecurity. But the vague statements simply addressed joint briefings, not deep information-sharing. “Pablum,” says Rosenzweig, grading the effort a “D-.” He argues that the leaders should begin by ordering up a joint assessment of cyberrisks to critical infrastructure, as well as a comparison of the respective legal authorities for assessing and managing the risks. </p>
+  
+    <p>The two militaries already work together on cybersecurity. But new co-operation could go as far as a joint cyberinformation sharing centre, or even common standards for industry. But many sensitive questions arise: what offensive and defensive steps should law enforcement take to protect networks? What should be the role of military in defending civilian networks? Proposals such as mass-sifting of emails in search of malware “would raise even more hackles in Canada,” he predicts, where various attempts at cross-border information sharing have repeatedly collided with Canadian privacy concerns. And then there is the financial cost.  </p>
+  
+    <p>But Rosenzweig points to the success of NORAD, in which Canadians and Americans sit in the same room, share a common operations system, and use joint forces for air and space defence. “The authority is unified completely because our airspace is seamless. The missile coming to hit U.S. would come over Canada,” says Rosenzweig. “That is a good metaphor for cyberspace.”     </p>
+  
+  </body.content>
+  
+</body></nitf>
