@@ -14,15 +14,18 @@ class IssuesController < ApplicationController
   # GET /issues/1.json
   def show
     @issue = Issue.find(params[:id])
-
     respond_to do |format|
       format.html # show.html.erb
       format.json { render json: @issue }
     end
   end
-  def htmlparse
+
+  def html_parse
     @issue = Issue.find(params[:id])
     Parser.unzip_file(Dir.glob('public' + @issue.asset.url.split('?')[0]).first, 'public/issue')
+    Parser.html_parse(@issue.asset.url.split("/").last.split(".").first)
+    Parser.zip(@issue.asset.url.split("/").last.split(".").first)
+    redirect_to controller: :parsers, action: :html_index
   end
 
   # GET /issues/new

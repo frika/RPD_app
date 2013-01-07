@@ -4,6 +4,16 @@
   <b>Publication:</b>
   <%= @issue.publication %>
 </p>
+<p>
+	<b>Issue number:</b>
+	<%= @issue.name %>
+</p>
+<p>
+	<%= link_to 'Issue XML archive', @issue.asset.url %>
+</p>
+<p>
+	<%= link_to 'Process XML to HTML', controller: :issues, action: :html_parse, id: @issue.id %>
+</p>
 
 
 <%= link_to 'Edit', edit_issue_path(@issue) %> |

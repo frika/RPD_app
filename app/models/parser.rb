@@ -1,8 +1,9 @@
 class Parser < ActiveRecord::Base
 	require 'zip/zip'
-	# helper methods
-	def self.file_operations(rb_file, xslt, xml) # renames and saves .html file
-		name = rb_file.gsub("public/issue/MAC01_2013_Jan14_XML_NITF/", "public/issue_html/").split(".").first + ".html"
+	
+# Helper methods
+	def self.file_operations(rb_file, xslt, xml, folder_name) # renames and saves .html file
+		name = rb_file.gsub("public/issue/" + folder_name, "public/issue_html/").split(".").first + ".html"
 		file = File.new(name, "w")
 		file.write(xslt.transform(xml).to_html)
 		file.close
@@ -18,7 +19,9 @@ class Parser < ActiveRecord::Base
    		}
   	}
 	end
-	def self.zip # check to see if a zip file already exists, if so, delete it
+
+# Check to see if a zip file already exists, if so, delete it and create a new one
+	def self.zip(folder_name) 
 		zip = Dir.glob('public/issue_html/*.zip')
     if zip
       zip.each do |zip|
@@ -27,19 +30,23 @@ class Parser < ActiveRecord::Base
     end
 		folder = 'public/issue_html'
 		files = Dir.glob('public/issue_html/*.html')
+		images_folder = Dir.glob('public/issue/' + folder_name + '/images/*')
 		Zip::ZipFile.open('public/issue_html/MAC' + (Time.now.strftime('%U').to_i + 1).to_s + '-' + Time.now.strftime('%y') + '.zip', Zip::ZipFile::CREATE) do |zipfile|
   		files.each do |filename|
     		zipfile.add(filename.gsub('public/issue_html/', ""), filename)
   		end
-  		zipfile.add('images', 'public/issue/MAC01_2013_Jan14_XML_NITF/images/')
+  		images_folder.each do |imagename|
+  			zipfile.add(imagename.gsub('public/issue/' + folder_name + '/', ''), imagename)
+  		end
 		end
 	end
 
-	def self.toc # combines all XML files and creates Table of contents from aggregate
+# Combines all XML files and creates Table of contents from aggregate
+	def self.toc(folder_name)
 		comb_xslt = Nokogiri::XSLT(File.read("public/xsl/comb.xsl"))
 		comb = File.new('public/issue/master.xml', 'w')
 		comb.write('<catalog>')
-		Dir.glob('public/issue/**/*.xml') do |rb_file|
+		Dir.glob('public/issue/' + folder_name + '/*.xml') do |rb_file|
 		  xml = Nokogiri(File.read(rb_file))
 		  @doc = Nokogiri::XML(File.open(rb_file))
 		  comb.write(comb_xslt.transform(xml).to_html)
@@ -53,9 +60,8 @@ class Parser < ActiveRecord::Base
 		toc.close
 	end
 
-
-
-  def self.articles # Main parsing method for all articles
+# Main parsing method for all articles
+  def self.articles(folder_name) 
   	Dir.glob('public/issue/**/*.xml') do |rb_file|
 			xml = Nokogiri(File.read(rb_file))
 			@doc = Nokogiri::XML(File.open(rb_file))
@@ -104,6 +110,7 @@ class Parser < ActiveRecord::Base
             @doc.xpath("//nitf/body/sections").text == "Help" ||
             @doc.xpath("//nitf/body/sections").text == "Architecture" ||
             @doc.xpath("//nitf/body/sections").text == "Music" ||
+            @doc.xpath("//nitf/body/sections").text == "Travel" ||
             @doc.xpath("//nitf/body/sections").text == "Web" ||
             @doc.xpath("//nitf/body/sections").text == "Humour" ||
             @doc.xpath("//nitf/body/sections").text == "Media" ||
@@ -124,12 +131,13 @@ class Parser < ActiveRecord::Base
 		    xslt = Nokogiri::XSLT(File.read("public/xsl/standard_article.xsl"))
 
 			end
-				self.file_operations(rb_file, xslt, xml)
+				self.file_operations(rb_file, xslt, xml, folder_name)
 		end
 	end
 
-	def self.html_parse # executes necessary methods to complete issue
-		self.toc
-		self.articles
+# Master method for executing all of the above to create an issue
+	def self.html_parse(folder_name) 
+		self.toc(folder_name)
+		self.articles(folder_name)
 	end 	
 end

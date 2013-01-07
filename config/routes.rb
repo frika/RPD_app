@@ -1,5 +1,9 @@
 MacleansParser::Application.routes.draw do
-  resources :issues
+  resources :issues do
+    collection do 
+      get 'html_parse', path: '/html-parse'
+    end
+  end
 
 
   get "parsers/html"
