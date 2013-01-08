@@ -1,9 +1,4 @@
 <h1>Maclean's iPhone parser</h1>
-<p>The following files have been processed:</p>
-<% @index.each do |file| %>
-<%= link_to file, file.gsub("public", "") %><br />
-<% end %>
-<br /><br/>
 
 <strong>Archive:</strong><br />
 <% unless @zip.nil? %>
@@ -11,3 +6,11 @@
 		<%= link_to file, file.gsub("public", "") %><br />
 	<% end %>
 <% end %>
+
+<p><b>The following files have been processed:</b><br/>
+<% @index.each do |file| %>
+<%= link_to file, file.gsub("public", "") %><br />
+<% end %>
+</p>
+<br /><br/>
+

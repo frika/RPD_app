@@ -61,8 +61,8 @@
 	           <xsl:for-each select="body.content/*">
 	           	 <xsl:choose>
 					<xsl:when test="local-name()='em'">
-						<dt class="clearfix">
-						    <a href="">
+						<dt>
+						    <a class="clearfix" href="">
 									<div class="book-image">
 						      	<img src='../WEB_ASSETS/images/xxxx.jpg' />
 						      </div>

@@ -43,6 +43,12 @@ class Parser < ActiveRecord::Base
 
 # Combines all XML files and creates Table of contents from aggregate
 	def self.toc(folder_name)
+		file_check = Dir.glob('public/issue_html/*.html')
+		if file_check
+			file_check.each do |html|
+				File.delete(html)
+			end
+		end
 		comb_xslt = Nokogiri::XSLT(File.read("public/xsl/comb.xsl"))
 		comb = File.new('public/issue/master.xml', 'w')
 		comb.write('<catalog>')
@@ -62,12 +68,6 @@ class Parser < ActiveRecord::Base
 
 # Main parsing method for all articles
   def self.articles(folder_name) 
-  	file_check = Dir.glob('public/issue_html/*.html')
-		if file_check
-			file_check.each do |html|
-				File.delete(html)
-			end
-		end
   	Dir.glob('public/issue/**/*.xml') do |rb_file|
 			xml = Nokogiri(File.read(rb_file))
 			@doc = Nokogiri::XML(File.open(rb_file))
