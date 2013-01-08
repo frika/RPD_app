@@ -1,21 +1,30 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>MacleansParser</title>
+<<<<<<< HEAD
+  <title>Rogers Publishing Digester</title>
+=======
+  <title>SocialMovies</title>
+>>>>>>> ac1ff35048ee690df91bc379aa067398b71bbd65
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
+<<<<<<< HEAD
 <body style="margin:0">
 <header style="width:100%;position:fixed;top:0;height:40px;color:#fff;background:#666">
 	<div class="container">
-
-		<h1>Rogers Publishing Digester</h1>
-
+		<h1><%= link_to 'Rogers Publishing Digester', root_url %></h1>
 	</div>
 </header>
 <div class="container" id="main" style="width:960px;margin: 0 auto">
 <%= yield %>
 </div>
+=======
+<body>
+
+<%= yield %>
+
+>>>>>>> ac1ff35048ee690df91bc379aa067398b71bbd65
 </body>
 </html>

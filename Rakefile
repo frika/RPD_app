@@ -4,4 +4,8 @@
 
 require File.expand_path('../config/application', __FILE__)
 
+<<<<<<< HEAD
 MacleansParser::Application.load_tasks
+=======
+SocialMovies::Application.load_tasks
+>>>>>>> ac1ff35048ee690df91bc379aa067398b71bbd65

@@ -9,7 +9,7 @@ class ParsersController < ApplicationController
 
   def html_parse
     Parser.unzip_file(Dir.glob('public/issue/*.zip').first, 'public/issue')
-  	Parser.html_parse
+  	Parser.html_parse()
     Parser.zip
   	redirect_to controller: :parsers, action: :html_index
   end

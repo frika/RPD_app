@@ -10,7 +10,14 @@ header {
 		font-weight:normal;
 		line-height:40px;
 		margin:0;
+		a, a:visited {
+			color:white;
+			text-decoration:none;
+			&:hover {
+				background:none;
+			}
+		}
 	}
 }
 
-#main { padding-top:50px; }
+#main { padding:50px 0 40px; }
