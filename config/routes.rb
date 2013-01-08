@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 MacleansParser::Application.routes.draw do
   resources :issues do
     collection do 
@@ -12,9 +12,7 @@ MacleansParser::Application.routes.draw do
   get "parsers/html_index"
   get "parsers/wordpress"
 
-=======
-SocialMovies::Application.routes.draw do
->>>>>>> ac1ff35048ee690df91bc379aa067398b71bbd65
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
@@ -64,11 +62,8 @@ SocialMovies::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
-<<<<<<< HEAD
+
   root :to => 'issues#index'
-=======
-  # root :to => 'welcome#index'
->>>>>>> ac1ff35048ee690df91bc379aa067398b71bbd65
 
   # See how all your routes lay out with "rake routes"
 

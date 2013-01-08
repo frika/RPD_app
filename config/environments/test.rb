@@ -1,8 +1,5 @@
-<<<<<<< HEAD
+
 MacleansParser::Application.configure do
-=======
-SocialMovies::Application.configure do
->>>>>>> ac1ff35048ee690df91bc379aa067398b71bbd65
   # Settings specified here will take precedence over those in config/application.rb
 
   # The test environment is used exclusively to run your application's
