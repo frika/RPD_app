@@ -16,5 +16,5 @@
 /tmp
 
 # Ignore issue files
-/public/system/issues/assets/
+/public/system/issues/assets/*/
 
