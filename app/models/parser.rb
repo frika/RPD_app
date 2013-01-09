@@ -50,7 +50,7 @@ class Parser < ActiveRecord::Base
 			end
 		end
 		comb_xslt = Nokogiri::XSLT(File.read("public/xsl/comb.xsl"))
-		comb = File.new('public/issue/' + folder_name + 'master.xml', 'w')
+		comb = File.new('public/issue/' + folder_name + '/master.xml', 'w')
 		comb.write('<catalog>')
 		Dir.glob('public/issue/' + folder_name + '/*.xml') do |rb_file|
 		  xml = Nokogiri(File.read(rb_file))

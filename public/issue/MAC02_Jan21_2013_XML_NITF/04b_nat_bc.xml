@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE nitf
+ SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf version="-//IPTC//DTD NITF 3.3//EN" change.date="June 10, 2005" change.time="19:30" id="art-158632005"> <head><title></title>
+ <meta name="Author" content="Charlie Gillis"/>
+ <meta name="Editor" content=""/>
+<meta name="PublisherName" content="Maclean's"/>
+ <meta name="Subject1" content="And how will you be paying?"/>
+ <meta name="Subject2" content="When skiers get in trouble, everyone wants to bill them for their rescue. Everyone, that is, except the rescuers."/>
+ <meta name="Subject3" content=""/>
+ <meta name="Subject4" content=""/>
+ <meta name="Subject5" content=""/>
+ <meta name="Industry" content=""/>
+ <meta name="Industry" content=""/>
+ <tobject/>
+ <docdata>
+ <correction/>
+ <doc-id/>
+ <date.issue norm="20130109" />
+ <date.release norm= "20131221" />
+ <date.expire/>
+ <doc-scope/>
+ <series/>
+ <key-list/>
+</docdata>
+	 
+ <pubdata date.publication="20131221" name="Maclean's" number="02" volume="126" edition.area="" position.section="National" position.sequence="16" />
+ <revision-history/>
+</head>
+<body>
+ <sections>National</sections>
+ 
+ <body.head>
+ <slug>British Columbia </slug>
+ <hedline>And how will you be paying? </hedline>
+ 
+ <abstract>When skiers get in trouble, everyone wants to bill them for their rescue. Everyone, that is, except the rescuers.</abstract>
+ 
+  <byline>Charlie Gillis</byline>
+ 
+ </body.head>
+ 
+ <photo href="file://images/MAC02_BCRESCUE01.jpg"/>
+ 
+ <photo.caption>Expensive rescue: Helicopters can cost up to $3,000 an hour</photo.caption>
+ 
+ 
+ 
+ <photo.byline>JOHN LEHMANN/CP</photo.byline>
+ 
+ <body.content>
+ <p>The snowboarder was suitably chastened when he returned to warmth and safety. He thanked his rescuers, and voiced remorse for straying out of bounds on Cypress Mountain, forcing crews to pluck him from a snowy ravine near North Vancouver, B.C. “I’ll never do it again,” said the 30-year-old, whose name the rescue team tactfully withheld. “Nobody should.” But for some, the apology didn’t cut it. After three high-risk rescues in the area in three weeks, the familiar demand that wayward adventurers start paying the cost of their own salvation gained renewed traction in B.C., where more than half of Canada’s emergency searches take place each year. </p>
+ 
+ <p>Make that four rescues. On Sunday, volunteers with the North Shore Search and Rescue team were back among the firs—this time to save a snowshoer who had fallen and suffered a head injury on nearby Hollyburn Mountain. All three of the previous rescuees were people who had deliberately strayed from delineated ski zones—a fact that further stoked public ire. Angry citizens lit up the lines on call-in shows, while the <em>Vancouver Sun</em> published an editorial decrying the “cost and risk to the brave volunteers who donate their time and expertise to help people in trouble.” Operators of the Cypress Mountain ski resort actually billed one of the snowboarders, 33-year-old Sebastien Boucher, $10,000 for its part in a three-day search that ended with his miraculous rescue. </p>
+ 
+ <p>But generally, the big-ticket expenses don’t fall to the adventurers, or to the rescue teams themselves, which are staffed mainly by well-trained volunteers. Those bills are forwarded to the provincial government, which treats them as the price of B.C.’s thriving trade in outdoor recreation. But the price can be dear. Helicopters alone can cost about $3,000 per hour, and it’s not uncommon for a single search to run more than $100,000. </p>
+ 
+ <p>Still, rescue organizations oppose the idea of billing or fining those who require their services. Don Bindon, president of the B.C. Search and Rescue Association, worries that fear of a hefty fine would discourage people from calling for help. Worse still, he says, is the prospect of family members or friends trying to rescue loved ones in order to avoid a punishing bill: “Then we’ve got a whole pile of amateurs up on a hill. We want people to phone us. We don’t want them to wait, and we don’t want their friends to go get them.” </p>
+ 
+ <p>Invoicing rescuees could also place safety organizations in the awkward position of providing evidence against thrill-seekers who defy public warnings, says Mary Clayton, spokeswoman for the Canadian Avalanche Centre in Revelstoke, B.C. “We’re wary of pointing fingers, except in cases where people are clearly unprepared and negligent,” she says. Instead, the group advocates for better education about avalanche risk, and the need to take proper equipment into the back country. That might not save the worst risk-takers from their own stupidity. But it would cut down on the workload for rescue crews. And that, presumably, would free up time and resources to help those who’ve done nothing worse than make an honest mistake. </p>
+ 
+ </body.content>
+ 
+</body></nitf>
