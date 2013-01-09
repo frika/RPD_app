@@ -82,7 +82,7 @@ class Parser < ActiveRecord::Base
 	      xslt = Nokogiri::XSLT(File.read("public/xsl/good_news.xsl"))
 	   
 		  elsif @doc.xpath("//nitf/body/sections").text == "Letters" ||
-		  			@doc.xpath("//nitf/body/sections").text == ""
+		  			@doc.xpath("//nitf/body/sections").text == "Letters"
 		    puts "working on: " + rb_file + " - letters template"
 		    xslt = Nokogiri::XSLT(File.read("public/xsl/letters.xsl"))
 	 
