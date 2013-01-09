@@ -64,20 +64,20 @@
 						<div class="hedline" style="margin-top:25px;"><h1>Bad news</h1></div>
 
 <div class="image-featured">
-										<xsl:if test="photo">
+										<xsl:if test="photo | photo[position()=2]">
 				            	<a class="fancybox">
 												<xsl:attribute name="href">	        
 
-			              			<xsl:value-of select="concat('../WEB_ASSETS/', substring-after(body.content/photo/@href, 'file://'))" />
+			              			<xsl:value-of select="concat('../WEB_ASSETS/', substring-after(photo[position()=2]/@href, 'file://'))" />
 			            			</xsl:attribute>
 												<xsl:attribute name="title">	        
-			              			<xsl:value-of select="concat(photo.caption, '&lt;br/&gt;&lt;small&gt;', photo.byline, '&lt;/small&gt;')" />
+			              			<xsl:value-of select="concat(photo.caption[position()=2], '&lt;br/&gt;&lt;small&gt;', photo.byline, '&lt;/small&gt;')" />
 			            			</xsl:attribute>
 
 				            			<img>
 				            				<xsl:attribute name="src">	        
 
-				              				<xsl:value-of select="concat('../WEB_ASSETS/', substring-after(body.content/photo/@href, 'file://'))" />
+				              				<xsl:value-of select="concat('../WEB_ASSETS/', substring-after(photo[position()=2]/@href, 'file://'))" />
 
 				            				</xsl:attribute>
 													</>

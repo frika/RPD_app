@@ -52,8 +52,8 @@
 	          <div class="hedline"><h1> <xsl:value-of select="body.head/hedline"/> </h1></div>
 	          <div class="abstract"><xsl:value-of select="body.head/abstract"/></div>
 	          <div class="content interview">
-	           <xsl:for-each select="body.content/p">
-							 <p><xsl:value-of select="."/></p>
+	           <xsl:for-each select="body.content/*">
+							 <xsl:copy-of select="."/>
 						 </xsl:for-each>
 	          </div>
 	      </article>
