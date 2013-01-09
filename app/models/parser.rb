@@ -21,7 +21,7 @@ class Parser < ActiveRecord::Base
 	end
 
 # Check to see if a zip file already exists, if so, delete it and create a new one
-	def self.zip(folder_name) 
+	def self.zip(folder_name, issue_name) 
 		zip = Dir.glob('public/issue_html/*.zip')
     if zip
       zip.each do |zip|
@@ -31,7 +31,7 @@ class Parser < ActiveRecord::Base
 		folder = 'public/issue_html'
 		files = Dir.glob('public/issue_html/*.html')
 		images_folder = Dir.glob('public/issue/' + folder_name + '/images/*')
-		Zip::ZipFile.open('public/issue_html/MAC' + (Time.now.strftime('%U').to_i + 1).to_s + '-' + Time.now.strftime('%y') + '.zip', Zip::ZipFile::CREATE) do |zipfile|
+		Zip::ZipFile.open('public/issue_html/' + issue_name + '.zip', Zip::ZipFile::CREATE) do |zipfile|
   		files.each do |filename|
     		zipfile.add(filename.gsub('public/issue_html/', ""), filename)
   		end

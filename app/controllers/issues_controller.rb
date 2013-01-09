@@ -24,7 +24,7 @@ class IssuesController < ApplicationController
     @issue = Issue.find(params[:id])
     Parser.unzip_file(Dir.glob('public' + @issue.asset.url.split('?')[0]).first, 'public/issue')
     Parser.html_parse(@issue.asset.url.split("/").last.split(".").first)
-    Parser.zip(@issue.asset.url.split("/").last.split(".").first)
+    Parser.zip(@issue.asset.url.split("/").last.split(".").first, @issue.name)
     redirect_to controller: :parsers, action: :html_index
   end
 
