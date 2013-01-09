@@ -59,7 +59,7 @@ class Parser < ActiveRecord::Base
 		end 
 		comb.write('</catalog>')
 		comb.close
-		toc_xml = Nokogiri(File.read('public/issue/' + folder_name + 'master.xml'))
+		toc_xml = Nokogiri(File.read('public/issue/' + folder_name + '/master.xml'))
 		toc_xslt = Nokogiri::XSLT(File.read("public/xsl/toc.xsl"))
 		toc = File.new('public/issue_html/02_contents.html', 'w')
 		toc.write(toc_xslt.transform(toc_xml).to_html)
