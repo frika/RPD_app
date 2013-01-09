@@ -15,5 +15,6 @@
 /log/*.log
 /tmp
 
-
+# Ignore issue files
+/public/system/issues/assets/
 
