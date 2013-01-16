@@ -17,5 +17,3 @@
 
 # Ignore issue files
 /public/system/issues/assets/*/
-/public/web-issue/*/
-/public/issue/*/
