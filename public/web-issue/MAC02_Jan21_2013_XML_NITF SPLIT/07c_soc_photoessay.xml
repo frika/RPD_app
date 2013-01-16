@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE nitf
+ SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf version="-//IPTC//DTD NITF 3.3//EN" change.date="June 10, 2005" change.time="19:30" id="art-158632005"> <head><title></title>
+ <meta name="Author" content="Ryan Mallough"/>
+ <meta name="Editor" content=""/>
+<meta name="PublisherName" content="Maclean's"/>
+ <meta name="Subject1" content="The Ultimate Slide"/>
+ <meta name="Subject2" content=""/>
+ <meta name="Subject3" content=""/>
+ <meta name="Subject4" content=""/>
+ <meta name="Subject5" content=""/>
+ <meta name="Industry" content=""/>
+ <meta name="Industry" content=""/>
+ <tobject/>
+ <docdata>
+ <correction/>
+ <doc-id/>
+ <date.issue norm="20130109" />
+ <date.release norm= "20131221" />
+ <date.expire/>
+ <doc-scope/>
+ <series/>
+ <key-list/>
+</docdata>
+	 
+ <pubdata date.publication="20131221" name="Maclean's" number="02" volume="126" edition.area="" position.section="Society" position.sequence="46" />
+ <revision-history/>
+</head>
+<body>
+ <sections>Society</sections>
+ 
+ <body.head>
+ 
+ <slug>Photo Essay </slug>
+ <hedline>The Ultimate Slide</hedline>
+ 
+ <byline>Ryan Mallough</byline>
+ </body.head>
+ 
+ <photo href="file://images/MAC02_PHOTOESSAY_ICE04.jpg"/>
+ 
+ <photo href="file://images/MAC02_PHOTOESSAY_ICE02.jpg"/>
+ 
+ <photo href="file://images/MAC02_PHOTOESSAY_ICE03.jpg"/>
+ 
+ <photo href="file://images/MAC02_PHOTOESSAY_ICE01.jpg"/>
+ 
+ 
+ <photo.caption>Cavernous: Ice in caves is not uncommon, but Booming’s size makes it unique. ‘The proportions of this room are immense. It makes you feel very small and insignificant,’ says De Ruydts.</photo.caption>
+ 
+ 
+ <photo.caption>Long way down: The 1.6-million-year- old cavern extends 140 m into the earth</photo.caption>
+ 
+ 
+ 
+ <body.content>
+ 
+ <p>The Booming Ice Chasm, named for its ringing echoes, was first explored back in 2008, by a team from the Alberta Speleological Society led by Chas Yonge. Yonge stumbled on the chasm’s entrance, near Crow’s Nest Pass on the southern end of the Alberta-British Columbia border, by accident while en route to an established cave. In July, Vancouver-based photographer Francois-Xavier De Ruydts joined the only expedition to explore, survey and photograph a new passage there. </p>
+ 
+ <p>“I have never seen anything like it before,” says De Ruydts. “The ground is made up of hard, blue and very thick ice that forms a slide straight to the bottom of the cave.” </p>
+ 
+ <p>“Being in such a place is indescribable,” adds the 31-year-old. “The ice on the ground is so transparent. You feel like you’re flying.” </p>
+ 
+ <p>De Ruydts’ pictures will help explorers further understand the caves. “The headlamps used by cavers aren’t powerful enough to get a good view of the cave,” says De Ruydts, who brought portable lights for the shoot. “The photos allowed us to get a real sense of the size of the room for the first time.” </p>
+ 
+ <p>The chasm is known as a “cold-trap” cave because the cold winter air sinks to the bottom and is unable to circulate. This phenomenon insulates the cave from any warmer air, keeping temperatures below freezing and making ice present year-round. Slight temperature variations can alter the ice thickness from one to two metres between summer and winter. “It’s not a place frozen in time,” says De Ruydts, “but definitely a dynamic environment.” 
+ </p>
+ 
+ </body.content>
+ 
+</body></nitf>

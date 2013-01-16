@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Publication:</b>
+  <%= @web_issue.publication %>
+</p>
+
+<p>
+  <b>Name:</b>
+  <%= @web_issue.name %>
+</p>
+
+<p>
+	<%= link_to 'Add stories to Wordpress', controller: :web_issues, action: :xml_rpc, id: @web_issue.id %>
+</p>
+
+
+<%= link_to 'Edit', edit_web_issue_path(@web_issue) %> |
+<%= link_to 'Back', web_issues_path %>

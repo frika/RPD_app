@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130103213612) do
+ActiveRecord::Schema.define(:version => 20130114175247) do
 
   create_table "html_parses", :force => true do |t|
     t.datetime "created_at", :null => false
@@ -27,6 +27,22 @@ ActiveRecord::Schema.define(:version => 20130103213612) do
     t.string   "asset_content_type"
     t.integer  "asset_file_size"
     t.datetime "asset_updated_at"
+  end
+
+  create_table "web_issues", :force => true do |t|
+    t.string   "publication"
+    t.string   "name"
+    t.datetime "created_at",         :null => false
+    t.datetime "updated_at",         :null => false
+    t.string   "asset_file_name"
+    t.string   "asset_content_type"
+    t.integer  "asset_file_size"
+    t.datetime "asset_updated_at"
+  end
+
+  create_table "web_parsers", :force => true do |t|
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
   end
 
 end

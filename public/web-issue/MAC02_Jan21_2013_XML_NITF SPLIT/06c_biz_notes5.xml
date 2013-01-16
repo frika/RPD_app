@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE nitf
+ SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf version="-//IPTC//DTD NITF 3.3//EN" change.date="June 10, 2005" change.time="19:30" id="art-158632005"> <head><title></title>
+ <meta name="Author" content="Kate Lunau"/>
+ <meta name="Editor" content=""/>
+<meta name="PublisherName" content="Maclean's"/>
+ <meta name="Subject1" content="eBay goes offline"/>
+ <meta name="Subject2" content=""/>
+ <meta name="Subject3" content=""/>
+ <meta name="Subject4" content=""/>
+ <meta name="Subject5" content=""/>
+ <meta name="Industry" content=""/>
+ <meta name="Industry" content=""/>
+ <tobject/>
+ <docdata>
+ <correction/>
+ <doc-id/>
+ <date.issue norm="20130109" />
+ <date.release norm= "20131221" />
+ <date.expire/>
+ <doc-scope/>
+ <series/>
+ <key-list/>
+</docdata>
+	 
+ <pubdata date.publication="20131221" name="Maclean's" number="02" volume="126" edition.area="" position.section="Business" position.sequence="36" />
+ <revision-history/>
+</head>
+<body>
+ <sections>Business</sections>
+ 
+ <body.head>
+  <slug>Bright Idea </slug>
+ <hedline>eBay goes offline</hedline>
+  <byline>Kate Lunau</byline>
+ 
+ </body.head>
+ 
+ 
+  
+ <body.content>
+ 
+
+
+ <p>More people than ever are shopping on the Internet: Canadians placed nearly 114 million orders online in 2010, worth $15 billion, says Statistics Canada, in its most recent tally. To target those who might still be wary of online shopping, eBay is turning its attention to face-to-face contact. The online marketplace is trying out new services in the U.S., according to All Things D, including a pickup service that sends eBay employees into people’s homes to collect items, which are then sold by “expert sellers” for a cut. Another encourages people to drop off clothes and electronics at mall kiosks, where they’re offered a set price for their goods. eBay is also testing a same-day delivery service so buyers can get the same kind of instant gratification as in-store shopping. Meanwhile, Amazon is expanding its locker service, which allows customers to pick up packages at stores like 7-Eleven. For online giants, future growth seems to be in the offline world.</p>
+ 
+
+ 
+ </body.content>
+ 
+</body></nitf>

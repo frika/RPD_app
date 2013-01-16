@@ -21,6 +21,7 @@ gem 'jquery-rails', '2.0.2'
 gem 'nokogiri', :require => 'nokogiri'
 gem 'rubyzip'
 gem "paperclip", :git => "git://github.com/thoughtbot/paperclip.git"
+gem 'haml'
 
 group :test do
   gem 'capybara', '1.1.2'
