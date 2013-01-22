@@ -23,11 +23,11 @@ class Parser < ActiveRecord::Base
 # Check to see if a zip file already exists, if so, delete it and create a new one
 	def self.zip(folder_name, issue_name) 
 		zip = Dir.glob('public/issue_html/*.zip')
-    if zip
-      zip.each do |zip|
-        File.delete(zip)
-      end
-    end
+	    if zip
+	      zip.each do |zip|
+	        File.delete(zip)
+	      end
+	    end
 		folder = 'public/issue_html'
 		files = Dir.glob('public/issue_html/*.html')
 		images_folder = Dir.glob('public/issue/' + folder_name + '/images/*')
@@ -52,7 +52,8 @@ class Parser < ActiveRecord::Base
 		comb_xslt = Nokogiri::XSLT(File.read("public/xsl/comb.xsl"))
 		comb = File.new('public/issue/' + folder_name + '/master.xml', 'w')
 		comb.write('<catalog>')
-		Dir.glob('public/issue/' + folder_name + '/*.xml') do |rb_file|
+		files = Dir.glob('public/issue/' + folder_name + '/*.xml').sort_by { |file| file }
+		files.each do |rb_file|
 		  xml = Nokogiri(File.read(rb_file))
 		  @doc = Nokogiri::XML(File.open(rb_file))
 		  comb.write(comb_xslt.transform(xml).to_html)
