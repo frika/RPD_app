@@ -2,26 +2,26 @@ class WebParser < ActiveRecord::Base
   require 'zip/zip'
   require 'xmlrpc/client'
 
-  	$connection = XMLRPC::Client.new('dev-www.macleans.ca', '/xmlrpc.php')
+  	@@connection = XMLRPC::Client.new('dev-www.macleans.ca', '/xmlrpc.php')
   	puts "New connection made"
   	@@wp_login = 'steventhomas'
-		@@wp_pass = 'rogers08'
-		$posts = []
+	@@wp_pass = 'rogers08'
+		@@posts = []
 		$one_week_from_now = Date.today + 7.days
 
   def self.get_authors
-  	$existing_authors = []
+  	@@existing_authors = []
 
-		$connection.call('wp.getAuthors', 1, @@wp_login, @@wp_pass).each{ |author|
-  		$existing_authors << author
+		@@connection.call('wp.getAuthors', 1, @@wp_login, @@wp_pass).each{ |author|
+  		@@existing_authors << author
 		}
 		puts "Checked authors"
   end
 
   def self.get_categories
-  	$existing_categories = []
-		$connection.call('wp.getCategories', 1, @@wp_login, @@wp_pass).each{ |taxonomy|
-		  $existing_categories << taxonomy
+  	@@existing_categories = []
+		@@connection.call('wp.getCategories', 1, @@wp_login, @@wp_pass).each{ |taxonomy|
+		  @@existing_categories << taxonomy
 		}
 		puts "Checked categories"
   end
@@ -61,77 +61,85 @@ class WebParser < ActiveRecord::Base
 		  @doc = Nokogiri::XML(File.open(rb_file))
 		  puts rb_file
 		# Post information
-		  @hedline = @doc.xpath("//nitf/body/body.head/hedline").text.empty? ? 
-		             @doc.xpath("//nitf/body/sections").text.squeeze(" ") : @doc.xpath("//nitf/body/body.head/hedline").text.squeeze(" ")
+		  unless @doc.xpath("//nitf/body/sections").text == "Books"
+		  	@hedline = @doc.xpath("//nitf/body/body.head/hedline").text.empty? ? 
+		               @doc.xpath("//nitf/body/sections").text.squeeze(" ") : @doc.xpath("//nitf/body/body.head/hedline").text.squeeze(" ")
+		  else 
+		  	@hedline = @doc.xpath("//nitf/body/body.head/hedline").text.squeeze(" ")
+		  	if @hedline.upcase == @hedline
+		  		@hedline = 'Review: ' + @hedline.titleize
+		  	end
+		  end
 		  @content = @doc.xpath("//nitf/body/body.content").inner_html.squeeze(" ")
 
 		  #author check
 		  @author_check = @doc.xpath("//nitf/body/body.head/byline").text.empty? ? 
 		                   "macleans.ca" : @doc.xpath("//nitf/body/body.head/byline").text  
-		  @author_search = $existing_authors.select {|f| f["display_name"] == @author_check}
+		  @author_search = @@existing_authors.select {|f| /#{f["display_name"]}/.match(@author_check)}
 		  if @author_search.empty?
-		    @author_search = $existing_authors.select {|f| f["display_name"] == "macleans.ca"}
+		    @author_search = @@existing_authors.select {|f| f["display_name"] == "macleans.ca"}
 		  end
 		  @author = @author_search.first['user_id'].to_s
 
 		  #categories	
 		  file_name = rb_file.split("/").last
 		  if /_int_/.match(file_name)
-		  	puts "World"
-		  elsif /_editor|_lett|_good|_interview/.match(file_name)
-		  	puts "Week in Review"
+		  	@category = ["World"]
+		  elsif /_editor|_lett|_interview/.match(file_name)
+		  	@category = ["Week in Review"]
+		  elsif /_good/.match(file_name)
+		  	@category = ["Good news, bad news"]
 		  elsif /_nat_/.match(file_name)
-		  	puts "Canada"
+		  	@category = ["Canada"]
 		  elsif /_biz_/.match(file_name)
-		  	puts "Business"
+		  	@category = ["Business"]
 		  elsif /_soc_/.match(file_name)
-		  	puts "Life"
+		  	@category = ["Life"]
 		  elsif /_newsmak/.match(file_name)
-		  	puts "Newsmakers"
+		  	@category = ["Newsmakers"]
 		  elsif /_teitel|_wells|_amiel/.match(file_name)
-		  	puts "Opinion"
+		  	@category = ["Opinion"]
 		  elsif /_end/.match(file_name)
-		  	puts "The End"
+		  	@category = ["The End"]
 		  elsif /_bak_/.match(file_name)
 		  	if @doc.xpath("//nitf/body/sections").text == "Film"
-		  	  puts "Film"
+		  	  @category = ["Film"]
 		  	elsif @doc.xpath("//nitf/body/sections").text == "Taste"
-		  		puts "Taste"
+		  		@category = ["Food"]
 	  		elsif @doc.xpath("//nitf/body/sections").text == "Books"
-		  		puts "Books"
+		  		@category = ["Books", "Bookmarked"]
         elsif @doc.xpath("//nitf/body/sections").text == "Bazaar"
-        	puts "Bazaar"
+        	@category = ["Arts"]
         elsif @doc.xpath("//nitf/body/sections").text == "Art"
-        	puts "Art"
+        	@category = ["Arts"]
         elsif @doc.xpath("//nitf/body/sections").text == "Help"
-        	puts "Help"
+        	@category = ["Help"]
         elsif @doc.xpath("//nitf/body/sections").text == "Architecture"
-        	puts "Architecture"
+        	@category = ["Arts"]
         elsif @doc.xpath("//nitf/body/sections").text == "Music"
-        	puts "Music"
+        	@category = ["Music"]
         elsif @doc.xpath("//nitf/body/sections").text == "Travel"
-        	puts "Travel"
+        	@category = ["Travel"]
         elsif @doc.xpath("//nitf/body/sections").text == "Web"
-        	puts "Web"
+        	@category = ["Arts"]
         elsif @doc.xpath("//nitf/body/sections").text == "Humour"
-        	puts "Humour"
+        	@category = ["Humour"]
         elsif @doc.xpath("//nitf/body/sections").text == "Media"
-        	puts "Media"
+        	@category = ["Media"]
         elsif @doc.xpath("//nitf/body/sections").text == "TV"
-        	puts "TV"
+        	@category = ["TV"]
         elsif @doc.xpath("//nitf/body/sections").text == "Radio"
-        	puts "Radio"
+        	@category = ["Media"]
         elsif @doc.xpath("//nitf/body/sections").text == "Stage"
-        	puts "Stage"
+        	@category = ["Theatre"]
         elsif @doc.xpath("//nitf/body/sections").text == "Exhibit"
-        	puts "Exhibit"
+        	@category = ["Arts"]
         elsif @doc.xpath("//nitf/body/sections").text == "Feschuk"
-        	puts "Feschuk"
+        	@category = ["Scott Feschuk"]
         end
       else
-      	puts "UNCATEGORIZED"
-		  end
-
+      	puts "Uncategorized"
+	  end
 
 		# Building post object
 		  @post = {
@@ -139,21 +147,23 @@ class WebParser < ActiveRecord::Base
 		    'description'  => @content,
 		    'wp_author_id' => @author,
 		    'post_status'  => 'future',
+		    'categories' => @category,
 		    'dateCreated'  => $one_week_from_now
 		  }
-		  $posts << @post
+		  @@posts << @post
 		end
   end
 
   def self.wordpress_upload
-  	$posts.each do |post|
-	  	$connection.call('metaWeblog.newPost', 1, @@wp_login, @@wp_pass, post, true)
-		end
+  	@@posts.each do |post|
+	  	@@connection.call('metaWeblog.newPost', 1, @@wp_login, @@wp_pass, post, true)
+	end
   end
 
   def self.xml_rpc(folder_name)
   	self.get_authors
   	self.get_categories
   	self.build_post(folder_name)
+  	self.wordpress_upload
   end
 end

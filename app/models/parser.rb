@@ -90,7 +90,7 @@ class Parser < ActiveRecord::Base
         puts "working on: " + rb_file + " - interview template"
         xslt = Nokogiri::XSLT(File.read("public/xsl/interview.xsl"))
       
-		  elsif @doc.xpath("//nitf/body/body.head/hedline").text == "Newsmakers"
+		  elsif /Newsmakers/.match(@doc.xpath("//nitf/body/body.head/hedline").text)
 		    puts "working on: " + rb_file + " - newsmakers template"
 		    xslt = Nokogiri::XSLT(File.read("public/xsl/newsmakers.xsl"))
 				    

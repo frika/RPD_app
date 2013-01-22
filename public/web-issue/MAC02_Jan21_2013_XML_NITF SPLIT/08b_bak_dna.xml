@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE nitf
+ SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf version="-//IPTC//DTD NITF 3.3//EN" change.date="June 10, 2005" change.time="19:30" id="art-158632005"> <head><title></title>
+ <meta name="Author" content="Anthony A. Davis"/>
+ <meta name="Editor" content=""/>
+<meta name="PublisherName" content="Maclean's"/>
+ <meta name="Subject1" content="Creating the poetry bug"/>
+ <meta name="Subject2" content="fter 11 years and $120,000 in research, Christian Bök has put words to DNA"/>
+ <meta name="Subject3" content=""/>
+ <meta name="Subject4" content=""/>
+ <meta name="Subject5" content=""/>
+ <meta name="Industry" content=""/>
+ <meta name="Industry" content=""/>
+ <tobject/>
+ <docdata>
+ <correction/>
+ <doc-id/>
+ <date.issue norm="20130109" />
+ <date.release norm= "20131221" />
+ <date.expire/>
+ <doc-scope/>
+ <series/>
+ <key-list/>
+</docdata>
+	 
+ <pubdata date.publication="20131221" name="Maclean's" number="02" volume="126" edition.area="" position.section="Maclean's Back Pages" position.sequence="53" />
+ <revision-history/>
+</head>
+<body>
+ <sections>Books</sections>
+ 
+ <body.head>
+ <hedline>Creating the poetry bug </hedline>
+ 
+ <abstract>After 11 years and $120,000 in research, Christian Bök has put words to DNA</abstract>
+ 
+  <byline>Anthony A. Davis</byline>
+
+ </body.head>
+ 
+ <photo href="file://images/MAC02_DNA01.jpg"/>
+ 
+ 
+ <photo.caption>Living verse: A harmless bacterium, Deinococcus radiodurans, can store and reproduce Christian Bök’s poem—and then write its own </photo.caption>
+ 
+ 
+ 
+ <photo.byline>photograph by Chris Bolin</photo.byline>
+ 
+ <body.content>
+ <p>“I’m the poet who does the impossible thing. I am the poet who aspires to have the biggest imagination in the room,” Christian Bök says bluntly. Yet his grandiose inventiveness has been focused on the most minuscule attempt at verse. After 11 years of working on what he’s dubbed “The Xenotext,” Bök is close to creating the world’s first living poem. A short stanza enciphered into a string of DNA and injected into an “unkillable” bacterium, Bök’s poem is designed to trigger the micro-organism to create a corresponding protein that, when decoded, is a verse created by the organism. In other words, the harmless bacterium, <em>Deinococcus radiodurans</em> (known as an extremophile because of its ability to survive freezing, scorching, or the vacuum of outer space), will be a poetic bug. </p>
+ 
+ <p>Bök first conceived of “The Xenotext” after reading a scientific article by Pak Chung Wong at Pacific Northwest National Laboratory in Washington and another by Arizona-based astrobiologist Paul Davies. Wong encoded the lyrics to Disney’s<em> It’s a Small World After All </em>into bacteria. Davies speculated that if extraterrestrial civilizations wanted to make contact with other worlds, they would send highly adaptable self-replicating bio-probes—something akin to a bacterium or virus—that could carry messages and survive the destructive environment of outer space. </p>
+ 
+ <p>In October, Bök, 46, professor of creative writing at the University of Calgary, got word from a California lab that his DNA concoction had caused a test organism to fluoresce, signifying that it was responding to his gene sequence. It had done so on a few prior attempts, but when the scientists examined the results, they discovered the organism was cutting off part of the protein string. “That was bad news for me,” says Bök, because it meant his creation was being destroyed. “Instead of having created the first microbial writer, I had effectively created the first microbial critic.” Now, at last, the organism created a properly folded protein that survived in its cell and could be interpreted as the first bacterial attempt at composing verse. </p>
+ 
+ <p>To find a poem that would live happily inside a bacterium—and would enable the professor to teach his microbial student to try its hand at a stanza that could be decoded—Bök combed through eight trillion ciphers and decided on this: </p>
+ 
+ <p>
+ <em>Any style of life / is prim</em> </p>
+ 
+ <p>And the organism, which emits a red luminescence, always writes back: </p>
+ 
+ <p>
+ <em>The faery is rosy / of glow</em> </p>
+ 
+ <p>To create both poems, Bök immersed himself for years in grad-level biochemistry, genetic engineering and proteomics, the branch of biology focused on the interactions of proteins within cells. “I’m an autodidact,” he shrugs. “Part of the artistic exercise in doing the project would be to teach myself the necessary skills.” It also took six years to raise the $120,000 for the research and lab work. When “The Xenotext” is published, in 2014 at the earliest, the book of the same name will include a slide containing the bacterium, and essays and poems about the project. </p>
+ 
+ <p>Bök, the antithesis of the beatnik poet (he prefers expensive Canali suits to corduroy, and drinks Lagavulin scotch, distillers edition) is no stranger to poetic experiments. He has created artificial languages for series such as Gene Roddenberry’s <em>Earth: Final Conflict</em>. In 2002, he won the prestigious Griffin Poetry Prize (and $40,000) for his bestselling book <em>Eunoia</em>. Each of the ﬁve chapters consists of a poem written with words containing just one of the vowels. To write it, Bök read the three-volume <em>Webster’s </em>dictionary five times. </p>
+ 
+ <p>For Bök, “The Xeno- text” is about nudging poetry into a new form. “I am amazed that poets will continue to write about their divorces, even though there is currently a robot taking pictures of orange ethane lakes on Titan.” He notes there are no poems about that, or the moon landing, “probably the greatest achievement of any life form on this planet. Had the ancient Greeks rowed a trireme (boat) to the moon, you can bet there would be a 12-volume epic about that adventure.” </p>
+ 
+ 
+ 
+ </body.content>
+ 
+</body></nitf>

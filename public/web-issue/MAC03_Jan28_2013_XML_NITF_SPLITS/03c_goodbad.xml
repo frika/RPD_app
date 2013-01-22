@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE nitf
+ SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf version="-//IPTC//DTD NITF 3.3//EN" change.date="June 10, 2005" change.time="19:30" id="art-158632005"> <head><title></title>
+ <meta name="Author" content=""/>
+ <meta name="Editor" content=""/>
+<meta name="PublisherName" content="Maclean's"/>
+ <meta name="Subject1" content="Good News"/>
+ <meta name="Subject2" content="Bad News"/>
+ <meta name="Subject3" content=""/>
+ <meta name="Subject4" content=""/>
+ <meta name="Subject5" content=""/>
+ <meta name="Industry" content=""/>
+ <meta name="Industry" content=""/>
+ <tobject/>
+ <docdata>
+ <correction/>
+ <doc-id/>
+ <date.issue norm="20130116" />
+ <date.release norm= "20131228" />
+ <date.expire/>
+ <doc-scope/>
+ <series/>
+ <key-list/>
+</docdata>
+	 
+ <pubdata date.publication="20131228" name="Maclean's" number="03" volume="126" edition.area="" position.section="This Week" position.sequence="8" />
+ <revision-history/>
+</head>
+<body>
+  <sections>This week</sections>
+  
+ <body.head>
+ 
+  <hedline>Good News</hedline>
+  
+  </body.head>
+  
+  <photo.caption>Cuba relaxed rules preventing most of its citizens from travelling abroad</photo.caption>
+
+    <photo href="file://images/MMAC03_WEEK_GOODNEWS01.jpg"/>
+
+  <photo.byline>Alejandro Ernesto/EPA/Keystone Press</photo.byline>
+  
+  <body.content>
+    <p>Bombs away </p>
+    
+    <p>It’s a welcome sight to see a country other than the United States taking a lead role in the ﬁght against al-Qaeda. France launched air strikes in Mali to head off armed extremists from expanding their grip on the country and overtaking the capital, Bamako. This week, France took the case for intervention to the UN, paving the way for the deployment of African troops to back up Malian forces. Canada also said this week it would send a military transport plane to support the mission. Without France’s bold intervention, the security of North Africa—and, by extension, Europe—would have been at serious risk.  </p>
+    
+    <p>From the rubble </p>
+    
+    <p>Seven months after their mall caved in, killing two and wounding 20 others, the people of Elliot Lake, Ont., are about to get what they desperately want: answers. Justice Robert Belanger, who will oversee the inquiry into the tragic collapse, announced hearings will begin March 4. The judge also issued an important preliminary ruling, denying a request from the mall’s owner, Bob Nazarian, to keep his ﬁnances secret. As Belanger wrote, Nazarian’s bank statements—and how much of that money was spent on maintenance—are “directly relevant and of significant importance.”  </p>
+    
+    <p>Gun control </p>
+    
+    <p>U.S. President Barack Obama isn’t backing down from his vow to take real action in the wake of the December massacre that left 27 dead in Newtown, Conn. After talks with the National Rifle Association went nowhere last week, he came out in favour of a ban on assault rifles, limits on high-capacity magazines and stricter background checks. Welcome words, but let’s hope he’s finally found an issue he’s unwilling to compromise on. </p>
+    
+    <p>#Ottawapiskat  </p>
+    
+    <p>The Idle No More movement and the management skills of Attawapiskat Chief Theresa Spence have been the target of many snide comments on Twitter. But this week, Aboriginal activists and their supporters hit back with jokes about the federal government’s own rather checkered fiscal record, using the hash tag #Ottawapiskat. Our favourite? “Debt hovering around $600,000,000,000. Might be time for a third-party manager.” The truth hurts.</p>
+    
+
+    <photo href="file://images/MAC03_WEEK_BADNEWS01.jpg"/>
+  <photo.byline>Cathal McNaughton/Reuters</photo.byline>
+  <photo.caption>Riots erupted over the removal of the Union flag from Belfast’s city hall</photo.caption>
+
+  <hedline>Bad News</hedline>
+
+    <p>Dumb or dumber </p>
+    
+    <p>Three former executives at Nortel Networks, once Canada’s most valuable tech company, were acquitted on accounting fraud charges by an Ontario court. The judge said there was no evidence to suggest Nortel’s books were deliberately cooked to mislead investors or to trigger millions worth of bonus payments. Now Canadians are left to wonder what really happened. Another bungled white-collar-crime case? Or was Nortel, which filed for bankruptcy in 2009, simply the victim of extraordinarily inept management? Neither is reassuring.  </p>
+    
+    <p>Liestrong </p>
+    
+    <p>Lance Armstrong has ﬁnally admitted the truth: that his seven Tour de France titles were won with the assistance of a state-of-the-art doping program. But the limited nature of his mea culpa, his choice to make Oprah Winfrey his confessor and reports that he may testify against the bosses of his former team suggest his hubris is undiminished. Throughout his career, Armstrong didn’t just deny his critics, he went to war with them using all his power. Saying “sorry” well after the fact shouldn’t excuse that. Let’s hope that the old adage that “cheaters never prosper” sticks.  </p>
+    
+    <p>Venture a guess </p>
+    
+    <p>Standing in front of a banner advertising the CBC’s <em>Dragons’ Den</em>, Stephen Harper said Ottawa will spend $400 million on venture capital funds in the next 10 years. Of that, $250 million will go to setting up funds led by the private sector, and $100 million will be used to recapitalize existing private sector funds. Ottawa says the money will give a boost to start-ups. But it is meddling in a business where it’s not needed. If an idea is good enough, the market will support it. Giving rich venture capitalists taxpayers’ money to gamble with isn’t the answer. </p>
+    
+    <p>Smog alert  </p>
+    
+    <p>Air pollution in China last week was off the charts—literally. On an index that tops out at 500 (or “hazardous”), measurements at the U.S. Embassy in Beijing hit over 750 (“beyond index”). Factories closed in some cities to get air quality to safer levels. Even the state-run media had to acknowledge the stink for the first time. One thing, at least, is now clear: there’s a price for China’s incredible (coal-fuelled) growth. </p>
+    
+  </body.content>
+  
+</body></nitf>

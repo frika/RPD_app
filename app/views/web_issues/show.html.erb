@@ -11,6 +11,10 @@
 </p>
 
 <p>
+	<%= link_to 'Issue XML archive', @web_issue.asset.url %>
+</p>
+
+<p>
 	<%= link_to 'Add stories to Wordpress', controller: :web_issues, action: :xml_rpc, id: @web_issue.id %>
 </p>
 
