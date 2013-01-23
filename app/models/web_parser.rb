@@ -12,7 +12,7 @@ class WebParser < ActiveRecord::Base
   def self.get_authors
   	@@existing_authors = []
 
-		@@connection.call('wp.getAuthors', 1, @@wp_login, @@wp_pass).each{ |author|
+		@@connection.call('wp.getAuthors', 1, @@wp_login, @@wp_pass).force_encoding('utf-8').each{ |author|
   		@@existing_authors << author
 		}
 		puts "Checked authors"
