@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE nitf
+ SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf version="-//IPTC//DTD NITF 3.3//EN" change.date="June 10, 2005" change.time="19:30" id="art-158632005"> <head><title></title>
+ <meta name="Author" content="Martin Patriquin"/>
+ <meta name="Editor" content=""/>
+<meta name="PublisherName" content="Maclean's"/>
+ <meta name="Subject1" content="In Montreal, hockey goes down under"/>
+ <meta name="Subject2" content=""/>
+ <meta name="Subject3" content=""/>
+ <meta name="Subject4" content=""/>
+ <meta name="Subject5" content=""/>
+ <meta name="Industry" content=""/>
+ <meta name="Industry" content=""/>
+ <tobject/>
+ <docdata>
+ <correction/>
+ <doc-id/>
+ <date.issue norm="20130130" />
+ <date.release norm= "20130211" />
+ <date.expire/>
+ <doc-scope/>
+ <series/>
+ <key-list/>
+</docdata>
+	 
+ <pubdata date.publication="20130211" name="Maclean's" number="05" volume="126" edition.area="" position.section="National" position.sequence="31" />
+ <revision-history/>
+</head>
+<body>
+  <sections>National</sections>
+    
+  <body.head>
+    <slug>Quebec </slug>
+    
+    <hedline>In Montreal, hockey goes down under </hedline>
+    
+          <byline>Martin Patriquin</byline>
+
+  </body.head>
+    
+  <body.content>
+    <p>Westmount, the Montreal city-within-a-city that is home to some of the country’s most exclusive postal codes, will soon have another boasting point: North America’s deepest hockey rinks. </p>
+    
+    <p>The city is effectively burying two new full-sized arenas 10 m underground and plunking a 25-m-long outdoor pool on top. “To the best of our knowledge, it is the first underground, two-rink arena on the continent,” says Westmount Mayor Peter Trent.  </p>
+    
+    <p>It is an engineering feat akin to building an underground parking garage without the benefit of centre supporting pillars, which would make skating difﬁcult. The steel-reinforced retaining walls will be nearly a metre thick and buttressed by 34 30-m-long, 1.5-m-high cambered metal beams. The new rinks are being built at the foot of Westmount Park under the previous above-ground arena, a view-destroying monolith built in 1958 that was demolished last spring. The project is expected to cost roughly $38 million, and will add over 4,000 sq. m of green space at the foot of the park. </p>
+    
+    <p>Expensive? Perhaps. But Trent says building an above-ground version of the arena to Westmount’s exacting building codes would have cost about the same. “Here in Westmount we don’t allow corrugated steel. We require stone and brick, and probably a copper roof.” </p>
+    
+    <p>Building underground will keep the temperature at 15 degrees year-round. Coupled with its LEED Gold-certified building specifications, Trent expects the city will save roughly $100,000 in energy costs a year. </p>
+    
+    <p>Not everyone is thrilled with the project. Westmount resident Patrick Barnard, for one, is wary of what effect the two-rink scourge will have on the city of 20,000. Barnard recently posted a video of his cautionary visit to an above-ground two-rink arena in the Montreal suburb of Brossard. “It’s very big, it’s noisy, alcohol is being served,” warns Barnard on camera. “There is, in fact, music that’s louder than one would expect.” </p>
+    
+    <p>You’ve been warned, Westmount.  </p>
+    
+ 
+    
+  </body.content>
+    
+</body></nitf>

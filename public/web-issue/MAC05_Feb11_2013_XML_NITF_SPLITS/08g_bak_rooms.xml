@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE nitf
+ SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf version="-//IPTC//DTD NITF 3.3//EN" change.date="June 10, 2005" change.time="19:30" id="art-158632005"> <head><title></title>
+ <meta name="Author" content="Joanne Latimer"/>
+ <meta name="Editor" content=""/>
+<meta name="PublisherName" content="Maclean's"/>
+ <meta name="Subject1" content="The healing powers of—salt?"/>
+ <meta name="Subject2" content="Believers claim salt therapy fixes asthma, allergies and more"/>
+ <meta name="Subject3" content=""/>
+ <meta name="Subject4" content=""/>
+ <meta name="Subject5" content=""/>
+ <meta name="Industry" content=""/>
+ <meta name="Industry" content=""/>
+ <tobject/>
+ <docdata>
+ <correction/>
+ <doc-id/>
+ <date.issue norm="20130130" />
+ <date.release norm= "20130211" />
+ <date.expire/>
+ <doc-scope/>
+ <series/>
+ <key-list/>
+</docdata>
+	 
+ <pubdata date.publication="20130211" name="Maclean's" number="05" volume="126" edition.area="" position.section="Maclean's Back Pages" position.sequence="64" />
+ <revision-history/>
+</head>
+<body>
+  <sections>Bazaar</sections>
+    
+  <body.head>
+    <hedline>The healing powers of—salt?  </hedline>
+    
+    <abstract>Believers claim salt therapy fixes asthma, allergies and more</abstract>
+    
+    <byline>Joanne Latimer</byline>
+    
+  </body.head>
+    
+  <photo href="file://images/MAC05_SALTROOMS.jpg"/>
+    
+  <photo.caption>Breathe it in: Salt rooms, like this one in Waterloo, Ont., are meant to simulate health spas inside the natural salt caves of Eastern Europe</photo.caption>
+    
+  <photo.byline>Aaron Vincent Elkaim</photo.byline>
+    
+  <body.content>
+    <p>Don’t lick the walls. That’s the first rule when entering a salt therapy room. These exotic communal lounges, whose walls are encrusted with salt, are built to simulate the natural spas and health sanatoriums located in the salt caves of Eastern Europe, popular since the 19th century. They’ve caught on in Scandinavia, Israel and beyond. Now they’re in Canada, and the anecdotal evidence is persuasive. There are tales of improved golf scores. Tom Levack, a crane operator from Sarnia, Ont., stopped snoring after visiting one in nearby London. His ﬁve-year-old granddaughter Lilly hasn’t had an asthma attack since she finished her first six-week session. Conversations end with the same refrain: “I don’t need my puffer anymore.” </p>
+    
+    <p>Owners of the spas share a messianic belief in the power of salt to relieve ailments like asthma, allergies, sinusitis, bronchitis and even eczema. Clients sit in a regulated microclimate of dry, salty air for 60-minute sessions, two or three times a week for five or six weeks, at up to $60 per session. They inhale tiny particles of salt to help clear out mucus from the nasal passages, reduce inflammation in the lungs and combat bacterial infections. (More on that contentious science later.) </p>
+    
+    <p>“Listen, no salt cave owner would ever tell you to stop taking your prescription medication, but salt also works,” says Yvonne Wilson, a former asthma sufferer who opened Salt Cave Toronto in 2011 and plans to expand this spring. “You don’t need a prescription from your doctor to know it’s good to gargle with salt water for a sore throat. After visiting a salt mine in Austria, I used my inhaler much less. Now I’m off my medication. I don’t need any more convincing.”  </p>
+    
+    <p>Many don’t. Richard Zagrobelny grew up in Poland, where his parents went to salt caves. An engineer who previously built water purification plants, he opened his own salt therapy centre in Waterloo, Ont., in 2007, and now builds rooms for spas from New Jersey to Florida. His specialty is halotherapy, which uses a generator to grind and spray particles of salt into the air. He coats the walls, ceilings and floor with a few inches of white salt for visual impact, then installs a halogenerator to spray up to 15 mg of salt per cubic meter.  </p>
+    
+    <p>A competing method called speleotherapy occurs in a room, or “cave,” made of 40-lb. blocks of grey salt. There’s no spray, no generator and no dramatic white walls. Arnon Kaplansky built Canada’s first speleotherapy centre, in London, Ont., four years ago. He imported 40 tonnes of salt from the Solotvino mines in Ukraine. “Our salt blocks are 97 per cent sodium chloride, the highest concentration in the world,” explains his daughter, Jenny, who trained for two years at the Global Salt Foundation of Israel, where speleotherapy is covered by the national health insurance system. “And we aren’t bleaching it white or gluing it on walls, like they do for halotherapy,” her father adds.  </p>
+    
+    <p>This description exasperates Boris Kofman, who opened Canada’s first halotherapy room in Toronto. “We use unbleached and untreated rock salt from Canada in our generator, but we also have a laser particle counter to measure the concentration,” he says from his spa, called, confusingly, Speleotherapy Clinic. “Now, you tell me, how do the big blocks of salt generate particles small enough to inhale?” </p>
+    
+    <p>There is a paucity of scientific studies to back up the claims of either school. “There is evidence that hypertonic saline solutions given by a misting device directly into the mouth can encourage mucus to clear from the lungs,” says asthma specialist Paul O’Byrne of McMaster University. “But these results don’t prove anything about salt rooms.” As for salt rooms being naturally sterile environments, Susan Waserman of the Asthma Society of Canada says there is no evidence ambient salt particles destroy bacteria or other micro-organisms.  </p>
+    
+    <p>Ethan Murchi isn’t deterred. He’s one of seven or eight people who’ve approached Zagrobelny about building a salt room in Montreal. “I’m not fixated on studies,” says Murchi, an acupuncturist who practises traditional Chinese medicine. “If hundreds of thousands of people in Europe trust it, that’s good enough for me.”    </p>
+    
+  </body.content>
+    
+</body></nitf>

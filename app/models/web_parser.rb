@@ -1,8 +1,9 @@
 class WebParser < ActiveRecord::Base
+ 
   require 'zip/zip'
   require 'xmlrpc/client'
 
-  	@@connection = XMLRPC::Client.new('dev-www.macleans.ca', '/xmlrpc.php')
+  	@@connection = XMLRPC::Client.new('www2.macleans.ca', '/xmlrpc.php')
   	puts "New connection made"
   	@@wp_login = 'steventhomas'
 	@@wp_pass = 'rogers08'
@@ -12,7 +13,7 @@ class WebParser < ActiveRecord::Base
   def self.get_authors
   	@@existing_authors = []
 
-		@@connection.call('wp.getAuthors', 1, @@wp_login, @@wp_pass).force_encoding('utf-8').each{ |author|
+		@@connection.call('wp.getAuthors', 1, @@wp_login, @@wp_pass).each{ |author|
   		@@existing_authors << author
 		}
 		puts "Checked authors"
@@ -65,7 +66,7 @@ class WebParser < ActiveRecord::Base
 		  	@hedline = @doc.xpath("//nitf/body/body.head/hedline").text.empty? ? 
 		               @doc.xpath("//nitf/body/sections").text.squeeze(" ") : @doc.xpath("//nitf/body/body.head/hedline").text.squeeze(" ")
 		  else 
-		  	@hedline = @doc.xpath("//nitf/body/body.head/hedline").text.squeeze(" ")
+		  	@hedline = @doc.xpath("//nitf/body/body.head/hedline").text.titleize.squeeze(" ")
 		  	if @hedline.upcase == @hedline
 		  		@hedline = 'Review: ' + @hedline.titleize
 		  	end
@@ -75,7 +76,7 @@ class WebParser < ActiveRecord::Base
 		  #author check
 		  @author_check = @doc.xpath("//nitf/body/body.head/byline").text.empty? ? 
 		                   "macleans.ca" : @doc.xpath("//nitf/body/body.head/byline").text  
-		  @author_search = @@existing_authors.select {|f| /#{f["display_name"]}/.match(@author_check)}
+		  @author_search = @@existing_authors.select {|f| /#{f["display_name"].titleize}/.match(@author_check.titleize)}
 		  if @author_search.empty?
 		    @author_search = @@existing_authors.select {|f| f["display_name"] == "macleans.ca"}
 		  end

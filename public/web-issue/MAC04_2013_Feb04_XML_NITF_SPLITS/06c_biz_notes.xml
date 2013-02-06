@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE nitf
+ SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf version="-//IPTC//DTD NITF 3.3//EN" change.date="June 10, 2005" change.time="19:30" id="art-158632005"> <head><title></title>
+ <meta name="Author" content=""/>
+ <meta name="Editor" content=""/>
+<meta name="PublisherName" content="Maclean's"/>
+ <meta name="Subject1" content=""/>
+ <meta name="Subject2" content=""/>
+ <meta name="Subject3" content=""/>
+ <meta name="Subject4" content=""/>
+ <meta name="Subject5" content=""/>
+ <meta name="Industry" content=""/>
+ <meta name="Industry" content=""/>
+ <tobject/>
+ <docdata>
+ <correction/>
+ <doc-id/>
+ <date.issue norm="20130204" />
+ <date.release norm= "20130123" />
+ <date.expire/>
+ <doc-scope/>
+ <series/>
+ <key-list/>
+</docdata>
+	 
+ <pubdata date.publication="20130204" name="Maclean's" number="04" volume="126" edition.area="" position.section="Business" position.sequence="44" />
+ <revision-history/>
+</head>
+<body>
+
+  <sections>Business</sections>
+  <body.head>
+    <slug>MARKETING</slug> <hedline>Nothing to sneeze at </hedline>
+    <abstract>Kleenex’s tissues promise to catch and kill flu bugs. Are they worth the extra cost, or preying on fears?</abstract>
+    <byline>RYAN MALLOUGH</byline>
+  </body.head>
+  <photo href="file://images/MAC04_BIZNOTE02.jpg"/>
+
+    <photo.caption>Ah-choo!: At $4.29, Kleenex’s antiviral tissues cost 12 times as much as a regular box </photo.caption>
+
+  <photo.byline>PHOTOGRAPH BY ANDREW TOLSON</photo.byline>
+  <body.content>
+    <p>Flu season is a miserable time of dizzying nausea and hacking coughs for millions across North America. But for some companies, it’s also an opportune time for sales. </p>
+    
+    
+    
+    <p>Kimberly-Clark, the maker of Kleenex brand tissues, has seen a net jump in its stock price in nine of the past 12 flu seasons (October-March), and is on pace to do it again this year. Its stock sits at $86.33 per share, up from $85.99 in October with peak flu season just around the corner. </p>
+    
+    
+    
+    <p>Kleenex controls roughly 45 per cent of the approximately $1.5-billion tissue market, but saw its share slip last year as store brands made small gains. Recently, Kleenex has made a marketing push for what it calls its “sneeze shield” tissues, which are coated to prevent mucus from getting to the hands, and its antiviral tissues. These anti-flu tissues don’t come cheap. Sneeze shield tissues cost $3.99 for a box of 120. The antiviral tissues are $4.29 for a box of 68, or an incredible 12 times the cost of a run-of-the-mill box of Royale tissues at $0.69 for a box of 132. </p>
+    
+    
+    
+    <p>While the fancy Kleenex packaging promises to reduce the spread of germs and kill up to 99.9 per cent of cold and flu viruses, it may not be worth the extra cost, say health experts. A 1988 study suggested that Kleenex may be taking advantage of consumers’ flu fears. Researchers found that antiviral tissues are only slightly more effective than standard tissues and about the same as handwashing with soap when it comes to preventing the spread of colds and flu. </p>
+    
+    
+    
+    <p>Some doctors are also concerned that the promises on the packaging can lead buyers to put off vaccinations, thinking they’re protected, when the product does more after the virus takes hold than it does for prevention. The U.S. Centers for Disease Control says that tissues can be helpful—if they catch the cough or sneeze—but that “vaccination and strong handwashing and hygiene practices” are still the best ways to prevent flu. </p>
+    
+    
+    
+    <p>So next time you’re at the pharmacy this flu season, it might be better to save your money and go with a bottle of soap instead. 
+    </p>
+    
+    
+ </body.content>
+</body></nitf>

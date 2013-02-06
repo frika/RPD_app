@@ -19,7 +19,17 @@ class Parser < ActiveRecord::Base
    		}
   	}
 	end
-
+  def self.scan_XML
+  	Dir.glob('public/*.xml') do |rb_file|
+  		xml = Nokogiri(File.read(rb_file))
+		@doc = Nokogiri::XML(File.open(rb_file))
+		puts "working on: " + rb_file + " - standard"
+		xslt = Nokogiri::XSLT(File.read("public/xsl/standard_article.xsl"))
+		file = File.new("public/test.html", "w")
+		file.write(xslt.transform(xml).to_html)
+		file.close
+	end
+  end
 # Check to see if a zip file already exists, if so, delete it and create a new one
 	def self.zip(folder_name, issue_name) 
 		zip = Dir.glob('public/issue_html/*.zip')

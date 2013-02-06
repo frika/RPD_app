@@ -45,8 +45,8 @@
 
 
 
-	          <div class="slug"><xsl:copy-of select="body.head/slug"/></div>
-	          <div class="hedline"><h1> <xsl:value-of select="body.head/hedline"/> </h1></div>
+	          <div class="slug"><xsl:copy-of select="//slug"/></div>
+	          <div class="hedline"><h1> <xsl:value-of select="//hedline"/> </h1></div>
 	          <div class="abstract"><xsl:value-of select="body.head/abstract"/></div>
 	          <div class="byline">
 							<xsl:choose>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE nitf
+ SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf version="-//IPTC//DTD NITF 3.3//EN" change.date="June 10, 2005" change.time="19:30" id="art-158632005"> <head><title></title>
+ <meta name="Author" content="Ryan Mallough"/>
+ <meta name="Editor" content=""/>
+<meta name="PublisherName" content="Maclean's"/>
+ <meta name="Subject1" content="The new age of piracy "/>
+ <meta name="Subject2" content="Why 3D printers may hammer the manufacturing industry, just as Napster did to the music business"/>
+ <meta name="Subject3" content=""/>
+ <meta name="Subject4" content=""/>
+ <meta name="Subject5" content=""/>
+ <meta name="Industry" content=""/>
+ <meta name="Industry" content=""/>
+ <tobject/>
+ <docdata>
+ <correction/>
+ <doc-id/>
+ <date.issue norm="20130204" />
+ <date.release norm= "20130123" />
+ <date.expire/>
+ <doc-scope/>
+ <series/>
+ <key-list/>
+</docdata>
+	 
+ <pubdata date.publication="20130204" name="Maclean's" number="04" volume="126" edition.area="" position.section="Business" position.sequence="42" />
+ <revision-history/>
+</head>
+<body>
+ <sections>Business</sections>
+ <body.head>
+ <slug>COPYRIGHT</slug> <hedline>The new age of piracy </hedline>
+ <abstract>Why 3D printers may hammer the manufacturing industry, just as Napster did to the music business</abstract>
+ <byline>RYAN MALLOUGH</byline>
+ </body.head>
+ <photo href="file://images/MAC03_3D01.jpg"/>
+
+ <photo.caption>Do it yourself: File-sharing sites already host 3D files that can be used to print popular toys</photo.caption>
+
+ <photo.byline>Jae C. Hong/CP Images</photo.byline>
+ <body.content>
+ <p>It’s being called the “copyright Armageddon,” a looming legal battle between manufacturers and the Internet, thanks to the increasing popularity of 3D printers. With some desktop units available for as little as $500, almost anyone can now print plastic items from the comfort of home—tools and toys, house decorations, even musical instruments. The possibilities seem limitless—and so, too, does the potential for piracy. </p>
+ 
+ <p>Internet piracy has been an issue ever since Shawn Fanning created the music file-sharing program Napster. Though Napster was shut down in 2001, after one of the biggest copyright battles in history, piracy has only spread, from music to movies and books. But until recently, online theft has been limited to data, not physical objects. </p>
+ 
+ <p>Now some file-sharing websites are taking advantage of what many expect to be the next digital revolution. Popular music and video downloading website the Pirate Bay has rolled out a database for 3D downloads. The 3D printers, which are about the size of a microwave, read the files—essentially a digital blueprint—and lay down thin layers of plastic from the bottom up to build objects. There are files that claim to print everything from a working “Nerf gun” to an iPod dock. </p>
+ 
+ <p>Some companies are already taking legal action. Games Workshop, the maker of popular toy figurines, filed cease and desist notices in June against the 3D download website Thingiverse for posting files for some of its models. While a flood of lawsuits seems inevitable, some experts warn that corporations have a tough fight on their hands. “It’s difficult when it comes to copyright because it’s not like it is with music or movies—physical objects don’t have the same level of protection,” says Michael Weinberg, a lawyer for the Internet advocacy group Public Knowledge. Weinberg notes that while some designs might have patent or copyright protection, it is difficult for companies to claim a monopoly on the production of functional objects, meaning a company that makes tools would have a hard time bringing a successful suit against someone who prints a 3D hammer or wrench. </p>
+ 
+ <p>Not all brand items are necessarily protected, either. “Lego has some patents and some copyrights on designs, but the object itself doesn’t really have any protection,” says Weinberg. The last Lego block patent expired in 1989. The test will be how companies like Lego address 3D printed designs. “Lego can go after them as pirates or it can embrace them as big fans. We haven’t seen Lego running around suing people yet,” says Weinberg. But Lego has been aggressive in defending its products in the past, with mixed success. In 2003, Lego won a lawsuit in Norway against a company for capitalizing on brand confusion to sell building blocks. In 2005, the Supreme Court of Canada dismissed a Lego suit against its archrival Mega Brands. </p>
+ 
+ <p>Some argue that the responsibility for stopping illegal activity may lie with 3D printer manufacturers. Intellectual Ventures, a U.S. patent company, owns a patent for a 3D printing protection system that functions in a similar fashion to the digital rights management (DRM) systems that have emerged in the music industry—basically a way for printers to acknowledge that an object has been legally downloaded before printing. The company is quick to point out that there is no legal requirement for this technology. </p>
+ 
+ <p>The big fear within the 3D printing industry is that governments will step in with laws limiting the use of the technology. In the U.S., a 2011 Atlantic Council report floated the idea of creating a law similar to the Digital Millennium Copyrights Act that would allow copyright holders to demand files be removed due to infringement. </p>
+ 
+ <p>Groups like Public Knowledge and the Electronic Frontier Foundation hope that companies will choose to adapt to the new technology rather than spend millions fighting it. Manufacturers, for instance, could offer to sell 3D files through an official store, much like songs sold on iTunes. That, however, could have a dire effect on retailers. “As more organizations and individuals become manufacturers, the lines between manufacturer and customer will blur. When there is a retailer in between, those lines will blur too. Manufacturing will become retailing,” wrote the tech consulting firm CSC in a report last year on the future of 3D printing. </p>
+ 
+ <p>Any open embrace of 3D printing seems unlikely. It was nearly ﬁve years between Napster and the opening of iTunes stores across all platforms—a period that allowed illegal downloading to establish a firm toehold in the market. Like the music and film industries before them, manufacturers seem destined to slug it out in the courts, and history suggests it’s not going to be pretty. 
+ </p>
+ </body.content>
+</body></nitf>
