@@ -13,10 +13,32 @@
 <p>
 	<%= link_to 'Issue XML archive', @web_issue.asset.url %>
 </p>
-
-<p>
-	<%= link_to 'Add stories to Wordpress', controller: :web_issues, action: :xml_rpc, id: @web_issue.id %>
-</p>
+<%= form_for @web_issue, :url => { :action => 'xml_rpc', :id => @web_issue.id }, :id => 'xml_rpc' do |f| %>
+<div class="field">
+URL<br />
+<%= select_tag(:wordpress_url, 
+        options_for_select([['macleans.ca', "www2.macleans.ca"], 
+        ['canadianbusiness.com', 'canadianbusiness.com'], 
+        ['moneysense.ca', 'www.moneysense.ca'], 
+        ['dev-www.macleans.ca (test)', 'dev-www.macleans.ca'],
+        ['CB Staging', 'staging-www.canadianbusiness.com'],
+        ['Test', 'onbluedot.com']])) %>
+</div>
+<div class="field">
+Login<br />
+<%= text_field_tag :login_name %>
+</div>
+<div class="field">
+PW<br />
+<%= password_field_tag :access_pw %>
+</div>
+<div class='field'>
+<%= hidden_field_tag :id, @web_issue.id %>
+</div>
+<div class="actions">
+    <%= f.submit 'Add stories to wordpress' %>
+  </div>
+<% end %>
 
 
 <%= link_to 'Edit', edit_web_issue_path(@web_issue) %> |

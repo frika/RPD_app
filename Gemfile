@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 
-gem 'rails', '3.2.9'
+gem 'rails', '3.2.11'
 
 group :development, :test do
   gem 'sqlite3', '1.3.5'
@@ -21,7 +21,7 @@ gem 'jquery-rails', '2.0.2'
 gem 'nokogiri', :require => 'nokogiri'
 gem 'rubyzip'
 gem "paperclip", :git => "git://github.com/thoughtbot/paperclip.git"
-gem 'haml'
+gem "slim-rails"
 
 group :test do
   gem 'capybara', '1.1.2'

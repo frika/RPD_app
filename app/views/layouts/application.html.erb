@@ -7,12 +7,10 @@
   <%= csrf_meta_tags %>
 </head>
 <body style="margin:0">
-<header style="width:100%;position:fixed;top:0;height:40px;color:#fff;background:#666">
-	<div class="container">
+<div class="container">
+<header>
 		<h1><%= link_to 'Rogers Publishing Digester', root_url %></h1>
-	</div>
 </header>
-<div class="container" id="main" style="width:960px;margin: 0 auto">
 <%= yield %>
 </div>
 </body>

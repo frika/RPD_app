@@ -1,17 +1,32 @@
 // Place all the styles related to the Parsers controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-body { margin:0; font-family:Helvetica, Arial, sans-serf;}
+
+@mixin header-gradient {
+  $start: #eceff2;
+  $stop: #b0b6bf;
+  background: $start;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,$start), color-stop(100%,$stop)); 
+  background: -webkit-linear-gradient(top, $start 0%,$stop 100%); 
+}
+
+
+body { margin:0;padding-top:15px; font-family:Helvetica, Arial, sans-serf;}
 .container { width:960px;margin:0 auto; }
 
 header {
+	width:960px;margin-top:10px;height:40px;color:#fff;@include header-gradient;
+	border-radius:5px 5px 0 0;
+	margin:0 auto;
 	h1 {
 		font-size:20px;
 		font-weight:normal;
 		line-height:40px;
 		margin:0;
+		text-align:center;
 		a, a:visited {
-			color:white;
+			color: rgb(58, 68, 76);
+			text-shadow:0 1px 0 rgba(255, 255, 255, 0.29);
 			text-decoration:none;
 			&:hover {
 				background:none;
@@ -19,5 +34,22 @@ header {
 		}
 	}
 }
+
+.row {
+      *zoom: 1;
+    }
+
+.row:before,
+.row:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+.row:after {
+  clear: both;
+}
+
+
 
 #main { padding:50px 0 40px; }

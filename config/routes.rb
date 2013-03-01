@@ -4,7 +4,7 @@ MacleansParser::Application.routes.draw do
 
   resources :web_issues do
     collection do 
-      get 'xml_rpc', path: '/xml-rpc'
+      put 'xml_rpc', path: ':id/xml-rpc'
     end
   end
 

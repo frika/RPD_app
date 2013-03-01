@@ -11,9 +11,12 @@
     </div>
   <% end %>
 
+
   <div class="field">
     <%= f.label :publication %><br />
-    <%= f.text_field :publication %>
+    <%= f.select(:publication, 
+        options_for_select([['Maclean\'s', "MAC"], ['Canadian Business', 'CB'], 
+        ['MoneySense', 'MS'], ['test', 'CB']])) %>
   </div>
   <div class="field">
     <%= f.label :name %><br />

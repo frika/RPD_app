@@ -23,7 +23,7 @@ class WebIssuesController < ApplicationController
   def xml_rpc
     @web_issue = WebIssue.find(params[:id])
     WebParser.unzip_file(Dir.glob('public' + @web_issue.asset.url.split('?')[0]).first, 'public/web-issue')
-    WebParser.xml_rpc(@web_issue.asset.url.split("/").last.split(".").first)
+    WebParser.xml_rpc(@web_issue.publication, @web_issue.asset.url.split("/").last.split(".").first, params[:wordpress_url], params[:login_name], params[:access_pw])
     redirect_to @web_issue, notice: 'Web issue was successfully created.'
   end
 
@@ -48,15 +48,13 @@ class WebIssuesController < ApplicationController
   def create
     @web_issue = WebIssue.new(params[:web_issue])
 
-    respond_to do |format|
-      if @web_issue.save
-        format.html { redirect_to @web_issue, notice: 'Web issue was successfully created.' }
-        format.json { render json: @web_issue, status: :created, location: @web_issue }
-      else
-        format.html { render action: "new" }
-        format.json { render json: @web_issue.errors, status: :unprocessable_entity }
-      end
+    if @web_issue.save
+      
+      redirect_to @web_issue, notice: 'Web issue was successfully created.'
+    else
+      render action: "new"
     end
+    
   end
 
   # PUT /web_issues/1
