@@ -52,14 +52,14 @@ class Parser < ActiveRecord::Base
 	end
 
 # Combines all XML files and creates Table of contents from aggregate
-	def self.toc(folder_name)
+	def self.toc(folder_name, pub)
 		file_check = Dir.glob('public/issue_html/*.html')
 		if file_check
 			file_check.each do |html|
 				File.delete(html)
 			end
 		end
-		comb_xslt = Nokogiri::XSLT(File.read("public/xsl/comb.xsl"))
+		comb_xslt = Nokogiri::XSLT(File.read("public/xsl/#{pub}/comb.xsl"))
 		comb = File.new('public/issue/' + folder_name + '/master.xml', 'w')
 		comb.write('<catalog>')
 		files = Dir.glob('public/issue/' + folder_name + '/*.xml').sort_by { |file| file }
@@ -71,90 +71,32 @@ class Parser < ActiveRecord::Base
 		comb.write('</catalog>')
 		comb.close
 		toc_xml = Nokogiri(File.read('public/issue/' + folder_name + '/master.xml'))
-		toc_xslt = Nokogiri::XSLT(File.read("public/xsl/toc.xsl"))
+		toc_xslt = Nokogiri::XSLT(File.read("public/xsl/#{pub}/toc.xsl"))
 		toc = File.new('public/issue_html/02_contents.html', 'w')
 		toc.write(toc_xslt.transform(toc_xml).to_html)
 		toc.close
 	end
 
 # Main parsing method for all articles
-  def self.articles(folder_name) 
+  def self.articles(folder_name, pub) 
   	Dir.glob('public/issue/**/*.xml') do |rb_file|
 			xml = Nokogiri(File.read(rb_file))
 			@doc = Nokogiri::XML(File.open(rb_file))
-		  if @doc.xpath("//nitf/body/sections").text == "From the editors" ||
-   			 @doc.xpath("//nitf/body/sections").text == "From the Editors"
-  			puts "working on: " + rb_file + " - editor template"
-		    xslt = Nokogiri::XSLT(File.read("public/xsl/editors_article.xsl"))
-	
-		  elsif @doc.xpath("//nitf/body/sections").text == "This week" && 
-		        @doc.xpath("//nitf/body/body.head/hedline").text == "Good News"
-  			puts "working on: " + rb_file + " - good news template"
-	      xslt = Nokogiri::XSLT(File.read("public/xsl/good_news.xsl"))
-	   
-		  elsif @doc.xpath("//nitf/body/sections").text == "Letters" ||
-		  			@doc.xpath("//nitf/body/sections").text == "Letters"
-		    puts "working on: " + rb_file + " - letters template"
-		    xslt = Nokogiri::XSLT(File.read("public/xsl/letters.xsl"))
-	 
-  		elsif @doc.xpath("//nitf/body/sections").text == "Interview"
-        puts "working on: " + rb_file + " - interview template"
-        xslt = Nokogiri::XSLT(File.read("public/xsl/interview.xsl"))
-      
-		  elsif /Newsmakers/.match(@doc.xpath("//nitf/body/body.head/hedline").text)
-		    puts "working on: " + rb_file + " - newsmakers template"
-		    xslt = Nokogiri::XSLT(File.read("public/xsl/newsmakers.xsl"))
-				    
 
-      elsif @doc.xpath("//nitf/body/sections").text == "Masthead"
-        puts "working on: " + rb_file + " - masthead template"
-        xslt = Nokogiri::XSLT(File.read("public/xsl/masthead.xsl"))
-  
-
-	    elsif @doc.xpath("//nitf/body/sections").text == "Opinion"
-	      puts "working on: " + rb_file + " - opinion template"
-	      xslt = Nokogiri::XSLT(File.read("public/xsl/opinion.xsl"))
-	    
-    	elsif @doc.xpath("//nitf/body/body.head/hedline").text == "Capital diary" ||
-          	@doc.xpath("//nitf/body/body.head").text.split(" ")[0..1].join == "CapitalDiary"
-      	puts "working on: " + rb_file + " - capital diary template"
-        xslt = Nokogiri::XSLT(File.read("public/xsl/capitaldiary.xsl"))
-     
-      elsif @doc.xpath("//nitf/body/sections").text == "Film" || 
-            @doc.xpath("//nitf/body/sections").text == "Taste" ||
-            @doc.xpath("//nitf/body/sections").text == "Bazaar" ||
-            @doc.xpath("//nitf/body/sections").text == "Art" ||
-            @doc.xpath("//nitf/body/sections").text == "Help" ||
-            @doc.xpath("//nitf/body/sections").text == "Architecture" ||
-            @doc.xpath("//nitf/body/sections").text == "Music" ||
-            @doc.xpath("//nitf/body/sections").text == "Travel" ||
-            @doc.xpath("//nitf/body/sections").text == "Web" ||
-            @doc.xpath("//nitf/body/sections").text == "Humour" ||
-            @doc.xpath("//nitf/body/sections").text == "Media" ||
-            @doc.xpath("//nitf/body/sections").text == "TV" ||
-            @doc.xpath("//nitf/body/sections").text == "Radio" ||
-            @doc.xpath("//nitf/body/sections").text == "Stage" ||
-            @doc.xpath("//nitf/body/sections").text == "Exhibit" ||
-            @doc.xpath("//nitf/body/sections").text == "Feschuk"
-        puts "working on: " + rb_file + " - backpages template"
-        xslt = Nokogiri::XSLT(File.read("public/xsl/backpages.xsl"))
-      
-      elsif @doc.xpath("//nitf/body/sections").text == "Books"
-        puts "working on: " + rb_file + " - books template"
-        xslt = Nokogiri::XSLT(File.read("public/xsl/books.xsl"))
-      
-			else 
-		    puts "working on: " + rb_file + " - standard"
-		    xslt = Nokogiri::XSLT(File.read("public/xsl/standard_article.xsl"))
-
+			if pub == "MAC"
+				template = TemplateSelector.macleans(@doc, rb_file, pub)
+			elsif pub == "CB"
+				template = TemplateSelector.cb(@doc, rb_file, pub)
+			elsif pub == "MS"
+				template = TemplateSelector.ms(@doc, rb_file, pub)
 			end
-				self.file_operations(rb_file, xslt, xml, folder_name)
+			self.file_operations(rb_file, template, xml, folder_name)
 		end
 	end
 
 # Master method for executing all of the above to create an issue
-	def self.html_parse(folder_name) 
-		self.toc(folder_name)
-		self.articles(folder_name)
+	def self.html_parse(folder_name, pub) 
+		self.toc(folder_name, pub)
+		self.articles(folder_name, pub)
 	end 	
 end
