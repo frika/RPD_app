@@ -1,0 +1,15 @@
+p#notice = notice
+
+p
+  strong Name:
+  = @publication.name
+p
+  strong Abbreviation:
+  = @publication.abbreviation
+p
+  strong Url:
+  = @publication.url
+
+= link_to 'Edit', edit_publication_path(@publication)
+'|
+= link_to 'Back', publications_path

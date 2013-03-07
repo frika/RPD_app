@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE nitf
+ SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf version="-//IPTC//DTD NITF 3.3//EN" change.date="June 10, 2005" change.time="19:30" id="art-158632005"> <head><title></title>
+ <meta name="Author" content="Rosemary Westwood"/>
+ <meta name="Editor" content=""/>
+<meta name="PublisherName" content="Maclean's"/>
+ <meta name="Subject1" content="Upside down interest"/>
+ <meta name="Subject2" content=""/>
+ <meta name="Subject3" content=""/>
+ <meta name="Subject4" content=""/>
+ <meta name="Subject5" content=""/>
+ <meta name="Industry" content=""/>
+ <meta name="Industry" content=""/>
+ <tobject/>
+ <docdata>
+ <correction/>
+ <doc-id/>
+ <date.issue norm="20130306" />
+ <date.release norm= "20130318" />
+ <date.expire/>
+ <doc-scope/>
+ <series/>
+ <key-list/>
+</docdata>
+	 
+ <pubdata date.publication="20130318" name="Maclean's" number="10" volume="126" edition.area="" position.section="Business" position.sequence="52" />
+ <revision-history/>
+</head>
+<body>
+  <sections>Business</sections>
+ 
+  <body.head>
+
+ <slug>Economy </slug>
+    
+    <hedline>Upside down interest</hedline>
+    
+    <byline>Rosemary Westwood</byline>
+    
+  </body.head>
+ 
+  <body.content>
+ 
+    <p>Governments around the world have been driving down interest rates in recent years in a bid to boost their economies. The Bank of Canada has held its rate at one per cent. The U.S. Federal Reserve rate now sits at virtually zero. This week, the Bank of England hinted it might go even further and, for the first time in the bank’s history, set a <em>negative</em> interest rate. In effect, it would charge domestic banks for holding their deposits rather than pay them interest.  </p>
+    
+    <p>The bank’s deputy governor, Paul Tucker, floated the idea during a meeting with MPs. Though the Bank of England’s rate stands at just 0.5 per cent, there are concerns that banks aren’t lending enough to businesses, key drivers of economic growth. If the central bank charged fees for deposits, the thinking goes, banks would choose instead to lend that money out. The move would be “extraordinary,” Tucker noted, but not unprecedented. In 2009, Sweden’s central bank was the first to cut interest to a negative rate (minus 0.25 per cent)—garnering praise for blazing a new monetary policy trail. Denmark followed suit in July of last year. And in December, two Swiss banks began charging institutional clients for deposits in Swiss francs. The European Central Bank, desperate for new tricks to turn Europe’s economy around, is also rumoured to be considering a similar move. </p>
+    
+    <p>Even Mark Carney, the Bank of Canada’s current governor, has considered the move. During a hearing for his appointment as the Bank of England’s new governor (a position he takes up this spring), Carney told British MPs that in April 2009, in the depths of the financial crisis, negative interest rates “would have been warranted” in Canada. He avoided that, in part, by promising to keep interest rates at an all-time low for an extended period. </p>
+    
+    <p>While negative rates could go a long way toward stimulating the economy (ultimately affecting everything from mortgages to small loans), they would also carry risks. Banks might, in turn, slash their already low rates, perhaps even charging their customers for deposits. Conscientious penny-pinchers would see their savings shrink, a fate not much better than slow growth for the country.</p>
+    
+     
+    
+ 
+    
+     
+ 
+  </body.content>
+    
+</body></nitf>

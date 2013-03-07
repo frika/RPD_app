@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE nitf
+ SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf version="-//IPTC//DTD NITF 3.3//EN" change.date="June 10, 2005" change.time="19:30" id="art-158632005"> <head><title></title>
+ <meta name="Author" content="Kate Lunau"/>
+ <meta name="Editor" content=""/>
+<meta name="PublisherName" content="Maclean's"/>
+ <meta name="Subject1" content="Our man in space"/>
+ <meta name="Subject2" content="Canadian astronaut Chris Hadfield has made space travel cool again even as Canada’s space program founders"/>
+ <meta name="Subject3" content=""/>
+ <meta name="Subject4" content=""/>
+ <meta name="Subject5" content=""/>
+ <meta name="Industry" content=""/>
+ <meta name="Industry" content=""/>
+ <tobject/>
+ <docdata>
+ <correction/>
+ <doc-id/>
+ <date.issue norm="20130306" />
+ <date.release norm= "20130318" />
+ <date.expire/>
+ <doc-scope/>
+ <series/>
+ <key-list/>
+</docdata>
+	 
+ <pubdata date.publication="20130318" name="Maclean's" number="10" volume="126" edition.area="" position.section="Society" position.sequence="58" />
+ <revision-history/>
+</head>
+<body>
+  <sections>Society</sections>
+    
+  <body.head>
+    <slug>Photo Essay </slug>
+    
+    <hedline>Our man in space </hedline>
+    
+    <abstract>Canadian astronaut Chris Hadfield has made space travel cool again even as Canada’s space program founders</abstract>
+    
+    <byline>Kate Lunau</byline>
+  </body.head>
+    
+  <photo href="file://images/MAC10_HADFIELD01.jpg"/>
+    
+  <photo href="file://images/MAC10_HADFIELD02.jpg"/>
+    
+  <photo href="file://images/MAC10_HADFIELD99.jpg"/>
+    
+  <photo href="file://images/MAC10_HADFIELD98.jpg"/>
+    
+  <photo href="file://images/MAC10_HADFIELD05.jpg"/>
+    
+  <photo.caption>Space Twitter: ‘The incredibly lush green  wetness of the Amazon basin,’ writes Hadfield</photo.caption>
+    
+  <body.content>
+    <p>Half a billion people watched Neil Armstrong’s first steps on the moon, in grainy black and white, in 1969. Today, millions are connecting with Chris Hadﬁeld through images, too—the stunning, high-resolution photographs of Earth he beams back from the International Space Station (ISS), where he’s lived since Dec. 21. Hadfield takes command on March 13, its first Canadian commander. Using social media to share his life in space, he’s become the most famous astronaut since Armstrong and Buzz Aldrin. </p>
+    
+    <p>Of course, they never had access to Twitter. The first live tweet from space came in 2010, but no astronaut has used it as proliﬁcally as Hadfield, who’ll often post several times a day, answering questions or retweeting enthusiastic commenters—maybe a school teacher, a fellow astronaut, or William Shatner—and sharing photos and observations. (Recently, on breakfast: “granola with dried blueberries, dehydrated vegetable quiche, instant pineapple juice, instant black coffee. Suit you too?”) His Twitter following has grown from 20,000 at the time of the launch to over 456,300 today, although tweeting isn’t one of Hadfield’s official duties.  </p>
+    
+    <p>At first, Canadian Space Agency (CSA) bosses were nervous it might cut into his packed work schedule. “For my own peace of mind, I wanted to know how long [each tweet] takes,” says Ed Tabarah of the Canadian astronaut ofﬁce, who managed Hadfield’s training. Hadfield, who returns to Earth on May 13, squeezes tweeting in between other tasks: science experiments, ISS maintenance, exercise to ward off effects of zero gravity, or live chats with public schools. And, of course, time spent resting or talking to his family. </p>
+    
+    <p>He has a little help. Son Evan, 27, who lives near Frankfurt, is Hadfield’s unofficial PR person, managing his various social media profiles—Tumblr, Facebook, Google+—and “trying to find new ways to get people to follow dad.” Evan was the mastermind behind Hadfield’s Feb. 17 “Ask Me Anything” (AMA) on the website Reddit, previously used by the likes of Barack Obama and Bill Gates to field the public’s questions. People around the world peppered him on topics like: can you adjust the temperature inside the ISS? What do you shave with? Do you hear tiny meteors pinging off the sides of your spaceship? One user echoed several others when he called Hadfield’s “the coolest AMA in history.” </p>
+    
+    <p>The global stardom of a Canadian astronaut comes at a complicated time for our space industry. On Feb.1, CSA head Steve MacLean quit his post, months before the end of his mandate, to take a job in Waterloo, Ont.’s “quantum valley.” While MacLean, a former astronaut, won’t say why he left, insiders believe he’d grown frustrated. Canada’s space program has “foundered” over the last 10 years, former Liberal and Conservative cabinet minister David Emerson said in November, releasing a federally commissioned report into our aerospace industry. “There is no overarching articulation of what we want to do in space or how we want to do it,” the report says, noting the CSA’s budget has been cut, even as we’ve extended our commitment to the ISS until 2020. Canada has always prided itself on space robotics—like the Canadarm2 and Dextre, a robotic handyman that helps maintain the ISS—but our lead there, too, “is being eroded, in part due to the greater determination other countries have brought to their space programs.” The government is reviewing Emerson’s recommendations. </p>
+    
+    <p>Meanwhile, Canada has the charismatic Chris Hadfield orbiting Earth, playing guitar, sharing photos or poetic tidbits about his days, and reminding hundreds of thousands of people why the ISS—a collaboration of 15 countries—remains one of the most important science projects in human history. Just like those images of Armstrong and Aldrin on the moon, Hadfield’s storytelling lets us join him on the space station. “By using the technology that’s available now, we can really make this experience alive, in real time,” he tells <em>Maclean’s</em> in a video from the ISS. “When I look out the window and see something magnificent go by, I can immediately broadcast it, and people can ride along with me.”  </p>
+    
+  </body.content>
+    
+</body></nitf>

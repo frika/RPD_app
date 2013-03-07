@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE nitf
+ SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf version="-//IPTC//DTD NITF 3.3//EN" change.date="June 10, 2005" change.time="19:30" id="art-158632005"> <head><title></title>
+ <meta name="Author" content="Tabassum Siddiqui"/>
+ <meta name="Editor" content=""/>
+<meta name="PublisherName" content="Maclean's"/>
+ <meta name="Subject1" content="Online lifeline"/>
+ <meta name="Subject2" content="Small retailers at risk of getting crushed by Internet giants like Amazon turn to a Canadian start-up"/>
+ <meta name="Subject3" content=""/>
+ <meta name="Subject4" content=""/>
+ <meta name="Subject5" content=""/>
+ <meta name="Industry" content=""/>
+ <meta name="Industry" content=""/>
+ <tobject/>
+ <docdata>
+ <correction/>
+ <doc-id/>
+ <date.issue norm="20130306" />
+ <date.release norm= "20130318" />
+ <date.expire/>
+ <doc-scope/>
+ <series/>
+ <key-list/>
+</docdata>
+	 
+ <pubdata date.publication="20130318" name="Maclean's" number="10" volume="126" edition.area="" position.section="Business" position.sequence="52" />
+ <revision-history/>
+</head>
+<body>
+  <sections>Business</sections>
+ 
+  <body.head>
+    <slug>Retail</slug>
+     <hedline>Online lifeline </hedline>
+    
+    <abstract>Small retailers at risk of getting crushed by Internet giants like Amazon turn to a Canadian start-up</abstract>
+    
+        <byline>Tabassum Siddiqui</byline>
+
+  </body.head>
+ 
+    
+  <photo href="file://images/MAC10_BIZNOTES01.jpg"/>
+    
+   <body.content>
+    
+    
+     <p>For small stores, standing out online isn’t easy. Surging Internet sales are pushing major retailers to spend big on technology to improve their web presence—$60 billion a year in the U.S. alone, by one estimate. To compete against giants like Amazon and eBay, hundreds of shops and boutiques are turning to a Canadian start-up, Shopcaster.  </p>
+    
+    <p>The site draws on the appeal of image-focused websites like Pinterest (where users “pin” photos of products they like to online bulletin boards) to help stores advertise and sell their goods online. “In the course of talking to retailers, [the Shopcaster team] found out they were having trouble with their online presence,” says CEO Judy Sims. Founders Aron Jones and Matt O’Leary realized there was a big opportunity. With an initial investment from Toronto firm Mantella Venture Partners and an additional $1-million round of financing last July, Shopcaster quickly began signing up stores, first in Toronto, and more recently, in Vancouver and Montreal. </p>
+    
+    <p>Of the 875 stores now signed up to Shopcaster, about 180 are using the site’s “click-to-buy” service. Retailers sign up for free to use the site, but are charged a 15 per cent commission on online sales. With the emphasis on extending the feel of walking into a boutique and discovering a one-of-a-kind gem, shops such as Toronto’s Even &amp; Odd, which sells home decor, are doing particularly well on Shopcaster. Owner Carmen Tsang says some of the shop’s bestselling items get thousands of views on the site. </p>
+    
+    <p>Shopcaster has yet to turn a profit and faces stiff competition from sites such as Shopify, which sells e-commerce platforms to retailers, and even Pinterest, which serves as a massive window-shopping site driving sales for retailers. Shopcaster is now planning expansion into the U.S. and is hiring a scout in New York to seek out local boutiques for the site. It plans to facilitate cross-border shipping so that customers can readily order items from any city. After all, borders are easier to cross online. As Sims says: “World domination, that’s the plan.”</p>
+    
+    
+   
+ 
+  </body.content>
+    
+</body></nitf>

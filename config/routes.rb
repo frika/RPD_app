@@ -1,5 +1,8 @@
 
 MacleansParser::Application.routes.draw do
+  resources :publications
+
+
   get "pages/home"
 
   resources :web_issues do

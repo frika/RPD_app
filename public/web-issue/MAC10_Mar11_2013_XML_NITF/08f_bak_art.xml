@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE nitf
+ SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf version="-//IPTC//DTD NITF 3.3//EN" change.date="June 10, 2005" change.time="19:30" id="art-158632005"> <head><title></title>
+ <meta name="Author" content="John Geddes"/>
+ <meta name="Editor" content=""/>
+<meta name="PublisherName" content="Maclean's"/>
+ <meta name="Subject1" content="So long, soapstone bear"/>
+ <meta name="Subject2" content="A Winnipeg gallery is betting heavily on Inuit art that goes beyond gift-shop clichés"/>
+ <meta name="Subject3" content=""/>
+ <meta name="Subject4" content=""/>
+ <meta name="Subject5" content=""/>
+ <meta name="Industry" content=""/>
+ <meta name="Industry" content=""/>
+ <tobject/>
+ <docdata>
+ <correction/>
+ <doc-id/>
+ <date.issue norm="20130306" />
+ <date.release norm= "20130318" />
+ <date.expire/>
+ <doc-scope/>
+ <series/>
+ <key-list/>
+</docdata>
+	 
+ <pubdata date.publication="20130318" name="Maclean's" number="10" volume="126" edition.area="" position.section="Maclean's Back Pages" position.sequence="71" />
+ <revision-history/>
+</head>
+<body>
+  <sections>Art</sections>
+    
+  <body.head>
+    <hedline>So long, soapstone bear</hedline>
+    
+    <abstract>A Winnipeg gallery is betting heavily on Inuit art that goes beyond gift-shop clichés</abstract>
+    
+    <byline>John Geddes</byline>
+    
+  </body.head>
+    
+  <photo href="file://images/MAC10_NATIVEART99.jpg"/>
+    
+  <photo.caption>Art for art’s sake: The Winnipeg Art Gallery’s Thirty Faces by Marion Tuu’luq is among many pieces that veer from the predictable</photo.caption>
+    
+  <photo.byline>Leif Norman</photo.byline>
+    
+  <body.content>
+    <p>Mention Inuit art and a smooth stone carving springs to mind, or a colourful Cape Dorset print, maybe Kenojuak Ashevak’s iconic owl. No Canadian art is more widely appreciated, or more susceptible to being reduced to gift-shop clichés. The Winnipeg Art Gallery’s ambitious current show, <em>Creation and Transformation: Defining Moments in Inuit Art</em>, offers pieces that will satisfy popular expectations, like Osuitok Ipeelee’s elegant marble polar bear from 1975, its torso torqued just so and nose raised to sniff a cold breeze. But much of the art—especially recent work like Ningeokuluk Teevee’s pencil-and-ink tattooed woman with a cigarette, or Andrew Qappik’s drypoint self-portrait in his printshop—veers far from the predictable. “I’m anxious to destroy the stereotypes with my shows,” says Darlene Coward Wight, the gallery’s longtime Inuit art curator. </p>
+    
+    <p>She’s not alone. Curators in recent years have taken pains to avoid the old, condescending view of indigenous art as folkloric. It’s no longer segregated. For instance, the National Gallery of Canada’s recent biennial show of newly acquired Canadian art displayed Inuit pieces, such as Elisapee Ishulutaq’s mural-sized drawing of traditional life in Nunavut, alongside works created in the hipper neighbourhoods of southern cities. Still, the Ottawa institution’s ambitious summer 2013 show, called <em>Sakahan</em>—“to light a fire” in Algonquin—will invite gallery-goers to see contemporary indigenous art as a distinct category, by grouping work by Aboriginal artists from Canada with their indigenous peers from around the world. </p>
+    
+    <p>The question of how to collect and exhibit indigenous art has vexed major Canadian art institutions for decades. As the focus shifted from anthropology museums to fine-art galleries, aesthetic judgments pushed aside the old emphasis on cultural context—but never entirely. Nowhere is finding the right balance a more urgent preoccupation than the Winnipeg Art Gallery, where more than 12,000 Inuit pieces form the backbone of the permanent collection. “There’s a social side to [Inuit art], historical, anthropological, religious and spiritual—and now art for the sake of art,” says WAG executive director Stephen Borys. “It has evolved at times very differently than other art, and we have to look at it differently.” </p>
+    
+    <p>The WAG is betting heavily on Inuit art’s enduring appeal. Last fall, it chose Los Angeles-based Michael Maltzan as the architect for a new $35-million Inuit Art and Learning Center. Construction beside the WAG’s landmark main building (a striking modernist triangle from 1971 by Gustavo da Roza) is set to begin next year, with 2016 as the target for completion. The centre’s heart, Borys says, will be a showcase glass vault for Inuit sculpture going back to the 1950s, when it was first appearing in southern markets. In that early period, the main buyer of the carvings was the Hudson’s Bay Company, then headquartered in Winnipeg. </p>
+    
+    <p>That local link led the WAG to begin collecting early, putting it in a unique position now to survey more than a half-century of change. The pieces Coward Wight chose for <em>Creation and Transformation</em>, which is slated to run to April 14, couldn’t be more varied, from the refined minimalism of John Pangnark’s 1969 stone carving <em>Mother and Child, </em>to the almost unhinged quality of some later ivory-and-bone sculptures—Coward Wight calls them “expressionist”—like Nelson Takkirup’s 1989 <em>Double Shaman Drum Dancer</em>.  </p>
+    
+    <p>She bristles at the suggestion that crowds are drawn to this art to a great degree out of curiosity about a way of life that is at once exotic and quintessentially Canadian. “The focus,” Coward Wight says, “is the artist and not the culture.” As a curator’s code, it’s beyond reproach. Yet this is artwork inextricably tied to a particular people in a particular setting. In fact, Borys says a key goal for the WAG’s new Inuit centre is that every Manitoba elementary school kid’s first impression of the Far North should come, not from a classroom map or a textbook description, but through an up-close, field-trip encounter with an unforgettable work of art.     </p>
+    
+  </body.content>
+    
+</body></nitf>

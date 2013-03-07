@@ -1,0 +1,23 @@
+h1 Listing publications
+
+table
+  tr
+    th Name
+    th Abbreviation
+    th Url
+    th
+    th
+    th
+
+  - @publications.each do |publication|
+    tr
+      td = publication.name
+      td = publication.abbreviation
+      td = publication.url
+      td = link_to 'Show', publication
+      td = link_to 'Edit', edit_publication_path(publication)
+      td = link_to 'Destroy', publication, :confirm => 'Are you sure?', :method => :delete
+
+br
+
+= link_to 'New Publication', new_publication_path

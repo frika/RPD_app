@@ -10,14 +10,16 @@ To run this app for the first time, do the following in the terminal:
 	cd ~
 	git clone https://github.com/frika/RPD_app.git
 	cd RPD_app
-	bundle
+	bundle install
+	bundle exec rake db:migrate
+	bundle exec rake db:seed
 	rails s
 
 Then open your browser, and navigate to:
 
 	http://localhost:3000
 
-And follow the onscreen options.
+And follow the onscreen instructions.
 
 
 written by [Steven Thomas](http://stevenmichaelthomas.com/).
