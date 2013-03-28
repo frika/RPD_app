@@ -3,7 +3,6 @@ class WebIssuesController < ApplicationController
   # GET /web_issues.json
   def index
     @web_issues = WebIssue.all
-
     respond_to do |format|
       format.html # index.html.erb
       format.json { render json: @web_issues }
@@ -14,6 +13,7 @@ class WebIssuesController < ApplicationController
   # GET /web_issues/1.json
   def show
     @web_issue = WebIssue.find(params[:id])
+    @publications = Publication.all
     respond_to do |format|
       format.html # show.html.erb
       format.json { render json: @web_issue }
@@ -31,7 +31,7 @@ class WebIssuesController < ApplicationController
   # GET /web_issues/new.json
   def new
     @web_issue = WebIssue.new
-
+    @publications = Publication.all
     respond_to do |format|
       format.html # new.html.erb
       format.json { render json: @web_issue }
@@ -48,8 +48,7 @@ class WebIssuesController < ApplicationController
   def create
     @web_issue = WebIssue.new(params[:web_issue])
 
-    if @web_issue.save
-      
+    if @web_issue.save 
       redirect_to @web_issue, notice: 'Web issue was successfully created.'
     else
       render action: "new"

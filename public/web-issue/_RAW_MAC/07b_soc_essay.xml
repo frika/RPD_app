@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE nitf
+ SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf version="-//IPTC//DTD NITF 3.3//EN" change.date="June 10, 2005" change.time="19:30" id="art-158632005"> <head><title></title>
+ <meta name="Author" content=""/>
+ <meta name="Editor" content=""/>
+<meta name="PublisherName" content="Maclean's"/>
+ <meta name="Subject1" content=""/>
+ <meta name="Subject2" content=""/>
+ <meta name="Subject3" content=""/>
+ <meta name="Subject4" content=""/>
+ <meta name="Subject5" content=""/>
+ <meta name="Industry" content=""/>
+ <meta name="Industry" content=""/>
+ <tobject/>
+ <docdata>
+ <correction/>
+ <doc-id/>
+ <date.issue norm="20130327" />
+ <date.release norm= "20130415" />
+ <date.expire/>
+ <doc-scope/>
+ <series/>
+ <key-list/>
+</docdata>
+	 
+ <pubdata date.publication="20130415" name="Maclean's" number="14" volume="126" edition.area="" position.section="" position.sequence="" />
+ <revision-history/>
+</head>
+<body>
+  <sections>Society</sections>
+  
+  <body.head>
+    <slug>Photo Essay </slug>
+  
+    <hedline>Close encounters of the wild kind </hedline>
+  
+    <abstract>Photographs by Anup Shah</abstract>
+    
+    </body.head>
+  
+  <photo href="file://images/MAC14_PHOTOESSAY05.jpg"/>
+  
+  <photo href="file://images/MAC14_PHOTOESSAY01.jpg"/>
+  
+  <photo href="file://images/MAC14_PHOTOESSAY08.jpg"/>
+  
+  <photo href="file://images/MAC14_PHOTOESSAY02.jpg"/>
+  
+  <photo.caption>Adolescent lion</photo.caption>
+  
+  <photo.caption>African elephants dusting themselves</photo.caption>
+  
+  <photo.caption>Lappet-faced vultures</photo.caption>
+  
+  <photo.caption>Plains zebras</photo.caption>
+  
+  <photo.caption>Thomson’s gazelles</photo.caption>
+  
+  <photo.caption>Olive baboon</photo.caption>
+  
+  <photo.caption>Eastern white-bearded wildebeest</photo.caption>
+  
+  <photo.byline href="file://images/MAC14_PHOTOESSAY04.jpg"/>
+  
+  <photo.byline href="file://images/MAC14_PHOTOESSAY07.jpg"/>
+  
+  <photo.byline href="file://images/MAC14_PHOTOESSAY06.jpg"/>
+  
+  <body.content>
+  
+    <p>When Anup Shah set out in 2007 to photograph the wild animals and birds of the East African plains, he wanted to show them as they’d never been seen before. He camouflaged his camera with mud and even elephant dung and put it on the ground. Then he waited in his car 50 to 100 m away, and watched, trying to determine just when to trip the shutter by remote. He spent four months of each of the next four years travelling, and considerable money in replacement cameras, to get the photographs for his new book, <em>Serengeti Spy,</em> where the images take the viewer right into the centre of the stampeding herd. </p>
+    
+  </body.content>
+  
+</body></nitf>

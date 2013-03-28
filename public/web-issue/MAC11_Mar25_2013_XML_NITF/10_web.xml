@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE nitf
+ SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf version="-//IPTC//DTD NITF 3.3//EN" change.date="June 10, 2005" change.time="19:30" id="art-158632005"> <head><title></title>
+ <meta name="Author" content=""/>
+ <meta name="Editor" content=""/>
+<meta name="PublisherName" content="Maclean's"/>
+ <meta name="Subject1" content="Ipad Exclusives"/>
+ <meta name="Subject2" content=""/>
+ <meta name="Subject3" content=""/>
+ <meta name="Subject4" content=""/>
+ <meta name="Subject5" content=""/>
+ <meta name="Industry" content=""/>
+ <meta name="Industry" content=""/>
+ <tobject/>
+ <docdata>
+ <correction/>
+ <doc-id/>
+ <date.issue norm="20130313" />
+ <date.release norm= "20130325" />
+ <date.expire/>
+ <doc-scope/>
+ <series/>
+ <key-list/>
+</docdata>
+	 
+ <pubdata date.publication="20130325" name="Maclean's" number="11" volume="126" edition.area="" position.section="Web" position.sequence="5" />
+ <revision-history/>
+</head>
+<body>
+  
+  <body.head>
+  
+  <hedline>IPAD EXCLUSIVES</hedline>
+  
+  </body.head>
+    
+  <body.content>
+  
+  <p>Strike back: Watch video of South Sudan’s ‘Arrow Boys’ protecting their village</p>
+    
+  <p>War Tours:  See a gallery of  photographs from Afghanistan’s surprising,  burgeoning tourism industry</p>
+    
+  <p>On The Jobs: Watch Chris Sorensen talk more about Canada’s  skilled-worker shortage and why it may be the biggest  threat facing the economy</p>
+    
+  <p>Doll Frenzy: See more photos of the Waldorf dolls that are being snapped up online for hundreds of dollars</p>
+    
+  <p>Mea culpa:  Listen in on our talk with Mark Lynas as he discusses his decision to abandon the anti-GM cause he founded</p>
+    
+  <p>The Pope: Breaking news</p>
+    
+  <p>For full coverage of the election of  the new pope, see our iPad edition, where Senior Writer Brian Bethune is reporting from Rome on the conclave—the contenders, the politics and the future of the Catholic Church </p>
+  
+  </body.content>
+    
+</body></nitf>

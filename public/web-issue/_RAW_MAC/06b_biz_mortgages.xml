@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE nitf
+ SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf version="-//IPTC//DTD NITF 3.3//EN" change.date="June 10, 2005" change.time="19:30" id="art-158632005"> <head><title></title>
+ <meta name="Author" content=""/>
+ <meta name="Editor" content=""/>
+<meta name="PublisherName" content="Maclean's"/>
+ <meta name="Subject1" content=""/>
+ <meta name="Subject2" content=""/>
+ <meta name="Subject3" content=""/>
+ <meta name="Subject4" content=""/>
+ <meta name="Subject5" content=""/>
+ <meta name="Industry" content=""/>
+ <meta name="Industry" content=""/>
+ <tobject/>
+ <docdata>
+ <correction/>
+ <doc-id/>
+ <date.issue norm="20130327" />
+ <date.release norm= "20130415" />
+ <date.expire/>
+ <doc-scope/>
+ <series/>
+ <key-list/>
+</docdata>
+	 
+ <pubdata date.publication="20130415" name="Maclean's" number="14" volume="126" edition.area="" position.section="" position.sequence="" />
+ <revision-history/>
+</head>
+<body>
+  <sections>Business</sections>
+  
+  <body.head>
+    <slug>Finance</slug>
+    
+   <hedline>Home loan heaven </hedline>
+  
+    <abstract>Another way Americans get far better deals than Canadians: cheap, flexible, 30-year mortgages</abstract>
+  
+  <byline>Chris Sorensen with Erica Alini</byline>
+
+  </body.head>
+  
+  <photo href="file://images/MAC14_MORTGAGEMERGE.jpg"/>
+  
+  <photo.caption>A tale of two houses: While Canada’s mortgage system is more conservative than America’s, its rates are not as competitive</photo.caption>
+  
+  <photo.byline>Photo illustration by Taylor Shute</photo.byline>
+  
+  <body.content>
+  
+    <p>Finance Minister Jim Flaherty has been scolding mortgage lenders who offer their customers five-year fixed rates below three per cent, lest they spark a flurry of home buying and further inflate Canada’s housing bubble. Meanwhile, south of the border, where the housing market is just beginning to claw its way back from its 2007 implosion, banks are wooing nervous consumers with rates that are just a touch higher—at 3.63 per cent—but can be locked in for <em>30 years</em>. Not only is that a far better deal than Canada’s current 10-year fixed rates of 3.69 per cent, the maximum term most lenders will offer, but it’s a great way to guard against an inevitable rise in interest rates down the road.  </p>
+    
+    <p>On the surface, it seems like another case of Canadians getting a worse deal than their American counterparts—not unlike when they buy a hardcover book or a new car. Across the board, mortgages are now cheaper in the U.S., where interest rates are currently lower and competition much greater in general. The 30-year mortgages are also not, technically, fixed-rate, because they can easily be refinanced by borrowers who want to take advantage of lower rates. “The person borrowing can get out at any time by switching to another lender, or just by paying it off,” says Nicholas Rowe, an associate professor of economics at Ottawa’s Carleton University. “The rates can’t go up, but they might go down if you find a better deal.”  </p>
+    
+    <p>While a great deal for borrowers, Rowe cautions the U.S.-style 30-year mortgage still comes at a price. Since lenders face an increased risk if rates fall, they need to compensate by charging slightly higher interest rates. (In contrast, the most popular Canadian mortgages are “closed,” meaning they can’t be refinanced or paid off early without incurring a penalty, and are for significantly shorter terms—usually five years.) Patrick Lawler, the chief economist of the U.S. Federal Housing Finance Agency, said in a panel discussion two years ago that U.S. borrowers pay at least an extra 0.25 to 0.5 percentage point in rates in exchange for the option to prepay without penalty and sometimes “another percentage point or two” to have a long-term fixed rate, according to a report in the <em>Wall Street Journal</em>. Nevertheless, as many as 80 per cent of borrowers in America opt for 30-year mortgages, which are backed by housing finance giants Fannie Mae and Freddie Mac (another reason why U.S. rates are cheaper despite heightened risk). </p>
+    
+    <p>It’s not clear why the two countries’ mortgage-lending practices evolved so differently. A 2006 report by the Federal Reserve Bank of San Francisco suggested that “the 30-year FRM (fixed-rate mortgage) was originally designed to avoid the refinancing risk that contributed to the banking crisis during the Great Depression.” (Mortgages at that time, the paper noted, were not unlike the “alternative mortgages” that helped fuel the U.S. housing bubble.) Other reasons offered for the differing approaches include a greater tendency among Canadian banks to match up their loans with term deposits, which are only insured up to a maximum of five years by the Canadian Deposit Insurance Corp., and Canadian banks’ practice of holding most of their mortgage loans on their balance sheets. “This makes Canadian banks more risk-averse and less willing to take on mortgages in excess of 10 years,” says Kerri-Lynn McAllister, the chief marketing officer for mortgage rate website <em>Ratehub.ca</em>. </p>
+    
+    <p>McAllister points to a recent report by the Bank of Nova Scotia that estimated only 28 per cent of Canadian mortgages are packaged and sold as securities—mostly through the Canada Mortgage and Housing Corporation. In contrast, as many as two-thirds of U.S. mortgages are packaged and sold to investors as securities, making it easier for lenders to spread around the risk associated with longer-term loans. The same U.S. mortgage securitization practices were a major factor leading to the 2007 subprime mortgage crisis—a downside if there ever was one.  </p>
+    
+    <p>It all points to a Canadian system that should be more conservative while also offering highly competitive rates. But it hasn’t always worked out that way. While current comparisons are skewed by the fact that the U.S. Federal Reserve’s trendsetting rate continues to hover just above zero while the Bank of Canada’s sits at one per cent, Rowe says that, with few exceptions, borrowing rates have historically been lower in the U.S.—a trend that’s unlikely to change any time soon. So while American consumers once again come out ahead (the 2007 housing crash notwithstanding), Canadians can take solace in knowing their cross-border neighbours are, for once, paying more than they should be, too.</p>
+    
+ 
+  
+  <p>Canadian mortgages</p>
+  
+  <p>28% of Mortgages are sold as securities</p>
+  
+  <p>Maximum term 10 years mortage rate 3.69%</p>
+  
+  <p>American mortgages</p>
+  
+  <p>66% of Mortgages are sold as securities</p>
+  
+  <p>Maximum term 30  years mortage rate 3.63%</p>
+  
+  </body.content>
+  
+</body></nitf>

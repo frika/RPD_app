@@ -17,7 +17,7 @@ class WebParser < ActiveRecord::Base
 
 	def self.get_authors(pub)
 		$existing_authors = []
-		if pub == "CB"
+		if Publication.find_by_abbreviation(pub).wp_version == "3.5"
 			$connection.call('wp.getUsers', 1, $wp_login, $wp_pass, {'role' => 'administrator'}).each { |author|
 			$existing_authors << author
 		}
@@ -30,16 +30,6 @@ class WebParser < ActiveRecord::Base
 		}
 	end
 		#puts "Checked authors"
-	end
-	
-	def self.default_author(pub)
-		if pub == "MAC"
-			return "macleans.ca"
-		elsif pub == "CB"
-			return "CB Staff"
-		elsif pub == "MS"
-			return "MoneySense"	
-		end
 	end
 
 	def self.unzip_file(file, destination)
@@ -95,7 +85,7 @@ class WebParser < ActiveRecord::Base
 			@author_search = $existing_authors.select {|f| /#{f["display_name"].titleize}/.match(@author_check.titleize)}
 			#puts @author_search.count.to_s + "Author search"
 			if @author_search.empty?
-				@author_search = $existing_authors.select {|f| f["display_name"] == WebParser.default_author(pub)}
+				@author_search = $existing_authors.select {|f| f["display_name"] == Publication.find_by_abbreviation(pub).default_author }
 			end
 			@author = @author_search.first['user_id']
 
@@ -161,9 +151,9 @@ class WebParser < ActiveRecord::Base
 			end
 #puts "Finished categories stuff"
 		# Building post object
-		if pub == "CB"
+		if Publication.find_by_abbreviation(pub).wp_version == "3.5"
 			@post = {
-					'post_title'        => @hedline,
+					'post_title'      => @hedline,
 					'post_content'  => @content,
 					'post_author' => @author,
 					'post_excerpt'   => @abstract,
@@ -189,11 +179,11 @@ class WebParser < ActiveRecord::Base
 	end
 
 	def self.wordpress_upload(pub)
-	if pub == "CB"
+	if Publication.find_by_abbreviation(pub).wp_version == "3.5"
 		$posts.each do |post|
 		#	puts post['post_author']
 			begin
-				$connection.call('wp.newPost', 1, $wp_login, $wp_pass, post)
+				$connection.call_async('wp.newPost', 1, $wp_login, $wp_pass, post)
 				puts "Finished a post"
 			rescue XMLRPC::FaultException => e
 			  puts "Error: "

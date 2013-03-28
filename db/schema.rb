@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130307153704) do
+ActiveRecord::Schema.define(:version => 20130314181826) do
 
   create_table "html_parses", :force => true do |t|
     t.datetime "created_at", :null => false
@@ -33,8 +33,10 @@ ActiveRecord::Schema.define(:version => 20130307153704) do
     t.string   "name"
     t.string   "abbreviation"
     t.string   "url"
-    t.datetime "created_at",   :null => false
-    t.datetime "updated_at",   :null => false
+    t.datetime "created_at",     :null => false
+    t.datetime "updated_at",     :null => false
+    t.string   "wp_version"
+    t.string   "default_author"
   end
 
   create_table "web_issues", :force => true do |t|

@@ -16,13 +16,8 @@
 <%= form_for @web_issue, :url => { :action => 'xml_rpc', :id => @web_issue.id }, :id => 'xml_rpc' do |f| %>
 <div class="field">
 URL<br />
-<%= select_tag(:wordpress_url, 
-        options_for_select([['macleans.ca', "www2.macleans.ca"], 
-        ['canadianbusiness.com', 'canadianbusiness.com'], 
-        ['moneysense.ca', 'www.moneysense.ca'], 
-        ['dev-www.macleans.ca (test)', 'dev-www.macleans.ca'],
-        ['CB Staging', 'staging-www.canadianbusiness.com'],
-        ['Test', 'onbluedot.com']])) %>
+    <%= select_tag(:wordpress_url, 
+        options_from_collection_for_select(@publications, 'url', 'url')) %>
 </div>
 <div class="field">
 Login<br />

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE nitf
+ SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf version="-//IPTC//DTD NITF 3.3//EN" change.date="June 10, 2005" change.time="19:30" id="art-158632005"> <head><title></title>
+ <meta name="Author" content=""/>
+ <meta name="Editor" content=""/>
+<meta name="PublisherName" content="Maclean's"/>
+ <meta name="Subject1" content=""/>
+ <meta name="Subject2" content=""/>
+ <meta name="Subject3" content=""/>
+ <meta name="Subject4" content=""/>
+ <meta name="Subject5" content=""/>
+ <meta name="Industry" content=""/>
+ <meta name="Industry" content=""/>
+ <tobject/>
+ <docdata>
+ <correction/>
+ <doc-id/>
+ <date.issue norm="20130327" />
+ <date.release norm= "20130415" />
+ <date.expire/>
+ <doc-scope/>
+ <series/>
+ <key-list/>
+</docdata>
+	 
+ <pubdata date.publication="20130415" name="Maclean's" number="14" volume="126" edition.area="" position.section="" position.sequence="" />
+ <revision-history/>
+</head>
+<body>
+  
+  <body.head>
+  
+  <hedline>IPAD EXCLUSIVES</hedline>
+  
+  </body.head>
+  
+  
+  <photo href="file://images/MAC14_WEB_FEATURES01.jpg"/>
+  
+  <photo.byline>Loe Beerens/Sunshine/ZUMA/Keystone</photo.byline>
+  
+  <body.content>
+  
+  <p>My  way: Hear from Canadian crooner Paul Anka as he discusses his new memoir and dishes on some of his famous friends </p>
+  
+  <p>Barking  happy: Watch  a video of  Dianne Aldan and a few  of the unwanted dogs she has helped rescue from Greece </p>
+  
+  <p>Heavy hitter:Listen in on our interview with Alex Anthopoulos. Plus  read Michael Friscolanti’s 2011 profile of the Toronto Blue Jays’ general manager.</p>
+  
+  <p>No joking: See more of the satirical cartoons that are pushing political boundaries and challenging Iran’s rulers </p>
+  
+  <p>America the great: Jonathon Gatehouse on why the U.S. economy is suddenly springing back to life</p>
+  
+  <p>Stampede! Anup Shah’s incredible, hidden-camera photographs of animals on the plains of East Africa</p>
+  
+  <p>ONLY AT MACLEANS.CA: Julia Belluz on new studies that suggest efforts to reduce the hours of medical residents have led to an increase in errors</p>
+  
+  </body.content>
+  
+</body></nitf>

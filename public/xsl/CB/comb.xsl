@@ -7,7 +7,7 @@
 	<!-- Edited by XMLSpy® -->
 	
 			<xsl:for-each select="nitf"> 
-				  
+				<xsl:copy-of select="head/pubdata"/>  
 	    	<xsl:copy-of select="body"/>
 			
 		  </xsl:for-each>

@@ -25,7 +25,7 @@
 	    <div id='container'>
 				<header class="home-header">
 				        <h1><a href="/">Maclean's</a></h1>
-				        <div class="date">December 17, 2012</div>
+				        <div class="date">UPDATE DATE HERE</div>
 				      </header>
 				      <div id='main' class="home" role='main'>
 
@@ -38,7 +38,7 @@
 				        <section class="category thisweek">
 				          <h1>This week</h1>
 									<!-- This Week Loop -->
-									<xsl:for-each select="catalog/body[position() &lt; 8]">
+									<xsl:for-each select="catalog/article[position() &lt; 8]">
 									
 									    <xsl:choose>
 											  <xsl:when test="position()=1">
@@ -47,21 +47,21 @@
 											  <xsl:when test="position()=2">
 											    <article><h2><a href="#">Letters</a></h2></article>
 											  </xsl:when>
-												<xsl:when test="body.head/hedline='Good News'">
+												<xsl:when test="body/body.head/hedline='Good News'">
 											    <article><h2><a href="#">Good news/Bad news</a></h2></article>
 											  </xsl:when>
-												<xsl:when test="sections='Opinion'">
-											    <article><h2><a href="#">Opinion: <strong><xsl:value-of select="body.head/hedline"/></strong></a></h2></article>
+												<xsl:when test="body/sections='Opinion'">
+											    <article><h2><a href="#">Opinion: <strong><xsl:value-of select="body/body.head/hedline"/></strong></a></h2></article>
 											  </xsl:when>
-												<xsl:when test="sections='Interview'">
-											    <article><h2><a href="#">Interview: <strong><xsl:value-of select="body.head/hedline"/></strong></a></h2></article>
+												<xsl:when test="body/sections='Interview'">
+											    <article><h2><a href="#">Interview: <strong><xsl:value-of select="body/body.head/hedline"/></strong></a></h2></article>
 
 											  </xsl:when>
-											  <xsl:when test="sections='National'">
+											  <xsl:when test="body/sections='National'">
 											    
 											  </xsl:when>
 											  <xsl:otherwise>
-											    <article><h2><a href="#"><xsl:value-of select="body.head/hedline"/></a></h2></article>
+											    <article><h2><a href="#"><xsl:value-of select="body/body.head/hedline"/></a></h2></article>
 											  </xsl:otherwise>
 											</xsl:choose>
 				          
@@ -71,7 +71,7 @@
 				
 								<section class="category special">
 				          			<h1>Special issue</h1>
-												<xsl:for-each select="catalog/body">
+												<xsl:for-each select="catalog/article/body">
 													<xsl:choose>
 													  <xsl:when test="sections='Newsmakers 2012'">
 														  <article><h2><a href="#">
@@ -97,7 +97,7 @@
 				          <h1>National</h1>
 				          
 				            
-												<xsl:for-each select="catalog/body">
+												<xsl:for-each select="catalog/article/body">
 													<xsl:choose>
 													  <xsl:when test="sections='National'">
 														  <article><h2><a href="#">
@@ -132,7 +132,7 @@
 				        </section>
 				        <section class="category international">
 				          <h1>International</h1>
-				          <xsl:for-each select="catalog/body">
+				          <xsl:for-each select="catalog/article/body">
 										<xsl:choose>
 										  <xsl:when test="sections='International'">
 											  <article><h2><a href="#">
@@ -147,7 +147,7 @@
 				        </section>
 								<section class="category business">
 				          <h1>Business</h1>
-				          <xsl:for-each select="catalog/body">
+				          <xsl:for-each select="catalog/article/body">
 										<xsl:choose>
 										  <xsl:when test="sections='Business'">
 											  <article><h2><a href="#">
@@ -162,7 +162,7 @@
 				        </section>
 				        <section class="category society">
 				          <h1>Society</h1>
-				          <xsl:for-each select="catalog/body">
+				          <xsl:for-each select="catalog/article/body">
 										<xsl:choose>
 										  <xsl:when test="sections='Society' or sections='Health'">
 											  <article><h2><a href="#">
@@ -177,7 +177,7 @@
 				        </section>
 								<section class="category bak">
 				          <h1>Back pages</h1>
-				          <xsl:for-each select="catalog/body">
+				          <xsl:for-each select="catalog/article/body">
 										<xsl:choose>
 										  <xsl:when test="sections='Film'">
 
@@ -266,7 +266,7 @@
 				        </section>
 								<section class="category theend">
 				          <h1>The end</h1>
-				          <xsl:for-each select="catalog/body">
+				          <xsl:for-each select="catalog/article/body">
 										<xsl:choose>
 										  <xsl:when test="sections='The end'">
 											  <article><h2><a href="#">

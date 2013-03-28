@@ -93,7 +93,7 @@
 	      <footer></footer>
 	    </div>
 
-	        <script src="../WEB_ASSETS/js/jquery-1.6.2.min.js"></script>
+	    <script src="../WEB_ASSETS/js/jquery-1.6.2.min.js"></script>
 	    <script src='../WEB_ASSETS/js/jquery.fancybox.js'></script>
 	    <script src='../WEB_ASSETS/js/plugins.js'></script>
 	    <script src='../WEB_ASSETS/js/script.js'></script>

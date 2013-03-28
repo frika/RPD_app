@@ -5,7 +5,9 @@ table
     th Name
     th Abbreviation
     th Url
-    th
+    th Wordpress version
+    th Default author
+    th 
     th
     th
 
@@ -14,6 +16,8 @@ table
       td = publication.name
       td = publication.abbreviation
       td = publication.url
+      td = publication.wp_version
+      td = publication.default_author
       td = link_to 'Show', publication
       td = link_to 'Edit', edit_publication_path(publication)
       td = link_to 'Destroy', publication, :confirm => 'Are you sure?', :method => :delete

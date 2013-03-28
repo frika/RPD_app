@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE nitf
+ SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf version="-//IPTC//DTD NITF 3.3//EN" change.date="June 10, 2005" change.time="19:30" id="art-158632005"> <head><title></title>
+ <meta name="Author" content="Celia Milne"/>
+ <meta name="Editor" content=""/>
+<meta name="PublisherName" content="Maclean's"/>
+ <meta name="Subject1" content="Mellow yellow"/>
+ <meta name="Subject2" content="In the lab, this common kitchen spice slows down fast-growing cells. It might just be the next contraceptive."/>
+ <meta name="Subject3" content=""/>
+ <meta name="Subject4" content=""/>
+ <meta name="Subject5" content=""/>
+ <meta name="Industry" content=""/>
+ <meta name="Industry" content=""/>
+ <tobject/>
+ <docdata>
+ <correction/>
+ <doc-id/>
+ <date.issue norm="20130313" />
+ <date.release norm= "20130325" />
+ <date.expire/>
+ <doc-scope/>
+ <series/>
+ <key-list/>
+</docdata>
+	 
+ <pubdata date.publication="20130325" name="Maclean's" number="11" volume="126" edition.area="" position.section="Society" position.sequence="62" />
+ <revision-history/>
+</head>
+<body>
+  <sections>Society</sections>
+  <body.head>
+    <slug>SCIENCE </slug>
+    
+    <hedline>Mellow yellow </hedline>
+    
+    <abstract>In the lab, this common kitchen spice slows down fast-growing cells. It might just be the next contraceptive.</abstract>
+    
+    <byline>Celia Milne</byline>
+  </body.head>
+    
+  <photo href="file://images/MAC08_CURCUMIN01.jpg"/>
+    
+  <photo.caption>Used for centuries: Curcumin is a natural chemical that gives the spice turmeric its yellow colour. It also has antibacterial properties.</photo.caption>
+    
+  <photo.byline>Haeberle/laif/Redux</photo.byline>
+    
+  <body.content>
+    <p>Could an Indian curry spice become the next big thing in contraception? Curcumin is a natural chemical that gives the common kitchen spice turmeric its yellow colour. Derived from the root of the turmeric plant, it has a history of health benefits spanning thousands of years. “Curcumin has been used for centuries in Ayurvedic medicine in India, to treat almost anything—wounds, joint pain, stomach flu, headaches,” says Dr. Rajesh Naz, professor and vice-chair in the department of obstetrics and gynecology as well as microbiology, immunology and cell biology at West Virginia University, in Morgantown.  </p>
+    
+    <p>Published scientific experiments on curcumin show it has an ability to neutralize many tiny chemical reactions in our bodies. “Anything that is growing fast, it inhibits,” says Naz. This knowledge inspired him to test it as a spermicide. “I read studies showing it works beautifully in inhibiting cancer cells, which are fast-growing. The other fast-growing cells are sperm. They move fast and are highly energetic. I had this idea four or five years ago.”  </p>
+    
+    <p>Naz, who grew up in India and studied medicine in both India and the U.S., is a huge fan of turmeric. He eats it twice a day and even sprinkles a little on his toothpaste to wash away mouth bacteria. “It has antibacterial, antiviral, anti-inflammatory and anti-cancer properties,” he says. A vast amount of medical research confirms these healing properties of curcumin, and dozens of clinical trials are under way to further test its effectiveness in a wide range of diseases.  </p>
+    
+    <p>Barbara Stefanska, a post-doctoral fellow at the department of pharmacology and therapeutics at McGill University, is a leading expert in how natural compounds improve health. She says, “This polyphenol [plant chemical] has been shown to exert beneficial effects in many disorders, including cancer, heart disease, Type 2 diabetes mellitus and autoimmune diseases such as multiple sclerosis and Alzheimer’s.”  </p>
+    
+    <p>Working at both an OB/GYN clinic and a microbiology and immunology lab, Naz has had a unique opportunity to carry out his research. He believes there is an urgent need for better methods of contraception. “Population explosion, unintended pregnancies and STDs continue to cause major public health issues,” he says. The Institute of Medicine reported in 2004 that more than one-quarter of the 1.2 billion pregnancies around the world were unwanted. </p>
+    
+    <p>He and his team have conducted various trials of curcumin as a contraceptive. In vitro, they added it to both human and mouse sperm. Within minutes, curcumin had the effect of crippling the sperm, rendering sperm cells unable to swim. Curcumin also had the effect of disabling sperm’s ability to fertilize an egg. In the lab experiments, none of the human or mouse eggs that were incubated with curcumin were successfully fertilized. Without curcumin, about 75 per cent of the eggs were fertilized. </p>
+    
+    <p>Now it was time to try curcumin in mating mice. The researchers inserted a curcumin mixture in the vaginal tracts of female mice before they mated. “The reduction in fertility in mice was 65 to 70 per cent,” he says. The research was published in 2011 in the journal <em>Molecular Reproduction &amp; Development</em>. Having proven curcumin works, he believes they’ll achieve 100 per cent success with a higher dose.  </p>
+    
+    <p>Ultimately, if it works in humans as well as he thinks, a vaginal curcumin suppository used once a month should be all a woman needs for full contraception. Not only that, but Naz believes it will also help stop sexually transmitted diseases from spreading between partners. “It may be better than a condom,” he says. His lab has found that the same dose of curcumin that inhibits sperm also curtails the growth of bacteria, though these results aren’t published yet. </p>
+    
+    <p>The lab is currently working on chemically modifying curcumin so that it is more potent and long-lasting, as well as changing its colour from yellow to white. Naz hopes it will be commercially available as a vaginal suppository in the next five years. Later, it may be available as a patch. “I’ve been working in contraception for the last 30 years,” he says. “This is really fascinating because it is a natural product. It won’t play with hormones and mood swings. There are no side effects, and it is cheap.”    </p>
+    
+  </body.content>
+    
+</body></nitf>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE nitf
+ SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf version="-//IPTC//DTD NITF 3.3//EN" change.date="June 10, 2005" change.time="19:30" id="art-158632005"> <head><title></title>
+ <meta name="Author" content="Nancy MacDonald"/>
+ <meta name="Editor" content=""/>
+<meta name="PublisherName" content="Maclean's"/>
+ <meta name="Subject1" content="I can see Beijing"/>
+ <meta name="Subject2" content=""/>
+ <meta name="Subject3" content=""/>
+ <meta name="Subject4" content=""/>
+ <meta name="Subject5" content=""/>
+ <meta name="Industry" content=""/>
+ <meta name="Industry" content=""/>
+ <tobject/>
+ <docdata>
+ <correction/>
+ <doc-id/>
+ <date.issue norm="20130313" />
+ <date.release norm= "20130325" />
+ <date.expire/>
+ <doc-scope/>
+ <series/>
+ <key-list/>
+</docdata>
+	 
+ <pubdata date.publication="20130325" name="Maclean's" number="11" volume="126" edition.area="" position.section="International" position.sequence="33" />
+ <revision-history/>
+</head>
+<body>
+  <sections>International</sections>
+ 
+  <body.head>
+    <slug>North Korea </slug>
+    
+    <hedline>I can see Beijing</hedline>
+ 
+        <byline>Nancy MacDonald</byline>
+
+  </body.head>
+ 
+  <photo href="file://images/MAC11_WORLDNOTEBIG%20PIC.jpg"/>
+        
+  <photo.byline>YONHAP EDITORIAL/EPA/KEYSTONE Press</photo.byline>
+    
+  <body.content>
+  
+ 
+      <p>For Kim Jong un, this was one bad week. Pyongyang, after threatening the U.S. and South Korea with a nuclear attack, lost its lone protector—China—which, in a surprise move, joined the international community in condemning it with biting new sanctions. North Korea, ruling as it does through propaganda and an iron fist, quickly responded with carefully chosen images showing its adored leader strong, poised and firmly in control.</p>
+      
+      
+       
+ 
+    
+  </body.content>
+    
+</body></nitf>

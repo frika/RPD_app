@@ -64,9 +64,11 @@ class Parser < ActiveRecord::Base
 		comb.write('<catalog>')
 		files = Dir.glob('public/issue/' + folder_name + '/*.xml').sort_by { |file| file }
 		files.each do |rb_file|
+			comb.write('<article>')
 		  xml = Nokogiri(File.read(rb_file))
 		  @doc = Nokogiri::XML(File.open(rb_file))
 		  comb.write(comb_xslt.transform(xml).to_html)
+		  comb.write('</article>')
 		end 
 		comb.write('</catalog>')
 		comb.close
@@ -82,14 +84,17 @@ class Parser < ActiveRecord::Base
   	Dir.glob('public/issue/**/*.xml') do |rb_file|
 			xml = Nokogiri(File.read(rb_file))
 			@doc = Nokogiri::XML(File.open(rb_file))
-
+			
+# Choosing which template selector to use based on the publication
+# Template selector found in app/models/template_selector.rb
 			if pub == "MAC"
-				template = TemplateSelector.macleans(@doc, rb_file, pub)
+				template = TemplateSelector.mac(@doc, rb_file, pub)
 			elsif pub == "CB"
 				template = TemplateSelector.cb(@doc, rb_file, pub)
 			elsif pub == "MS"
 				template = TemplateSelector.ms(@doc, rb_file, pub)
 			end
+
 			self.file_operations(rb_file, template, xml, folder_name)
 		end
 	end

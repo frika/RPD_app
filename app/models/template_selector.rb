@@ -1,5 +1,6 @@
 class TemplateSelector < ActiveRecord::Base
-	def self.macleans(doc, rb_file, pub)
+# Templates for Maclean's
+	def self.mac(doc, rb_file, pub)
 		if doc.xpath("//nitf/body/sections").text == "From the editors" || 
 			doc.xpath("//nitf/body/sections").text == "From the Editors"
 			puts "working on: " + rb_file + " - editor template"
@@ -67,11 +68,50 @@ class TemplateSelector < ActiveRecord::Base
 		end
 	end
 
+# Templates for Canadian Business
 	def self.cb(doc, rb_file, pub)
-		puts "working on: " + rb_file + " - standard"
-	  xslt = Nokogiri::XSLT(File.read("public/xsl/#{pub}/standard_article.xsl"))
-	  return xslt
+		if /Editor/i.match(doc.xpath("//nitf/body/sections").text)
+			puts "working on: " + rb_file + " - Editor"
+			xslt = Nokogiri::XSLT(File.read("public/xsl/#{pub}/editor.xsl"))
+		elsif /Letters/i.match(doc.xpath("//nitf/body/sections").text) ||
+					/Letters/i.match(doc.xpath("//nitf/body/body.head/hedline").text) 
+			puts "working on: " + rb_file + " - Letters"
+			xslt = Nokogiri::XSLT(File.read("public/xsl/#{pub}/letters.xsl"))
+		elsif /Briefing/i.match(doc.xpath("//nitf/body/sections").text)
+			puts "working on: " + rb_file + " - Briefing"
+			xslt = Nokogiri::XSLT(File.read("public/xsl/#{pub}/briefing.xsl"))
+		elsif /_briefing_/i.match(rb_file) && !/Briefing/i.match(doc.xpath("//nitf/body/sections").text)
+			puts "working on: " + rb_file + " - Provincial"
+			xslt = Nokogiri::XSLT(File.read("public/xsl/#{pub}/provincial.xsl"))	
+		elsif /Comment/i.match(doc.xpath("//nitf/body/sections").text) ||
+					/comment/i.match(rb_file)
+			puts "working on: " + rb_file + " - Comment"
+			xslt = Nokogiri::XSLT(File.read("public/xsl/#{pub}/comment.xsl"))
+		elsif /(?=.*Winner)(?=.*Loser).*/i.match(doc.xpath("//nitf/head/pubdata/@position.section").text)
+			puts "working on: " + rb_file + " - Winners"
+			xslt = Nokogiri::XSLT(File.read("public/xsl/#{pub}/winners.xsl"))
+		elsif /Investing/i.match(doc.xpath("//nitf/body/sections").text)
+			puts "working on: " + rb_file + " - Investing"
+			xslt = Nokogiri::XSLT(File.read("public/xsl/#{pub}/investing.xsl"))
+		elsif /feat/i.match(rb_file)
+			puts "working on: " + rb_file + " - Feature"
+			xslt = Nokogiri::XSLT(File.read("public/xsl/#{pub}/feature.xsl"))
+		elsif /big_pic/i.match(rb_file)
+			puts "working on: " + rb_file + " - Big Picture"
+			xslt = Nokogiri::XSLT(File.read("public/xsl/#{pub}/bigpicture.xsl"))
+		elsif /Easy Sell/i.match(doc.xpath("//nitf/body/body.head/hedline").text) && /Informer/i.match(doc.xpath("//nitf/body/sections").text)
+			puts "working on: " + rb_file + " - Easy Sell"
+			xslt = Nokogiri::XSLT(File.read("public/xsl/#{pub}/easysell.xsl"))
+		elsif /_info_/i.match(rb_file) || /Informer/i.match(doc.xpath("//nitf/body/sections").text)
+			puts "working on: " + rb_file + " - Informer"
+			xslt = Nokogiri::XSLT(File.read("public/xsl/#{pub}/informer.xsl"))
+		else
+			puts "working on: " + rb_file + " - standard"
+		  xslt = Nokogiri::XSLT(File.read("public/xsl/#{pub}/standard_article.xsl"))
+		end
 	end
+
+# Templates for Moneysense
 	def self.ms(doc, rb_file, pub)
 		puts "working on: " + rb_file + " - standard"
 	  xslt = Nokogiri::XSLT(File.read("public/xsl/#{pub}/standard_article.xsl"))

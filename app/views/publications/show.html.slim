@@ -9,6 +9,12 @@ p
 p
   strong Url:
   = @publication.url
+p
+  strong Wordpress Version:
+  = @publication.wp_version
+p
+  strong Default author:
+  = @publication.default_author
 
 = link_to 'Edit', edit_publication_path(@publication)
 '|

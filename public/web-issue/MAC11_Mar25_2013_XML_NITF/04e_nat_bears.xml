@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE nitf
+ SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf version="-//IPTC//DTD NITF 3.3//EN" change.date="June 10, 2005" change.time="19:30" id="art-158632005"> <head><title></title>
+ <meta name="Author" content="Emily Senger"/>
+ <meta name="Editor" content=""/>
+<meta name="PublisherName" content="Maclean's"/>
+ <meta name="Subject1" content="Mascot protection program"/>
+ <meta name="Subject2" content="For Inuit, environmentalists and Coca-Cola, there’s a lot riding on the results from the latest polar bear count"/>
+ <meta name="Subject3" content=""/>
+ <meta name="Subject4" content=""/>
+ <meta name="Subject5" content=""/>
+ <meta name="Industry" content=""/>
+ <meta name="Industry" content=""/>
+ <tobject/>
+ <docdata>
+ <correction/>
+ <doc-id/>
+ <date.issue norm="20130313" />
+ <date.release norm= "20130325" />
+ <date.expire/>
+ <doc-scope/>
+ <series/>
+ <key-list/>
+</docdata>
+	 
+ <pubdata date.publication="20130325" name="Maclean's" number="11" volume="126" edition.area="" position.section="National" position.sequence="22" />
+ <revision-history/>
+</head>
+<body>
+  <body.head>
+    <slug>Wildlife </slug>
+    
+    <hedline>Mascot protection program</hedline>
+     <abstract>For Inuit, environmentalists and Coca-Cola, there’s a lot riding on the results from the latest polar bear count </abstract>
+    
+    <byline>Emily Senger</byline>
+    
+  </body.head>
+    
+  <photo href="file://images/MAC09_POLARBEARS99.jpg"/>
+    
+  <photo.caption>Polarized: The count determines ‘sustainable management,’ a.k.a. how many bears can be killed</photo.caption>
+    
+  <photo.byline>Shutterstock</photo.byline>
+    
+  <body.content>
+    <p>Depending on whom you listen to, the polar bear population in Canada’s Far North is either in serious decline or surprisingly robust. Last spring when the government of Nunavut released the results of a polar bear count on the western shores of Hudson Bay, it claimed the number of bears was nearly 70 per cent higher than first thought. Biologists and environmentalists insisted the government figures were simply wrong. </p>
+    
+    <p>The government of Nunavut hopes to put the debate to rest with results from the largest-ever polar bear survey, a three-year, $2.5-million project, the results of which will start to be made available within the next month or so. Nunavut, along with the Northwest Territories, had an unlikely partner on the project: Coca-Cola Canada. Working with the World Wildlife Fund, Coca-Cola matched Canadians’ donations for conservation efforts; a portion of the money, roughly $200,000, went to Nunavut and the Northwest Territories to fund the 2012 survey.  </p>
+    
+    <p>But while the company’s participation might fit with its cuddly polar bear marketing campaigns, the data gathered in the project will ultimately be used to determine how many bears hunters can kill. </p>
+    
+    <p>The WWF uses the term “sustainable management” to discuss the goals of the count in the Baffin Bay and Kane Basin area, where an official count has not been carried out in more than a decade, while Nunavut director of wildlife management Drikus Gissing says “polar bear harvest.” Both are delicate ways of discussing hunting quotas. This year the hunting quota for polar bears in those regions is around 110. </p>
+    
+    <p>No matter how the final data will be used, Martin von Mirbach, director of WWF Canada’s Arctic program, says having the same, accurate starting point for both government and conservation groups is key. “We should be invested in the same data sets that wildlife managers use, which is why we partner with those management agencies,” he says. </p>
+    
+    <p>For Coca-Cola, getting involved in fundraising to save polar bears could be a bit of a gamble. The bears are not only a symbol for the company’s advertising, they are also a “symbol of national pride for Canadians,” says vice-president of sparkling beverages Shane Grant. The company said in a statement that “respecting the cultural and spiritual rights of the Inuit hunt” is also part of the overall survey it supports. The full results of the survey will be released in 2014. </p>
+    
+    <p>There are an estimated 15,000 polar bears in Canada. If Gissing’s theory that “polar bears are still abundant” is proven by the survey data, Nunavut could allow more of those bears to be hunted.     </p>
+    
+  </body.content>
+    
+</body></nitf>

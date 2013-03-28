@@ -14,8 +14,7 @@
   <div class="field">
     <%= f.label :publication %><br />
     <%= f.select(:publication, 
-        options_for_select([['Maclean\'s', "MAC"], ['Canadian Business', 'CB'], 
-        ['MoneySense', 'MS'], ['test', 'CB']])) %>
+        options_from_collection_for_select(@publications, 'abbreviation', 'name')) %>
   </div>
   <div class="field">
     <%= f.label :issue_number %><br />

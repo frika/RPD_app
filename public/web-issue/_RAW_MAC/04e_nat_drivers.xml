@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE nitf
+ SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf version="-//IPTC//DTD NITF 3.3//EN" change.date="June 10, 2005" change.time="19:30" id="art-158632005"> <head><title></title>
+ <meta name="Author" content=""/>
+ <meta name="Editor" content=""/>
+<meta name="PublisherName" content="Maclean's"/>
+ <meta name="Subject1" content=""/>
+ <meta name="Subject2" content=""/>
+ <meta name="Subject3" content=""/>
+ <meta name="Subject4" content=""/>
+ <meta name="Subject5" content=""/>
+ <meta name="Industry" content=""/>
+ <meta name="Industry" content=""/>
+ <tobject/>
+ <docdata>
+ <correction/>
+ <doc-id/>
+ <date.issue norm="20130327" />
+ <date.release norm= "20130415" />
+ <date.expire/>
+ <doc-scope/>
+ <series/>
+ <key-list/>
+</docdata>
+	 
+ <pubdata date.publication="20130415" name="Maclean's" number="14" volume="126" edition.area="" position.section="" position.sequence="" />
+ <revision-history/>
+</head>
+<body>
+  <sections>National</sections>
+  
+  <body.head>
+    <slug>Safety</slug>
+    
+    
+   <hedline> Going off-road </hedline>
+  
+    <abstract>Seniors protest a move to standardized tests  that could take away their licences</abstract>
+  
+  <byline>Peter Shawn Taylor</byline>
+  
+  </body.head>
+  
+  <photo href="file:///images/MAC14_OLDDRIVERS01.jpg"/>
+  
+  <photo.caption>Is he safe to drive? Within a couple of years, the elderly could be subject to country-wide screening</photo.caption>
+  
+  <photo.byline>Carlos Osorio/Toronto Star</photo.byline>
+  
+  <body.content>
+    <p>Few public policy issues are as fraught with competing interests and short fuses as that of elderly drivers. The ability to drive is an important part of independence for most seniors and the loss of a driver’s licence can be a devastating blow. On the other hand, we want to keep our roads as safe as possible; everyone, it seems, has a story to tell about an aged relative prone to “senior moments” at the wheel. To ensure all elderly drivers are fit for the road, many provinces now impose specific tests or medical requirements on seniors renewing their licences. </p>
+    
+    <p>However, Ruth Adria, spokesperson for the Elder Advocates of Alberta Society, argues current licensing procedures in her province have become “an injustice.” Earlier this month, her group organized a seniors’ protest outside a Red Deer hospital to bring attention to the issue. </p>
+    
+    <p>Currently, Albertans aged 75 must pass a medical exam to renew their licences. As a component of this, doctors may additionally request that patients complete two cognitive-ability tests. The first, performed in a doctor’s office, requires patients to answer a variety of fast-paced questions, such as naming 30 things you can buy in a grocery store. If the driver fails that, a computer-based exam called DriveABLE may be required, at an out-of-pocket cost of $250. Both tests are widely used in other provinces as well. </p>
+    
+    <p>“These tests appear to have little connection with the ability to drive,” complains Adria. As evidence, she musters scores of examples of elderly drivers who failed both exams but later passed a road test on appeal. She bolsters her case by repeatedly citing provincial accident data showing drivers aged 65 and over to have the lowest casualty collision rate among all age groups. Adria argues a physical exam alone ought to be sufficient to spot seniors who should no longer be driving. Besides, she adds, most seniors self-regulate—avoiding trips at night or during high-traffic times. </p>
+    
+    <p>“These tests are a form of elder abuse,” she charges, “and the worst kind, because losing your licence can be incredibly stressful and damaging to a senior.” </p>
+    
+    <p>And yet, regardless of Adria’s objections, the prospect of some type of standardized test to determine which seniors should and shouldn’t be driving seems likely across Canada in the not-too-distant future, if only because doctors want it. </p>
+    
+    <p>In most provinces, physicians have a legal duty to report any patient they believe is unfit to drive. But the typical general practitioner lacks specific training to make this difficult decision. Further, “forcing physicians to take away a licence can really poison the doctor-patient relationship,” warns Dr. Michel Bédard, Canada Research Chair in Aging and Health at Lakehead University in Thunder Bay, Ont. For these reasons, a consistent, arm’s-length procedure to determine fitness to drive is attractive to many doctors. </p>
+    
+    <p>That said, Bédard finds common ground with Adria in observing current tests may be neither appropriate nor accurate. “Anything that involves computers has the potential to confuse seniors,” he observes. And listing grocery-store items has little to do with road safety. Some tests may specifically disadvantage seniors with limited education. </p>
+    
+    <p>To better assess elderly drivers, Bédard is a co-investigator with the Canadian Driving Research Initiative for Vehicular Safety in the Elderly (Candrive), a federally funded research project based at the Ottawa Hospital Research Institute that’s tracking almost 1,000 seniors over four years to measure their cognitive and driving abilities. Candrive’s goal is to unveil a simple, scientifically valid (and non-computerized) screening procedure within the next two or three years that could eventually be adopted Canada-wide. “Having a national standard for elderly drivers would make a lot of sense,” adds Bédard. Other countries are struggling with the same issue. </p>
+    
+    <p>As for her assertion that seniors are the safest drivers on the road, Adria is simply wrong. Older drivers appear safer on statistical charts only because they drive much less than everyone else. “Once you correct for mileage driven, the crash risk for elderly drivers is almost as high as that of novice teen drivers,” says Mary Kelly, professor of insurance at the School of Business and Economics at Wilfrid Laurier University in Waterloo, Ont. Kelly was recently an expert witness at an Ontario Human Rights tribunal hearing that ruled higher insurance premiums for older drivers are not a form of discrimination, but rather a valid response to elevated crash rates. </p>
+    
+    <p>“The main difference between older and younger drivers is that young drivers are high risk because of their inexperience and risk-taking behaviour,” says Kelly. “But they improve over time. Older drivers don’t.”      </p>
+    
+  </body.content>
+  
+</body></nitf>

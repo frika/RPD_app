@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE nitf
+ SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf version="-//IPTC//DTD NITF 3.3//EN" change.date="June 10, 2005" change.time="19:30" id="art-158632005"> <head><title></title>
+ <meta name="Author" content=""/>
+ <meta name="Editor" content=""/>
+<meta name="PublisherName" content="Maclean's"/>
+ <meta name="Subject1" content=""/>
+ <meta name="Subject2" content=""/>
+ <meta name="Subject3" content=""/>
+ <meta name="Subject4" content=""/>
+ <meta name="Subject5" content=""/>
+ <meta name="Industry" content=""/>
+ <meta name="Industry" content=""/>
+ <tobject/>
+ <docdata>
+ <correction/>
+ <doc-id/>
+ <date.issue norm="20130327" />
+ <date.release norm= "20130415" />
+ <date.expire/>
+ <doc-scope/>
+ <series/>
+ <key-list/>
+</docdata>
+	 
+ <pubdata date.publication="20130415" name="Maclean's" number="14" volume="126" edition.area="" position.section="" position.sequence="" />
+ <revision-history/>
+</head>
+<body>
+  <sections>National</sections>
+  
+  <body.head>
+    <slug>Who’s suing whom </slug>
+  
+    <hedline>Promise of a movie and hit by a horse</hedline>
+  
+  <byline>Manisha Krishnan</byline>
+  </body.head>
+ 
+  <body.content>
+    <p>British Columbia: A Vancouver woman, less than impressed by her daughter’s acting coach, is suing him and the school, the Canadian Film and Television Institute, for breach of an education contract. The suit claims that the student was falsely promised a chance to star in a movie and that some of the acting classes were used for martial arts training.  </p>
+    
+    <p>Alberta: A St. Albert, Alta., woman is suing Calgary Stampede organizers after a horse unexpectedly knocked her to the ground during the rodeo, resulting in whiplash, a fractured nose and elbow, and a host of other injuries. In the $285,000 suit, the plantiff alleges she has been unable to run her cake-decorating business since the incident and that her sleep and sex life have suffered. </p>
+    
+    <p>Ontario: A Toronto woman is seeking $1 million from the Toronto Police Services Board and four officers because of a strip search she claims violated her Charter rights. In a statement of claim, the 24-year-old, who was arrested for shoplifting, says she was particularly humiliated because of her skin discoloration, which she alleges an ofﬁcer called “disgusting.” </p>
+    
+    <p>Quebec: Two First Nations communities in Quebec are suing mining giant Iron Ore Co. of Canada to the tune of $900 million for allegedly operating on their land without consent. The Innu First Nations of Uashat Mak Mani-Utenam and Matimekush-Lac John claim the company’s presence over the last 60 years has ruined the environment and displaced band members.  </p>
+    
+    <p>Nova Scotia: Halifax’s largest hospital, doctors and the city’s health authority are being sued for negligence following the death of a man involved in an ATV accident. The man was treated at Queen Elizabeth II Health Sciences Centre last year and died after being sent home, allegedly in spite of test results that revealed he might have had a collapsed lung and a laceration to the spleen. </p>
+    
+  
+  
+    
+  </body.content>
+  
+</body></nitf>

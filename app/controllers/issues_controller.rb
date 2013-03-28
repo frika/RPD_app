@@ -32,7 +32,7 @@ class IssuesController < ApplicationController
   # GET /issues/new.json
   def new
     @issue = Issue.new
-
+    @publications = Publication.all
     respond_to do |format|
       format.html # new.html.erb
       format.json { render json: @issue }
